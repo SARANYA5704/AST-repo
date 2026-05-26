@@ -1,0 +1,22 @@
+2026-05-25T23:22:44.407Z main.cpp:44 4f32:4f32 I] Logging initialized: `/home/dev/.config/HP/Boost/logs/accounting-43c10b8c-8924-4ac1-a0ef-9babfb156f7d.log`
+2026-05-25T23:22:44.407Z accounting_server.cpp:74 4f32:4f32 D] Checking session 43c10b8c-8924-4ac1-a0ef-9babfb156f7d
+2026-05-25T23:22:44.408Z juice_curl.cpp:249 4f32:4f32 I] CURL using TLS CA bundle at /etc/ssl/certs/ca-certificates.crt
+2026-05-25T23:22:44.408Z juice_curl.cpp:397 4f32:4f32 D] GET http://localhost:37479/v1/session/43c10b8c-8924-4ac1-a0ef-9babfb156f7d
+2026-05-25T23:22:44.408Z accounting_server.cpp:140 4f32:4f32 D] Session 43c10b8c-8924-4ac1-a0ef-9babfb156f7d is active
+2026-05-25T23:22:44.408Z accounting_server.cpp:154 4f32:4f32 D] Adding gpu 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 with vram 5368709120
+2026-05-25T23:22:44.409Z accounting_server.cpp:177 4f32:4f32 I] Created VRAM shared memory 'juice-vram-43c10b8c-8924-4ac1-a0ef-9babfb156f7d' with 1 GPUs
+2026-05-25T23:22:44.409Z accounting_server.cpp:194 4f32:4f32 I] Created external handle shared memory 'juice-exthandle-43c10b8c-8924-4ac1-a0ef-9babfb156f7d'
+2026-05-25T23:22:44.409Z accounting_server.cpp:419 4f32:4f32 D] Starting accounting service
+2026-05-25T23:22:44.409Z accounting_server.cpp:426 4f32:4f32 I] Accounting service started.
+2026-05-25T23:22:45.979Z vram_accounting.cpp:11 4f32:4f35 I] Client connected to gpuId 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8, connected clients 1 allocated vram 0
+2026-05-25T23:22:45.979Z accounting_server.cpp:217 4f32:4f35 D] Client  resolve-20282 connected from 20282:0 with 1 connections
+2026-05-25T23:22:49.024Z accounting_server.cpp:254 4f32:4f35 D] Client resolve-20282 disconnected from 20282:0 with 0 connections remaining
+2026-05-25T23:22:49.024Z vram_accounting.cpp:18 4f32:4f35 I] Client disconnected from gpuId 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8, remaining connected clients 0 allocated vram 0 client used vram 0
+2026-05-25T23:22:49.024Z juice_curl.cpp:249 4f32:4f35 I] CURL using TLS CA bundle at /etc/ssl/certs/ca-certificates.crt
+2026-05-25T23:22:49.024Z juice_curl.cpp:435 4f32:4f35 D] POST http://localhost:37479/v1/client/43c10b8c-8924-4ac1-a0ef-9babfb156f7d/disconnect with body 
+2026-05-25T23:22:49.024Z juice_curl.cpp:435 4f32:4f35 D] {"connection_id":"resolve-20282","message":"e30K","message_type":"DONE","session":"43c10b8c-8924-4ac1-a0ef-9babfb156f7d"}
+2026-05-25T23:22:59.409Z accounting_server.cpp:74 4f32:4f34 D] Checking session 43c10b8c-8924-4ac1-a0ef-9babfb156f7d
+2026-05-25T23:22:59.409Z juice_curl.cpp:249 4f32:4f34 I] CURL using TLS CA bundle at /etc/ssl/certs/ca-certificates.crt
+2026-05-25T23:22:59.409Z juice_curl.cpp:397 4f32:4f34 D] GET http://localhost:37479/v1/session/43c10b8c-8924-4ac1-a0ef-9babfb156f7d
+2026-05-25T23:22:59.410Z accounting_server.cpp:108 4f32:4f34 E] Session 43c10b8c-8924-4ac1-a0ef-9babfb156f7d is not active, state: closed
+2026-05-25T23:22:59.410Z accounting_server.cpp:435 4f32:4f32 I] Accounting service shutting down.
