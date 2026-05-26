@@ -1,0 +1,414 @@
+2026-05-25T20:27:12.648-0300 task/task.go:120 D] Task Log Rotate starting
+2026-05-25T20:27:17.459-0300 agent/run.go:403 I] Agent e2a3a91d-7831-4947-b0bd-33a87897a0c5 starting in pool: functionality.lin
+2026-05-25T20:27:17.459-0300 agent/run.go:403 I] GPUs
+2026-05-25T20:27:17.459-0300 agent/run.go:403 I]   8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 @ 00000000:01:00.0: Quadro P2000 5GiB
+2026-05-25T20:27:17.459-0300 task/task.go:120 D] Task ControllerManager starting
+2026-05-25T20:27:17.459-0300 task/task.go:120 D] Task GpuMetrics starting
+2026-05-25T20:27:17.459-0300 task/task.go:120 D] Task Controller Logs starting
+2026-05-25T20:27:17.459-0300 task/task.go:120 D] Task Gateway starting
+2026-05-25T20:27:17.459-0300 task/task.go:143 D] Task ControllerManager finished
+2026-05-25T20:27:17.459-0300 task/task.go:120 D] Task ControllerManager Websocket starting
+2026-05-25T20:27:17.461-0300 gateway/gateway.go:464 I] Gateway listening on UDP port 7865
+2026-05-25T20:27:18.215-0300 task/task.go:120 D] Task Controller Log Sink Websocket Write starting
+2026-05-25T20:27:18.215-0300 task/task.go:120 D] Task Controller Log Sink Websocket KeepAlive starting
+2026-05-25T20:27:18.216-0300 task/task.go:120 D] Task Controller Log Sink Websocket Read starting
+2026-05-25T20:27:18.228-0300 task/task.go:120 D] Task ControllerManager Websocket Write starting
+2026-05-25T20:27:18.228-0300 task/task.go:120 D] Task ControllerManager Websocket KeepAlive starting
+2026-05-25T20:27:18.228-0300 task/task.go:120 D] Task ControllerManager Websocket Read starting
+2026-05-25T20:27:28.232-0300 restapi/client.go:1079 D] ControllerManager Websocket Received string {"version":1,"id":"9eedb30d-8377-4f0c-a81e-6af330d29fef","type":"SessionAssignMessage","message":{"session":{"id":"a5bf9a3a-9178-4d6c-8409-7301d0b64348","state":"assigned","poolId":"cef55f5e-f886-4da8-97db-123bc5c1fc17","userId":"863928b6-546f-4bf3-844f-4a55bd42e212","agentId":"e2a3a91d-7831-4947-b0bd-33a87897a0c5","agent":{"id":"e2a3a91d-7831-4947-b0bd-33a87897a0c5","state":"active","hostname":"boost-runner06","address":"","version":"33.0.0-4+2026.05.25-1619Z-9111230f","deviceId":"16b6c8c18d2848269f1f36a2ac91b112","poolId":"cef55f5e-f886-4da8-97db-123bc5c1fc17","pool":{"id":"","name":"","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":0,"organization":{"id":"","name":"","auth0Id":"","entitlement":null,"maxVersion":""}},"userId":"","owner":{"id":"","name":""},"startedAt":"2026-05-25T23:27:17.350476Z","gpus":[{"uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0,"metrics":{"uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","clockCore":139,"clockMemory":405,"clockSM":139,"clockVideo":544,"maxClockCore":1721,"maxClockMemory":3504,"maxClockSM":1721,"maxClockVideo":1556,"clockThrottling":1,"utilizationGpu":0,"utilizationVram":0,"temperatureGpu":32,"vramUsed":112066560,"vramFree":5256642560,"powerDraw":6368,"powerLimit":75000,"pState":8,"fanSpeed":46,"timestamp":"2026-05-25T20:27:24.528899152-03:00"}}],"labels":{},"taints":{},"sessions":[],"protocol":"quic","authoritative":true,"os":"","os_arch":"","os_managed_vram":false,"metrics":{"systemModel":"HP Z2 Tower G4 Workstation","systemManufacturer":"HP","systemType":"103C_53335X HP Workstation","systemRam":16219536,"systemProcessor":"Intel(R) Xeon(R) E-2144G CPU @ 3.60GHz","systemStorage":500235124736,"os":"linux","osVersion":"Ubuntu 24.04.2 LTS","gpus":["NVIDIA Corporation GP106GL [Quadro P2000] (rev a1)"],"gpuDriverVersion":"580.159","cudaDriverVersion":"13.0"},"workstationAlias":""},"expiresAt":"2026-05-25T23:28:28.091120174Z","idleExpiresAt":"2026-05-26T03:27:28.091120174Z","idleExpiresAfter":14399957268726,"queuedAt":"2026-05-25T23:27:27.159763Z","assignedAt":"2026-05-25T23:27:28.091120174Z","closedReason":"unknown","protocol":"","requirements":{"version":"33.0.0-4+2026.05.25-1619Z-9111230f","poolIds":null,"protocol":"","queuePriority":0,"scheduler":"balanced","expireAfter":60000000000,"gpus":[{"vramRequired":0,"vramStrict":false,"pciBus":"","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":""}],"gpuCount":1,"matchLabels":{},"tolerates":{},"metrics":{"systemModel":"HP Z2 Tower G4 Workstation","systemManufacturer":"HP","systemType":"103C_53335X HP Workstation","systemRam":16219536,"systemProcessor":"Intel(R) Xeon(R) E-2144G CPU @ 3.60GHz","systemStorage":500235124736,"os":"linux","osVersion":"Ubuntu 24.04.2 LTS","gpus":["NVIDIA Corporation GP106GL [Quadro P2000] (rev a1)"],"gpuDriverVersion":"580.159","cudaDriverVersion":"13.0"},"idleTimeout":14400000000000,"dryRun":false},"gpus":[{"uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","pciBus":"00000000:01:00.0","vram":5368709120,"totalVram":5368709120,"utilizationGpu":0,"utilizationVram":0}],"latencyMs":0,"uploadMbps":0,"downloadMbps":0}},"date":"2026-05-25T23:27:28Z"}
+2026-05-25T20:27:28.233-0300 app/controller_manager_agent.go:105 D] Starting Session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:28.234-0300 transport/transport.go:47 D] Starting transport with protocol: tcp for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:28.234-0300 transport/transport_tcp.go:54 D] Generating certificates
+2026-05-25T20:27:28.235-0300 transport/transport_tcp.go:61 D] Binding to address ''
+2026-05-25T20:27:28.235-0300 transport/transport.go:47 D] Starting transport with protocol: quic for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:28.235-0300 transport/transport_quic.go:47 D] Binding to address ''
+2026-05-25T20:27:28.236-0300 gateway/gateway.go:231 D] Enqueue gateway connection for sessionId: a5bf9a3a-9178-4d6c-8409-7301d0b64348, connectionId: , port: 37488 as a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:28.236-0300 app/agent.go:268 D] session a5bf9a3a-9178-4d6c-8409-7301d0b64348 active
+2026-05-25T20:27:28.236-0300 task/task.go:120 D] Task session a5bf9a3a-9178-4d6c-8409-7301d0b64348 starting
+2026-05-25T20:27:28.236-0300 app/session.go:135 D] Starting Session Listener for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:28.236-0300 runtime/asm_amd64.s:1693 D] [quic] starting rendezvous for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:28.237-0300 transport/stun.go:30 D] using STUN servers: stun.l.google.com:19302, stun.l.google.com:3478, stun.cloudflare.com:3478
+2026-05-25T20:27:28.562-0300 transport/stun.go:73 D] Got STUN response: 15.8.77.106 37488
+2026-05-25T20:27:28.663-0300 transport/stun.go:176 D] Using STUN response: 15.8.77.106:37488
+2026-05-25T20:27:28.663-0300 transport/rendezvous.go:35 D] [proto=quic] Starting rendezvous with peer for session a5bf9a3a-9178-4d6c-8409-7301d0b64348 (isAgent: true)
+2026-05-25T20:27:28.663-0300 transport/rendezvous.go:35 D] [proto=quic] Starting exchange peer info for session a5bf9a3a-9178-4d6c-8409-7301d0b64348 (isAgent: true)
+2026-05-25T20:27:29.409-0300 transport/rendezvous.go:35 D] [proto=quic] Exchange peer connection established for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:29.409-0300 task/task.go:120 D] Task RDVU a5bf9a3a-9178-4d6c-8409-7301d0b64348 Websocket KeepAlive starting
+2026-05-25T20:27:29.409-0300 transport/rendezvous.go:35 D] [proto=quic] Generated local key and relay client ID for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:29.409-0300 task/task.go:120 D] Task RDVU a5bf9a3a-9178-4d6c-8409-7301d0b64348 Websocket Read starting
+2026-05-25T20:27:29.409-0300 task/task.go:120 D] Task RDVU a5bf9a3a-9178-4d6c-8409-7301d0b64348 Websocket Write starting
+2026-05-25T20:27:29.410-0300 transport/rendezvous.go:35 D] [proto=quic] Created local address info: LocalIPs=[15.8.77.106], ExternalIP=15.8.77.106, LocalPort=37488, ExternalPort=37488, GatewayPort=7865
+2026-05-25T20:27:29.410-0300 transport/rendezvous.go:35 D] [proto=quic] Sending local address info to peer for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:29.410-0300 transport/rendezvous.go:35 D] [proto=quic] Successfully sent local address info to peer for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:29.410-0300 transport/rendezvous.go:35 D] [proto=quic] Waiting to receive peer address info for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:32.583-0300 gateway/gateway.go:298 D] Dequeuing port from 15.8.77.106:42574, queue size 1
+2026-05-25T20:27:32.583-0300 gateway/gateway.go:302 D] matched connection  to port 37488
+2026-05-25T20:27:32.583-0300 gateway/gateway.go:313 D] missing session connection registration for sessionId a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:32.584-0300 gateway/gateway.go:406 D] No mapping or queued port available for 15.8.77.106:42574
+2026-05-25T20:27:32.768-0300 restapi/client.go:1079 D] RDVU a5bf9a3a-9178-4d6c-8409-7301d0b64348 Websocket Received string {"local_ips":["15.8.77.106"],"external_ip":"15.8.77.106","local_port":42574,"external_port":42574,"nat_port":0,"key":"wvbr-SPHU5wPYr2QtQqU4g==","relay_client_id":"Mi7LzSKVjt0=","protocol":"quic"}
+2026-05-25T20:27:32.768-0300 transport/rendezvous.go:35 D] [proto=quic] Received peer address info: LocalIPs=[15.8.77.106], ExternalIP=15.8.77.106, LocalPort=42574, ExternalPort=42574, NatPort=0, Protocol=quic
+2026-05-25T20:27:32.768-0300 gateway/gateway.go:262 D] Enqueue new session connection a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:32.768-0300 transport/rendezvous.go:35 D] [proto=quic] Starting peer finding process for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:32.768-0300 transport/rendezvous.go:35 D] [proto=quic] Local connection info: LocalIPs=[15.8.77.106], LocalPort=37488, ExternalIP=15.8.77.106, ExternalPort=37488, NatPort=7865, Protocol=quic
+2026-05-25T20:27:32.768-0300 transport/rendezvous.go:35 D] [proto=quic] Peer connection info: LocalIPs=[15.8.77.106], LocalPort=42574, ExternalIP=15.8.77.106, ExternalPort=42574, NatPort=0, Protocol=quic
+2026-05-25T20:27:32.768-0300 transport/rendezvous.go:35 D] [proto=quic] Local UDP socket bound to: 0.0.0.0:37488
+2026-05-25T20:27:32.768-0300 transport/rendezvous.go:35 D] [proto=quic] Target IP 0: 15.8.77.106:42574
+2026-05-25T20:27:32.768-0300 transport/rendezvous.go:35 D] [proto=quic] Sending ping to 15.8.77.106:42574
+2026-05-25T20:27:32.768-0300 task/task.go:120 D] Task read-quic starting
+2026-05-25T20:27:32.768-0300 transport/rendezvous.go:35 D] [proto=quic] Successfully sent ping to 15.8.77.106:42574
+2026-05-25T20:27:32.769-0300 transport/rendezvous.go:35 D] [proto=quic] Received message from 15.8.77.106:42574 on QUIC: {"session":"a5bf9a3a-9178-4d6c-8409-7301d0b64348","message_type":"PING","connection_id":"","message":"MTUuOC43Ny4xMDY6Mzc0ODg="}
+2026-05-25T20:27:32.869-0300 task/task.go:143 D] Task read-quic finished
+2026-05-25T20:27:32.869-0300 transport/rendezvous.go:35 D] [proto=quic] Successfully found peer for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:32.869-0300 transport/rendezvous.go:35 D] [proto=quic] Preparing RDVU message as agent for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:32.869-0300 transport/rendezvous.go:35 D] [proto=quic] RDVU message content: ServerReachableIP=15.8.77.106:37488
+2026-05-25T20:27:32.870-0300 transport/rendezvous.go:35 D] [proto=quic] Sending RDVU message for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:32.870-0300 transport/rendezvous.go:35 D] [proto=quic] Successfully sent RDVU message for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:32.870-0300 task/task.go:143 D] Task RDVU a5bf9a3a-9178-4d6c-8409-7301d0b64348 Websocket Read finished
+2026-05-25T20:27:32.870-0300 task/task.go:143 D] Task RDVU a5bf9a3a-9178-4d6c-8409-7301d0b64348 Websocket KeepAlive finished
+2026-05-25T20:27:32.957-0300 restapi/client.go:1079 D] RDVU a5bf9a3a-9178-4d6c-8409-7301d0b64348 Websocket Received string {"session":"a5bf9a3a-9178-4d6c-8409-7301d0b64348","message_type":"PING","connection_id":"","message":"MTUuOC43Ny4xMDY6NDI1NzQ="}
+2026-05-25T20:27:33.461-0300 gateway/gateway.go:439 D] Thread 3 (of 8) processed 1 packets and 128 bytes
+2026-05-25T20:27:33.871-0300 task/task.go:143 D] Task RDVU a5bf9a3a-9178-4d6c-8409-7301d0b64348 Websocket Write finished
+2026-05-25T20:27:33.871-0300 transport/rendezvous.go:35 D] [proto=quic] Rendezvous completed successfully for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:33.871-0300 transport/transport_quic.go:73 D] Rendezvous successful: ServerIP=15.8.77.106:37488, Protocol=quic
+2026-05-25T20:27:33.871-0300 runtime/asm_amd64.s:1693 D] [quic] rendezvous complete, opening control stream for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:33.871-0300 transport/transport_quic.go:142 D] Generating TLS certificate for QUIC listener
+2026-05-25T20:27:33.872-0300 transport/transport_quic.go:147 D] Certificate generated successfully
+2026-05-25T20:27:33.873-0300 transport/transport_quic.go:149 D] Creating QUIC configuration
+2026-05-25T20:27:33.873-0300 transport/transport_quic.go:158 D] Starting QUIC listener on 0.0.0.0:37488
+2026-05-25T20:27:33.873-0300 D] 2026/05/25 20:27:33 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+2026-05-25T20:27:33.873-0300 transport/transport_quic.go:163 D] QUIC listener created successfully on 0.0.0.0:37488
+2026-05-25T20:27:33.873-0300 task/task.go:120 D] Task quic session a5bf9a3a-9178-4d6c-8409-7301d0b64348 listener starting
+2026-05-25T20:27:34.078-0300 task/task.go:120 D] Task session a5bf9a3a-9178-4d6c-8409-7301d0b64348 stream handler starting
+2026-05-25T20:27:34.873-0300 app/session.go:135 I] chosen transport: quic for session a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:27:34.873-0300 app/session.go:527 D] session a5bf9a3a-9178-4d6c-8409-7301d0b64348 protocol changed to quic
+2026-05-25T20:27:34.874-0300 task/task.go:120 D] Task [agent] session a5bf9a3a-9178-4d6c-8409-7301d0b64348 read control starting
+2026-05-25T20:27:34.874-0300 task/task.go:120 D] Task winner-transport-cancel starting
+2026-05-25T20:27:34.874-0300 task/task.go:120 D] Task [agent] session a5bf9a3a-9178-4d6c-8409-7301d0b64348 write control starting
+2026-05-25T20:27:34.874-0300 task/task.go:135 D] Read message from control: {"version":1,"id":"252aa01c-c445-4f43-841c-ed82506d5775","type":"SessionMessage","message":{"session":"","message_type":"OPEN","message":"","connection_id":""},"date":"2026-05-25T23:27:34Z"}
+2026-05-25T20:28:30.864-0300 task/task.go:135 D] Read message from control: {"version":1,"id":"1022ca2f-e6c8-4c4e-8856-eb708f12aea8","type":"SessionMessage","message":{"session":"a5bf9a3a-9178-4d6c-8409-7301d0b64348","message_type":"CONNECT","message":"eyJpZCI6ImNiY2QyMGIwLTRkMGEtNGFmNC04YmM5LTIyZjU4ZjhiZjY3NSIsInBlZXJJbmZvIjp7ImV4dGVybmFsX2lwIjoiMTUuOC43Ny4xMDYiLCJleHRlcm5hbF9wb3J0IjozNjgzMSwia2V5IjoiWnRxNW1QX2FSZmpGNEYtOEx4ZjcwUT09IiwibG9jYWxfaXBzIjpbIjE1LjguNzcuMTA2Il0sImxvY2FsX3BvcnQiOjM2ODMxLCJyZWxheUNsaWVudElEIjoieDJ4WWtKUDhicE09In0sInBpZCI6IjIyNzc2IiwicHJvY2Vzc05hbWUiOiJweXRob24zIiwicHJvdG9jb2wiOiJRVUlDIiwic2Vzc2lvbiI6ImE1YmY5YTNhLTkxNzgtNGQ2Yy04NDA5LTczMDFkMGI2NDM0OCJ9Cg==","connection_id":"cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675"},"date":"2026-05-25T23:28:30Z"}
+2026-05-25T20:28:30.865-0300 task/task.go:120 D] Task Connection Handler cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 starting
+2026-05-25T20:28:30.865-0300 gateway/gateway.go:255 D] Enqueue and clear session connection a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:28:30.865-0300 app/session.go:208 D] session a5bf9a3a-9178-4d6c-8409-7301d0b64348 creating connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 for PID 22776 and process name python3
+2026-05-25T20:28:30.865-0300 task/task.go:135 D] Read message from control: {"version":1,"id":"281c072a-cfd8-4e41-a7cf-c71d56e87b0c","type":"SessionMessage","message":{"session":"a5bf9a3a-9178-4d6c-8409-7301d0b64348","message_type":"CERT","message":"ewotLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS0KTUlJRTREQ0NBc2dDQVFFd0RRWUpLb1pJaHZjTkFRRUxCUUF3TmpFTE1Ba0dBMVVFQmhNQ1ZWTXhFekFSQmdOVgpCQW9NQ2twMWFXTmxJRXhoWW5NeEVqQVFCZ05WQkFNTUNXeHZZMkZzYUc5emREQWVGdzB5TmpBMU1qUXlNekk0Ck16QmFGdzB5TnpBMU1qVXlNekk0TXpCYU1EWXhDekFKQmdOVkJBWVRBbFZUTVJNd0VRWURWUVFLREFwS2RXbGoKWlNCTVlXSnpNUkl3RUFZRFZRUUREQWxzYjJOaGJHaHZjM1F3Z2dJaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQwpEd0F3Z2dJS0FvSUNBUURONWVkS0dUSmc3VFJyYjBTRWl1ZGZPWHNzUkFndVZCcVZVcjFTbDJqZC9TYmtxU0FpCmcySlhtbjE5dTIzeWRIZ3dRNThmRXQrMVJINXU2eUt5cjZhTmJJUzB1WmFKcFg2QnBnWkFzTnNYME02REk1UisKMTJ1WDdSeUljdWg4WEp2QXhCbWNKQlRCa2JzanVUd09LZCt0QWlURkFrMG9mZ2RrRWxoWmZodUF0RkFVTEVCUgp5YWdhOEpSTCtVTmNocWdTT2xPWkZPYmhSS0k4anBnMW1iaUdGcjFtOE1mRFlTN3puaDZnamMva3A3V2gyR2VVCjJRRjVxM09rNUlwTWpsY0JLM3N6UkppSjIxSjNpZlFkUmJpWGtpZEd0SnRLMnRWcjUzVm1kbXRxZkt6blkrV1AKZjlncWVYZk16ZmtlL0E0ZWY2NzliL29qZklXREZ1WFh2dGxLa1RGMkJoRnViUzZNS0xHV0RrYlBTTDkzdzBLYQpTdTBCMjFrNTRZSkRMbmpDZUNnUU13UnFxaWZ0TVJHQ2J2eVl0aVVQYU80ZHNWMk9FS2o2cEVGWmdJTmdha1JkClVqY21wRlgwYlZycmM4UUJqQlcrdy9tYk9jOGllNnZTS21xMG1kd3RVRFVsYmJVbllkZ1FVNDc5SGZuME11N0wKTmRURmRGRk9MZ3d6Ym1jYmZnYlE1U0M0SHpJUEFnV09FOW8xNHROWWpheGZKQnJweEZibUxETjRYelhlenNibwoyWDBJRFFkVEtzbWEwdjdrWkJ4bFcwTk5YMnhPRURDcEZuWDdXUENjdXhqbS9aazJSNFVQSG5BejBtajM1WkhLCi81TWZOaThhZ1hpZmI0c0duNTFzYXZNOTBJajMwbE5WeW9JV25ESFUvZ2oybzBFOHFGQXFZN21XbHdJREFRQUIKTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElDQVFDWnF4Z2U4VllpUGNJUXUyK2tjK0ZQQXBOUWNidEdzdmdFMDZweAp4cmt5TDljRU1EdzdrRjd5bFlLM2ZDRVpuNG9YSzBWRytsdFVmUG15U2Vrb0I4R1FQMjlZN1E3NUVaR0ZZcUJNCmJud0dxczJIQ2FacnpXUHkwV2dTK1hVa2JReGo4RWt2ZERJYU5yYm1DKytaU1VMYVVxQW5nUDBaV0hSWXRqWUUKMitxWitRREM2RFZxV2dEbjgySnZUVGR1eFRsK25OVzV0V3pGYzd2UUplV096aG90aU84QUhrNktLejRVQlo4Mgp4Ujg2YXJzM2xqd0k1QklQTnFqaEg2d3QwQk5INmRnOHZndDg2ZTZYaDhSMUdwLzlXK0RmcVYrS21pTm1iMXRjCktESkx6YmJ6aXZ4dk9IaWpMQWNkVlp3UFhjM2RNNW5ZNDlPVjJSc1hWdXpnYWp6VWNIY2VVUi9DdU11Y2VzeksKOFVLUTZTMWl3NmxnZklhdHJxOTVDZnNwMk5ZN05UV0ZuNzlTbnpaZ1BYUmNjSC93NFNkZFhuelpWcE1KYSt5dgovekVPVWViNUFKTGRHcG82K0drR2ZnRGV3NFRsb1ppSTFHUVZpbVFldXZjdTZ6a2ExM3lzeURhdjA5VXFycHBhCjE5SXh5djhCeXFaSGkvS2dxOGVEZ1JkaXRjYUcvR09EYlhQMWhWdkV3cWw5eEVxZVREVjM0Q2FCYkE4SGt1YTIKUjh0UTREVzAxTnB6VDdNWUtkNlJKdHlpaW43NXgzaU02SVdUR3VidDJHbFh4VlROcnQzQSs0LzVFUjNmZjZhNQo5WDNzOER2VGJxT2JyMGtmTmo0TEtWVHR1eDRBSnpPOGVwTTkvU3hqQ3R0NzZ3aGJrNDRlVEVHYlhGbXFZOXQ3CjF4YngrZz09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0KCn0K","connection_id":"cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675"},"date":"2026-05-25T23:28:30Z"}
+2026-05-25T20:28:30.865-0300 app/session.go:709 I] starting agent connection --id cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 --log_group debug --ipc_write 9 --ipc_read 25 --gpuid 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --environment dev --nat-port 7865 --stun_server stun.l.google.com:19302,stun.l.google.com:3478,stun.cloudflare.com:3478 --cache_size 16 --enable_readback_compression --process_name python3 --vulkan_encoder_enabled=true --nvenc_encoder_enabled=true
+2026-05-25T20:28:30.869-0300 task/task.go:120 D] Task session a5bf9a3a-9178-4d6c-8409-7301d0b64348 connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 starting
+2026-05-25T20:28:30.869-0300 task/task.go:120 D] Task connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 starting
+2026-05-25T20:28:30.869-0300 app/session.go:762 D] session a5bf9a3a-9178-4d6c-8409-7301d0b64348 created connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675
+2026-05-25T20:28:30.870-0300 task/task.go:120 D] Task Connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 Write starting
+2026-05-25T20:28:30.870-0300 task/task.go:120 D] Task Connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 Cancel starting
+2026-05-25T20:28:30.870-0300 task/task.go:120 D] Task Connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 Read starting
+2026-05-25T20:28:30.870-0300 task/task.go:135 D] Message from quic to pipe: "{
+-----BEGIN CERTIFICATE-----
+MIIE4DCCAsgCAQEwDQYJKoZIhvcNAQELBQAwNjELMAkGA1UEBhMCVVMxEzARBgNV
+BAoMCkp1aWNlIExhYnMxEjAQBgNVBAMMCWxvY2FsaG9zdDAeFw0yNjA1MjQyMzI4
+MzBaFw0yNzA1MjUyMzI4MzBaMDYxCzAJBgNVBAYTAlVTMRMwEQYDVQQKDApKdWlj
+ZSBMYWJzMRIwEAYDVQQDDAlsb2NhbGhvc3QwggIiMA0GCSqGSIb3DQEBAQUAA4IC
+DwAwggIKAoICAQDN5edKGTJg7TRrb0SEiudfOXssRAguVBqVUr1Sl2jd/SbkqSAi
+g2JXmn19u23ydHgwQ58fEt+1RH5u6yKyr6aNbIS0uZaJpX6BpgZAsNsX0M6DI5R+
+12uX7RyIcuh8XJvAxBmcJBTBkbsjuTwOKd+tAiTFAk0ofgdkElhZfhuAtFAULEBR
+yaga8JRL+UNchqgSOlOZFObhRKI8jpg1mbiGFr1m8MfDYS7znh6gjc/kp7Wh2GeU
+2QF5q3Ok5IpMjlcBK3szRJiJ21J3ifQdRbiXkidGtJtK2tVr53VmdmtqfKznY+WP
+f9gqeXfMzfke/A4ef679b/ojfIWDFuXXvtlKkTF2BhFubS6MKLGWDkbPSL93w0Ka
+Su0B21k54YJDLnjCeCgQMwRqqiftMRGCbvyYtiUPaO4dsV2OEKj6pEFZgINgakRd
+UjcmpFX0bVrrc8QBjBW+w/mbOc8ie6vSKmq0mdwtUDUlbbUnYdgQU479Hfn0Mu7L
+NdTFdFFOLgwzbmcbfgbQ5SC4HzIPAgWOE9o14tNYjaxfJBrpxFbmLDN4XzXezsbo
+2X0IDQdTKsma0v7kZBxlW0NNX2xOEDCpFnX7WPCcuxjm/Zk2R4UPHnAz0mj35ZHK
+/5MfNi8agXifb4sGn51savM90Ij30lNVyoIWnDHU/gj2o0E8qFAqY7mWlwIDAQAB
+MA0GCSqGSIb3DQEBCwUAA4ICAQCZqxge8VYiPcIQu2+kc+FPApNQcbtGsvgE06px
+xrkyL9cEMDw7kF7ylYK3fCEZn4oXK0VG+ltUfPmySekoB8GQP29Y7Q75EZGFYqBM
+bnwGqs2HCaZrzWPy0WgS+XUkbQxj8EkvdDIaNrbmC++ZSULaUqAngP0ZWHRYtjYE
+2+qZ+QDC6DVqWgDn82JvTTduxTl+nNW5tWzFc7vQJeWOzhotiO8AHk6KKz4UBZ82
+xR86ars3ljwI5BIPNqjhH6wt0BNH6dg8vgt86e6Xh8R1Gp/9W+DfqV+KmiNmb1tc
+KDJLzbbzivxvOHijLAcdVZwPXc3dM5nY49OV2RsXVuzgajzUcHceUR/CuMuceszK
+8UKQ6S1iw6lgfIatrq95Cfsp2NY7NTWFn79SnzZgPXRccH/w4SddXnzZVpMJa+yv
+/zEOUeb5AJLdGpo6+GkGfgDew4TloZiI1GQVimQeuvcu6zka13ysyDav09Uqrppa
+19Ixyv8ByqZHi/Kgq8eDgRditcaG/GODbXP1hVvEwql9xEqeTDV34CaBbA8Hkua2
+R8tQ4DW01NpzT7MYKd6RJtyiin75x3iM6IWTGubt2GlXxVTNrt3A+4/5ER3ff6a5
+9X3s8DvTbqObr0kfNj4LKVTtux4AJzO8epM9/SxjCtt76whbk44eTEGbXFmqY9t7
+1xbx+g==
+-----END CERTIFICATE-----
+
+}
+"
+2026-05-25T20:28:30.874-0300 juice_sentry.cpp:61 I] 5907:5907 Initializing Sentry release='JuiceRenderer_worker@33.0.0-4+2026.05.25-1619Z-9111230f', environment='dev'
+2026-05-25T20:28:30.875-0300 Renderer_Win.cpp:556 I] 5907:5907 ID: cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675
+2026-05-25T23:28:30.875Z Renderer_Win.cpp:557 5907:5907 I] Build: 33.0.0-4+2026.05.25-1619Z-9111230f
+2026-05-25T20:28:30.888-0300 VulkanListener.cpp:879 I] 5907:5907 Found potentially 0 MIG devices
+2026-05-25T23:28:30.888Z VulkanListener.cpp:950 5907:5907 I] Found 1 device(s):
+2026-05-25T23:28:30.888Z VulkanListener.cpp:954 5907:5907 I]   10de:1c30 00000000:01:00.0 Quadro P2000 GPU-8393e7ea-9847-44cd-d45e-d9bf0ff68eb8
+2026-05-25T23:28:30.888Z VulkanListener.cpp:1034 5907:5907 I] gpuid config present, filtering devices to match "8393e7ea-9847-44cd-d45e-d9bf0ff68eb8"
+2026-05-25T23:28:30.888Z VulkanListener.cpp:1041 5907:5907 D] Selecting with '8393e7ea-9847-44cd-d45e-d9bf0ff68eb8'
+2026-05-25T23:28:30.888Z VulkanListener.cpp:736 5907:5907 D] Invalid PCI string: missing ':'
+2026-05-25T23:28:30.888Z VulkanListener.cpp:1071 5907:5907 D] Flat UUID
+2026-05-25T23:28:30.888Z VulkanListener.cpp:1110 5907:5907 I] Setting env CUDA_VISIBLE_DEVICES=GPU-8393e7ea-9847-44cd-d45e-d9bf0ff68eb8
+2026-05-25T23:28:30.888Z VulkanListener.cpp:1120 5907:5907 I] Visible devices:
+2026-05-25T23:28:30.888Z VulkanListener.cpp:1124 5907:5907 I]   10de:1c30 00000000:01:00.0 Quadro P2000 GPU-8393e7ea-9847-44cd-d45e-d9bf0ff68eb8
+2026-05-25T20:28:30.888-0300 CacheStorage.cpp:163 I] 5907:5907 Opening cache at '/home/dev/.cache/HP/Boost/cache/0' with capacity of 16384 MB
+2026-05-25T20:28:30.908-0300 CacheStorage.cpp:236 I] 5907:5907 Cache created at /home/dev/.cache/HP/Boost/cache/0
+2026-05-25T20:28:30.908-0300 Renderer_Win.cpp:769 D] 5907:5907 Remote external IP: 15.8.77.106
+2026-05-25T23:28:30.908Z Renderer_Win.cpp:773 5907:5907 D] Remote local IP 0: 15.8.77.106
+2026-05-25T20:28:31.100-0300 QuicSocket.cpp:1697 D] 5907:5907 STUN Servers stun.l.google.com:19302,stun.l.google.com:3478,stun.cloudflare.com:3478
+2026-05-25T20:28:31.101-0300 QuicSocket.cpp:1741 D] 5907:5907 Sending STUN request (1) to stun.l.google.com:19302
+2026-05-25T23:28:31.101Z QuicSocket.cpp:1741 5907:5907 D] Sending STUN request (1) to stun.l.google.com:3478
+2026-05-25T20:28:31.101-0300 QuicSocket.cpp:1741 D] 5907:5907 Sending STUN request (1) to stun.cloudflare.com:3478
+2026-05-25T20:28:31.265-0300 QuicSocket.cpp:1867 D] 5907:5907 Discovered external IP: 15.8.77.106 and port: 33753
+2026-05-25T23:28:31.265Z Renderer_Win.cpp:809 5907:5907 D] External port: 33753
+2026-05-25T23:28:31.265Z Renderer_Win.cpp:810 5907:5907 D] External IP: 15.8.77.106
+2026-05-25T23:28:31.265Z Renderer_Win.cpp:811 5907:5907 D] Local IPs: 1
+2026-05-25T20:28:31.265-0300 task/task.go:135 D] Message from pipe to quic: "{
+	"connection_id" : "cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675",
+	"external_ip" : "15.8.77.106",
+	"external_port" : 33753,
+	"key" : "5dCDJFgxItcUTlv_D9_R7w==",
+	"local_ips" : 
+	[
+		"15.8.77.106"
+	],
+	"local_port" : 33753,
+	"nat_port" : 7865,
+	"session" : "a5bf9a3a-9178-4d6c-8409-7301d0b64348"
+}"
+2026-05-25T20:28:31.265-0300 Renderer_Win.cpp:814 D] 5907:5907 Local IP: 15.8.77.106
+2026-05-25T20:28:31.265-0300 QuicSocket.cpp:2258 D] 5907:5907 Received PEM certificate: 
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] -----BEGIN CERTIFICATE-----
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] MIIE4DCCAsgCAQEwDQYJKoZIhvcNAQELBQAwNjELMAkGA1UEBhMCVVMxEzARBgNV
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] BAoMCkp1aWNlIExhYnMxEjAQBgNVBAMMCWxvY2FsaG9zdDAeFw0yNjA1MjQyMzI4
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] MzBaFw0yNzA1MjUyMzI4MzBaMDYxCzAJBgNVBAYTAlVTMRMwEQYDVQQKDApKdWlj
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] ZSBMYWJzMRIwEAYDVQQDDAlsb2NhbGhvc3QwggIiMA0GCSqGSIb3DQEBAQUAA4IC
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] DwAwggIKAoICAQDN5edKGTJg7TRrb0SEiudfOXssRAguVBqVUr1Sl2jd/SbkqSAi
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] g2JXmn19u23ydHgwQ58fEt+1RH5u6yKyr6aNbIS0uZaJpX6BpgZAsNsX0M6DI5R+
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] 12uX7RyIcuh8XJvAxBmcJBTBkbsjuTwOKd+tAiTFAk0ofgdkElhZfhuAtFAULEBR
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] yaga8JRL+UNchqgSOlOZFObhRKI8jpg1mbiGFr1m8MfDYS7znh6gjc/kp7Wh2GeU
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] 2QF5q3Ok5IpMjlcBK3szRJiJ21J3ifQdRbiXkidGtJtK2tVr53VmdmtqfKznY+WP
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] f9gqeXfMzfke/A4ef679b/ojfIWDFuXXvtlKkTF2BhFubS6MKLGWDkbPSL93w0Ka
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] Su0B21k54YJDLnjCeCgQMwRqqiftMRGCbvyYtiUPaO4dsV2OEKj6pEFZgINgakRd
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] UjcmpFX0bVrrc8QBjBW+w/mbOc8ie6vSKmq0mdwtUDUlbbUnYdgQU479Hfn0Mu7L
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] NdTFdFFOLgwzbmcbfgbQ5SC4HzIPAgWOE9o14tNYjaxfJBrpxFbmLDN4XzXezsbo
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] 2X0IDQdTKsma0v7kZBxlW0NNX2xOEDCpFnX7WPCcuxjm/Zk2R4UPHnAz0mj35ZHK
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] /5MfNi8agXifb4sGn51savM90Ij30lNVyoIWnDHU/gj2o0E8qFAqY7mWlwIDAQAB
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] MA0GCSqGSIb3DQEBCwUAA4ICAQCZqxge8VYiPcIQu2+kc+FPApNQcbtGsvgE06px
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] xrkyL9cEMDw7kF7ylYK3fCEZn4oXK0VG+ltUfPmySekoB8GQP29Y7Q75EZGFYqBM
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] bnwGqs2HCaZrzWPy0WgS+XUkbQxj8EkvdDIaNrbmC++ZSULaUqAngP0ZWHRYtjYE
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] 2+qZ+QDC6DVqWgDn82JvTTduxTl+nNW5tWzFc7vQJeWOzhotiO8AHk6KKz4UBZ82
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] xR86ars3ljwI5BIPNqjhH6wt0BNH6dg8vgt86e6Xh8R1Gp/9W+DfqV+KmiNmb1tc
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] KDJLzbbzivxvOHijLAcdVZwPXc3dM5nY49OV2RsXVuzgajzUcHceUR/CuMuceszK
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] 8UKQ6S1iw6lgfIatrq95Cfsp2NY7NTWFn79SnzZgPXRccH/w4SddXnzZVpMJa+yv
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] /zEOUeb5AJLdGpo6+GkGfgDew4TloZiI1GQVimQeuvcu6zka13ysyDav09Uqrppa
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] 19Ixyv8ByqZHi/Kgq8eDgRditcaG/GODbXP1hVvEwql9xEqeTDV34CaBbA8Hkua2
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] R8tQ4DW01NpzT7MYKd6RJtyiin75x3iM6IWTGubt2GlXxVTNrt3A+4/5ER3ff6a5
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] 9X3s8DvTbqObr0kfNj4LKVTtux4AJzO8epM9/SxjCtt76whbk44eTEGbXFmqY9t7
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] 1xbx+g==
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D] -----END CERTIFICATE-----
+2026-05-25T23:28:31.265Z QuicSocket.cpp:2258 5907:5907 D]
+2026-05-25T20:28:31.265-0300 task/task.go:135 D] Local port: 33753
+2026-05-25T20:28:31.265-0300 gateway/gateway.go:231 D] Enqueue gateway connection for sessionId: a5bf9a3a-9178-4d6c-8409-7301d0b64348, connectionId: cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675, port: 33753 as cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675
+2026-05-25T20:28:31.266-0300 task/task.go:135 D] Message from pipe to quic: "{"connection_id":"cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675","message":"LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUU0RENDQXNnQ0FRRXdEUVlKS29aSWh2Y05BUUVMQlFBd05qRUxNQWtHQTFVRUJoTUNWVk14RXpBUkJnTlYKQkFvTUNrcDFhV05sSUV4aFluTXhFakFRQmdOVkJBTU1DV3h2WTJGc2FHOXpkREFlRncweU5qQTFNalF5TXpJNApNekZhRncweU56QTFNalV5TXpJNE16RmFNRFl4Q3pBSkJnTlZCQVlUQWxWVE1STXdFUVlEVlFRS0RBcEtkV2xqClpTQk1ZV0p6TVJJd0VBWURWUVFEREFsc2IyTmhiR2h2YzNRd2dnSWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUMKRHdBd2dnSUtBb0lDQVFDSlpMbWtYTEVSMitiY2hnd3VsdHdDaElZODRGblN1S1BFcmN2WWM3RlA4Tm54UGZEMApOVUhWZUZra0hKRVJrUVZZQ3BWWitYa2FtUG41bmpLRExiaGpRT2o4eFNXRU5ONWdKVzQvWWxzQktHcGZMdEtUCmVEaWdVWVBwQm5wYm5GeVkzbnFMMUxxU20yTzZ0b1U2WGZ3NHZaUnhCemxRVGJWd1pHTmZzVWV6bTdrN0h5dXkKVVdaYVN6eXI0ampmM2pMeWVHS01tRmJLZW5LTVJ6Zm9Cem5GeU1xbkJhbTVtclN0Tk80VUJSd1EyNUduOUdXUgp1OWU0YmpTN1ZsOEpqQVYvbk5YYnRaRHFmZy8xVm5ncXV6bmUza3pwMGRIUGVIOUtvVG90dExReTgzLzYrS3F2CjBSdVY3UmVoNnJGWDBxd2RCK2NBQnN1TFp0MU1IRCtPQWdKSmlya3NGQjJqMFp3cUpOc2RiSVN4TGVnaDlDRkQKckdOY3FSRjNIZmRSYlJ1Z0VHcHJRTXl5WktMdkpqVlBLTjdnaTIvZzBKbEdmQitJMFVlWXNjTWVWZGFoL2FSdApyakE1UGJDV1NTSG0vNVg5OXMycjB1NTVQQnRpWG1SeDVjdHF3Z0trWXJwUmd3ZFhMMDN2bFFiV0FpQ21EdXhuCnU2THBHcHFnUTNLWFRXRG5BempWUnJ0bnV5a2N6NVhVd2VIazk0cklRdjhIaW9vMXEzNUY5cmhyMmgxTiswOVUKZkY3UFYyTk15SU5abnVHRWZ0N0JYN2JYMUZ0NjZlUVJSdzEyT0E4WXZKeG1sTExlNGVFNHRHdWFNM2lGbk5TQQplaFFxeXNFeGIrd3FXbldyVmszTDRhVTBURjBsY1pTNEFGd2tEUThEM3NIckJkbFZKL2ZqMW5mcm5RSURBUUFCCk1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQ0FRQWlMSGVmUDRLZm9DeE94Vjd3MGZEemxWcTFFMHNwZjRGVjNNNmgKbjVDZVdtLzUvOXVEVGU0ejVQLy9mT1J1THdCODM5cFBiK000MlhkSHBBN0tTdy94VVAxUlljOTlaTWxKWDQ2dApPdnlMMDFhUXd5b2pYS0h1aHJySGlXbzl6RUF6N1hqdDc1ZkFFdXNtTzIyUmkxT1VWeUpRTmNHcng4Y2I1SDg1CmtxWjlYZWxURjVPVWNMQlNOWXlwTVg0SW9JRlAvem9OMUgxclZ6S1RQT0ZqTko1cjVBdk1GMEIwZU9aUHRNL3EKTlZUUHNkZ2ZUMXhMdFd3OUxyNzQxOU82MDhic252S2RTR1N5K2tObVVSbzJRQzFVL0YvZUl6bnhVZ0JhVVRXNApwRXV6RDFNNVBxRERyaGZJdmZ1YTl6UHd4QWVxQVVFcG5XV28za1B6OWtZM3NZRUFneHdSTlgwNFB5cXFNN3oyCjBOaFBqYitSaHJ5Z3dDUWZtTDViWmh5Q2NjcEc1Rm10dVRhZ3ZlSExrOVRzZE5aM2VZSnNBdDZRQzBlSUZaTXcKaG1LcTQwZE9sbGoxT2JhZ1NlZnBjeWFyTjQ2NWNwdTM1NHBWRWJGUlUzTjM1Zkhjb3lROURXSlFYdnRiM0dQRgppR3o2SXJRdUwvMFpOSXZ2MFA4cXhwSTlLQTIrOUhvMmI2Wk9xQUV1V0hZSTdIL0Jva3Yybi9adE9EY1laakcvCnYzRVlPWTk3S0pRbmt4Q1JVd1lsT1VOVXhGVW90Y2JudmFxeFBYVTlnMXg0Zm01OFZ2RmFINmdHbGZrcVhMR2UKUnVUOGl3QkUyb0xheTVITWJpSzhpZkloelpvOFdMS2lGWFpnM3Z4UXFTcEE1R1FmUFQ0RXlyTSsvMXgrT2txWQpYcVhtM1E9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==","message_type":"CERT","session":"a5bf9a3a-9178-4d6c-8409-7301d0b64348"}
+"
+2026-05-25T20:28:31.266-0300 QuicSocket.cpp:2300 D] 5907:5907 Certificate Not Before Date: May 24 23:28:30 2026 GMT
+2026-05-25T23:28:31.266Z QuicSocket.cpp:2300 5907:5907 D] Certificate Expiration Date: May 25 23:28:30 2027 GMT
+2026-05-25T20:28:31.266-0300 Renderer_Win.cpp:968 D] 5907:5907 No relay server specified, proceeding without relay configuration.
+2026-05-25T20:28:31.266-0300 QuicSocket.cpp:2863 D] 5907:5907 sendPings - Sending message {"connection_id":"cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675","message":"MTUuOC43Ny4xMDY6MzY4MzE=","message_type":"PING","session":"a5bf9a3a-9178-4d6c-8409-7301d0b64348"}
+2026-05-25T20:28:31.267-0300 gateway/gateway.go:298 D] Dequeuing port from 15.8.77.106:36831, queue size 2
+2026-05-25T20:28:31.267-0300 task/task.go:135 D] Message from pipe to quic: "{"connection_id":"cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675","message":"MTUuOC43Ny4xMDY6MzM3NTM=","message_type":"PING","session":"a5bf9a3a-9178-4d6c-8409-7301d0b64348"}
+"
+2026-05-25T20:28:31.267-0300 gateway/gateway.go:302 D] matched connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 to port 33753
+2026-05-25T20:28:31.267-0300 QuicSocket.cpp:3070 D] 5907:5907 recvfrom - 15.8.77.106:36831
+2026-05-25T23:28:31.267Z Renderer_Win.cpp:984 5907:5907 D] FindPeer returning found 1, client: , server 15.8.77.106:33753
+2026-05-25T23:28:31.267Z Renderer_Win.cpp:999 5907:5907 D] Binding QUIC socket to port 33753 with tcpMode: 0
+2026-05-25T20:28:31.267-0300 gateway/gateway.go:404 D] New mapping created: 15.8.77.106:36831 -> 33753 (key: 0x8fdf6a4d080f)
+2026-05-25T20:28:31.267-0300 task/task.go:135 D] Read message from control: {"version":1,"id":"df84008c-58e4-4ec1-9251-eabf105edf97","type":"SessionMessage","message":{"session":"a5bf9a3a-9178-4d6c-8409-7301d0b64348","message_type":"PING","message":"MTUuOC43Ny4xMDY6MzY4MzE=","connection_id":"cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675"},"date":"2026-05-25T23:28:31Z"}
+2026-05-25T20:28:31.267-0300 task/task.go:135 D] Message from quic to pipe: "15.8.77.106:36831"
+2026-05-25T20:28:31.268-0300 QuicSocket.cpp:476 D] 5907:5907 QuicSocket: QUIC mode enabled, binding to port 33753
+2026-05-25T20:28:31.273-0300 QuicSocket.cpp:1005 D] 5907:5907 Quic port reservation is for 33753
+2026-05-25T20:28:31.274-0300 task/task.go:135 D] Message from pipe to quic: "{"connection_id":"cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675","message":"eyJjbGllbnRfcmVhY2hhYmxlX2lwIjoiIiwiY3VfdGV4b2JqZWN0X2FzeW5jIjowLCJzZXJ2ZXJfYXJjaCI6ImxpbnV4Iiwic2VydmVyX3JlYWNoYWJsZV9pcCI6IjE1LjguNzcuMTA2OjMzNzUzIiwic3VjY2VzcyI6MSwidGNwX21vZGUiOjB9Cg==","message_type":"RDVU","session":"a5bf9a3a-9178-4d6c-8409-7301d0b64348"}
+"
+2026-05-25T20:28:31.274-0300 Renderer_Win.cpp:1003 D] 5907:5907 Listening on QUIC/UDP Port 33753
+2026-05-25T20:28:31.291-0300 QuicSocket.cpp:1417 D] 5907:5910 [conn][0x738c4001ab60] Certificate verified successfully.
+2026-05-25T20:28:31.292-0300 QuicSocket.cpp:275 D] 5907:5910 [conn][0x738c4001ab60] Connected
+2026-05-25T20:28:31.292-0300 QuicSocket.cpp:317 D] 5907:5910 [strm][0x738c40054790] Peer started Flags 0
+2026-05-25T20:28:31.292-0300 QuicSocket.cpp:317 D] 5907:5910 [strm][0x738c400503c0] Peer started Flags 0
+2026-05-25T23:28:31.292Z QuicSocket.cpp:317 5907:5910 D] [strm][0x738c40050920] Peer started Flags 0
+2026-05-25T20:28:31.292-0300 QuicSocket.cpp:317 D] 5907:5910 [strm][0x738c40023bc0] Peer started Flags 0
+2026-05-25T20:28:31.292-0300 Renderer_Win.cpp:1058 I] 5907:5907 Client connected via QUIC/UDP protocol.
+2026-05-25T20:28:31.292-0300 Renderer_Win.cpp:1085 D] 5907:5925 Keepalive socket is 0
+2026-05-25T20:28:31.293-0300 VulkanListener.cpp:1428 D] 5907:5907 vk listener ::Start
+2026-05-25T23:28:31.293Z cuda_support.cpp:263 5907:5907 D] Initializing CUDA driver...
+2026-05-25T20:28:31.301-0300 cuda_support.cpp:302 D] 5907:5907 CUDA driver initialized
+2026-05-25T20:28:31.301-0300 Renderer_Win.cpp:1142 D] 5907:5907 Activating listener: listener count: 1
+2026-05-25T20:28:31.386-0300 VulkanListener.cpp:1738 I] 5907:592e Enumerated 2 physical devices
+2026-05-25T23:28:31.386Z VulkanListener.cpp:1781 5907:592e I] Enumerated GPU 0:0 Quadro P2000 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8
+2026-05-25T20:28:31.423-0300 ServerPhysicalDevice.cpp:215 D] 5907:592e Memory Properties: 11 memory types, 3 memory heaps
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:230 5907:592e D]   Memory type 0: heap 1, flags NONE
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:230 5907:592e D]   Memory type 1: heap 1, flags NONE
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:230 5907:592e D]   Memory type 2: heap 1, flags NONE
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:230 5907:592e D]   Memory type 3: heap 1, flags NONE
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:230 5907:592e D]   Memory type 4: heap 1, flags NONE
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:230 5907:592e D]   Memory type 5: heap 1, flags NONE
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:230 5907:592e D]   Memory type 6: heap 1, flags NONE
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:230 5907:592e D]   Memory type 7: heap 0, flags DEVICE_LOCAL
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:230 5907:592e D]   Memory type 8: heap 1, flags HOST_VISIBLE HOST_COHERENT
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:230 5907:592e D]   Memory type 9: heap 1, flags HOST_VISIBLE HOST_COHERENT HOST_CACHED
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:230 5907:592e D]   Memory type 10: heap 2, flags DEVICE_LOCAL HOST_VISIBLE HOST_COHERENT
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:239 5907:592e D]   Memory heap 0: size 5368709120 bytes, flags DEVICE_LOCAL 
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:239 5907:592e D]   Memory heap 1: size 12456603648 bytes, flags 
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:239 5907:592e D]   Memory heap 2: size 257949696 bytes, flags DEVICE_LOCAL 
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:242 5907:592e D] Memory Type Map:
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:258 5907:592e D]   Client type 5 (DEVICE_LOCAL HOST_VISIBLE HOST_COHERENT ) -> Local type 8 (HOST_VISIBLE HOST_COHERENT )
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:258 5907:592e D]   Client type 4 (HOST_VISIBLE HOST_COHERENT HOST_CACHED ) -> Local type 9 (HOST_VISIBLE HOST_COHERENT HOST_CACHED )
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:258 5907:592e D]   Client type 3 (HOST_VISIBLE HOST_COHERENT ) -> Local type 8 (HOST_VISIBLE HOST_COHERENT )
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:258 5907:592e D]   Client type 2 (DEVICE_LOCAL ) -> Local type 7 (DEVICE_LOCAL )
+2026-05-25T23:28:31.423Z ServerPhysicalDevice.cpp:258 5907:592e D]   Client type 0 () -> Local type 1 ()
+2026-05-25T20:28:31.424-0300 ServerPhysicalDevice.cpp:258 D] 5907:592e   Client type 1 () -> Local type 0 ()
+2026-05-25T23:28:31.423Z VulkanListener.cpp:1781 5907:592e I] Enumerated GPU 1:0 Quadro P2000 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8
+2026-05-25T20:28:31.460-0300 gateway/gateway.go:439 D] Thread 3 (of 8) processed 4 packets and 756 bytes
+2026-05-25T20:28:32.511-0300 JudaModuleCache.cpp:138 I] 5907:592e Opening JUDA database at '/home/dev/.cache/HP/Boost/cache/juda-module-cache-9f1dbf74f3cc48ab.db
+2026-05-25T20:28:32.553-0300 QuicSocket.cpp:317 D] 5907:5911 [strm][0x738c3801ee50] Peer started Flags 0
+2026-05-25T23:28:32.553Z QuicSocket.cpp:317 5907:5911 D] [strm][0x738c3801fd50] Peer started Flags 0
+2026-05-25T23:28:32.553Z QuicSocket.cpp:317 5907:5911 D] [strm][0x738c38025150] Peer started Flags 0
+2026-05-25T20:28:32.554-0300 VulkanListener.cpp:1428 D] 5907:5907 vk listener ::Start
+2026-05-25T20:28:32.554-0300 Renderer_Win.cpp:1142 D] 5907:5907 Activating listener: listener count: 2
+2026-05-25T20:28:32.562-0300 VulkanListener.cpp:1738 I] 5907:593e Enumerated 2 physical devices
+2026-05-25T23:28:32.562Z VulkanListener.cpp:1781 5907:593e I] Enumerated GPU 0:0 Quadro P2000 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8
+2026-05-25T23:28:32.562Z VulkanListener.cpp:1781 5907:593e I] Enumerated GPU 1:0 Quadro P2000 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8
+2026-05-25T20:28:32.562-0300 NvmlContextServer.cpp:33 I] 5907:593e NvmlContextServer::Initialize(0) [#devices: 1]
+2026-05-25T20:28:32.607-0300 QuicSocket.cpp:317 D] 5907:5911 [strm][0x738c3801c6d0] Peer started Flags 0
+2026-05-25T23:28:32.607Z QuicSocket.cpp:317 5907:5911 D] [strm][0x738c3802dcc0] Peer started Flags 0
+2026-05-25T20:28:32.607-0300 QuicSocket.cpp:317 D] 5907:5911 [strm][0x738c38030550] Peer started Flags 0
+2026-05-25T20:28:32.608-0300 VulkanListener.cpp:1428 D] 5907:5907 vk listener ::Start
+2026-05-25T20:28:32.608-0300 Renderer_Win.cpp:1142 D] 5907:5907 Activating listener: listener count: 3
+2026-05-25T20:28:32.617-0300 VulkanListener.cpp:1738 I] 5907:5949 Enumerated 2 physical devices
+2026-05-25T23:28:32.617Z VulkanListener.cpp:1781 5907:5949 I] Enumerated GPU 0:0 Quadro P2000 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8
+2026-05-25T23:28:32.617Z VulkanListener.cpp:1781 5907:5949 I] Enumerated GPU 1:0 Quadro P2000 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8
+2026-05-25T20:28:32.619-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x1000/0x738c1d4a0b80 created
+2026-05-25T20:28:32.620-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 10 globals and 16 functions
+2026-05-25T20:28:32.620-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1000/0x738c1d4a0b80 mapping function 0x1000/0x738c1d5ecd40
+2026-05-25T20:28:32.643-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x1001/0x738c1d4bfe90 created
+2026-05-25T23:28:32.643Z VulkanListener.cpp:9102 5907:592e D] JuiceCudaCreateModule returning 1 globals and 0 functions
+2026-05-25T20:28:32.647-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x1002/0x738c1d4c3210 created
+2026-05-25T20:28:32.648-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 0 globals and 40 functions
+2026-05-25T20:28:32.649-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1002/0x738c1d4c3210 mapping function 0x1001/0x738c1d4c4c40
+2026-05-25T20:28:33.497-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x1003/0x738c1d4c8ef0 created
+2026-05-25T20:28:33.501-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 1 globals and 208 functions
+2026-05-25T20:28:33.503-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1003/0x738c1d4c8ef0 mapping function 0x1002/0x738c1dcfb9b0
+2026-05-25T20:28:33.503-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1003/0x738c1d4c8ef0 mapping function 0x1003/0x738c1dcfdc20
+2026-05-25T20:28:33.514-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x1004/0x738c1c93d380 created
+2026-05-25T20:28:33.515-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 29 globals and 60 functions
+2026-05-25T20:28:33.517-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1004/0x738c1c93d380 mapping function 0x1004/0x738c1d9fdf10
+2026-05-25T20:28:33.523-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x1005/0x738c1d6148e0 created
+2026-05-25T20:28:33.526-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 25 globals and 180 functions
+2026-05-25T20:28:33.528-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1005/0x738c1d6148e0 mapping function 0x1005/0x738c1e538a90
+2026-05-25T20:28:33.528-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1005/0x738c1d6148e0 mapping function 0x1006/0x738c1e541ea0
+2026-05-25T20:28:33.532-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x1006/0x738c1dd77300 created
+2026-05-25T20:28:33.534-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 33 globals and 144 functions
+2026-05-25T20:28:33.536-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1006/0x738c1dd77300 mapping function 0x1007/0x738c1d8dfb50
+2026-05-25T20:28:33.542-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x1007/0x738c1e0ce940 created
+2026-05-25T20:28:33.545-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 21 globals and 216 functions
+2026-05-25T20:28:33.548-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1007/0x738c1e0ce940 mapping function 0x1008/0x738c1de8f9b0
+2026-05-25T20:28:33.552-0300 JudaModuleCache.cpp:372 W] 5907:592e Module already cached at '/home/dev/.cache/HP/Boost/cache/modules/7563cb4a76c494f5.bin'
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x1008/0x738c1deef770 created
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 70364c8b1c30b3ac params 12 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func b6a382bd6a4aa1fd params 12 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 6b87f232def94064 params 12 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 1e98b50d3f92447c params 12 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func edd7d451c481740c params 12 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func a8afe4877675ced6 params 12 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 87bfa59704bb2262 params 7 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func cfa25dc55783ea37 params 7 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 210c39fdc998dedf params 7 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func b6103ff6b199ae82 params 7 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func c179699189279c68 params 7 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 618acdac43e85d1e params 7 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.553-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 15232114149a8bf1 params 14 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func cb7063a98ef1d390 params 16 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func c2f722736b0275c params 14 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 39e29cb4e25870de params 16 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 42ef1e23ea7d8d9d params 14 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 95a5203f40b848ed params 16 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 5df85ec7d1bb351b params 14 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func c6b49262952357c9 params 16 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func edc310bcd2a8fb3a params 14 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 791b9c79f9c51fcb params 16 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 25b9c1a7c88aa28b params 14 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 477bf573b7f21703 params 16 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 55afdf10e8239b22 params 14 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 52f8e700aaf3ae0b params 16 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func d1fbb415c7cd6231 params 14 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 796dd801fcfce4fc params 16 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 1c54f545e7960f08 params 0 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.554-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func a7f6f7b91f201dd6 params 2 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.555-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 21fb5daf3e178a6a params 9 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.555-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 9c915385cd1a3262 params 9 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.555-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 771595e547b63928 params 2 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.555-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func 2189660460247bde params 9 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.555-0300 VulkanListener.cpp:9067 D] 5907:592e -> cached func ff9118669b55a3a params 9 in 0x1008(0x738c1deef770)
+2026-05-25T20:28:33.555-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 30 globals and 35 functions
+2026-05-25T20:28:33.555-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1008/0x738c1deef770 mapping function 0x1009/0x738c1de01700
+2026-05-25T20:28:33.557-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x1009/0x738c1de3eac0 created
+2026-05-25T20:28:33.558-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 11 globals and 43 functions
+2026-05-25T20:28:33.558-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1009/0x738c1de3eac0 mapping function 0x100a/0x738c1dfce810
+2026-05-25T20:28:33.560-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1009/0x738c1de3eac0 mapping function 0x100b/0x738c1e979240
+2026-05-25T20:28:33.560-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1009/0x738c1de3eac0 mapping function 0x100c/0x738c1dfcb850
+2026-05-25T20:28:33.574-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x100a/0x738c1f83e8b0 created
+2026-05-25T20:28:33.577-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 137 globals and 175 functions
+2026-05-25T20:28:33.578-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x100a/0x738c1f83e8b0 mapping function 0x100d/0x738c1ebdadf0
+2026-05-25T20:28:33.581-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x100b/0x738c1ebe2b00 created
+2026-05-25T20:28:33.583-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 51 globals and 164 functions
+2026-05-25T20:28:33.585-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x100b/0x738c1ebe2b00 mapping function 0x100e/0x738c1ea6c510
+2026-05-25T20:28:33.595-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x100c/0x738c1eb1cdf0 created
+2026-05-25T20:28:33.596-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 167 globals and 60 functions
+2026-05-25T20:28:33.597-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x100c/0x738c1eb1cdf0 mapping function 0x100f/0x738c1f1a5b10
+2026-05-25T20:28:33.604-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x100d/0x738c1f1c77d0 created
+2026-05-25T20:28:33.605-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 167 globals and 60 functions
+2026-05-25T20:28:33.606-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x100d/0x738c1f1c77d0 mapping function 0x1010/0x738c1f03a800
+2026-05-25T20:28:33.609-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x100e/0x738c1f05c7f0 created
+2026-05-25T20:28:33.613-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 21 globals and 180 functions
+2026-05-25T20:28:33.614-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x100e/0x738c1f05c7f0 mapping function 0x1011/0x738c1f81df50
+2026-05-25T20:28:33.619-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x100f/0x738c1f82a770 created
+2026-05-25T20:28:33.621-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 21 globals and 144 functions
+2026-05-25T20:28:33.623-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x100f/0x738c1f82a770 mapping function 0x1012/0x738c1f0f16d0
+2026-05-25T20:28:33.625-0300 VulkanListener.cpp:9019 D] 5907:592e Module 0x1010/0x738c1d4a0670 created
+2026-05-25T20:28:33.627-0300 VulkanListener.cpp:9102 D] 5907:592e JuiceCudaCreateModule returning 20 globals and 120 functions
+2026-05-25T20:28:33.628-0300 CudaModuleServer.cpp:47 D] 5907:592e Module 0x1010/0x738c1d4a0670 mapping function 0x1013/0x738c1f6bcea0
+2026-05-25T20:28:33.771-0300 MessageTransport.h:45 E] 5907:5941 Main Reading message header failed - Connection reset by peer
+2026-05-25T23:28:33.771Z MessageTransport.h:45 5907:5941 E] Main Reading message header failed - Connection reset by peer
+2026-05-25T20:28:33.771-0300 Renderer_Win.cpp:645 I] 5907:590b Possible shut down. Kept alive: 1, listener count: 2
+2026-05-25T20:28:33.837-0300 MessageTransport.h:45 E] 5907:5935 Main Reading message header failed - Connection reset by peer
+2026-05-25T23:28:33.837Z MessageTransport.h:45 5907:5935 E] Main Reading message header failed - Connection reset by peer
+2026-05-25T20:28:33.837-0300 MessageTransport.h:45 E] 5907:594b Main Reading message header failed - Connection reset by peer
+2026-05-25T23:28:33.837Z MessageTransport.h:45 5907:594b E] Main Reading message header failed - Connection reset by peer
+2026-05-25T20:28:33.845-0300 Renderer_Win.cpp:645 I] 5907:590b Possible shut down. Kept alive: 1, listener count: 1
+2026-05-25T20:28:33.845-0300 Renderer_Win.cpp:645 I] 5907:590b Possible shut down. Kept alive: 1, listener count: 0
+2026-05-25T20:28:34.477-0300 task/task.go:135 D] Read message from control: {"version":1,"id":"bf84a9c6-7b7e-48e5-b6fd-bb7ddc73c628","type":"SessionMessage","message":{"session":"a5bf9a3a-9178-4d6c-8409-7301d0b64348","message_type":"DONE","message":"e30K","connection_id":"resolve-22776"},"date":"2026-05-25T23:28:34Z"}
+2026-05-25T20:28:35.754-0300 task/task.go:70 D] Canceling task manager quic-a5bf9a3a-9178-4d6c-8409-7301d0b64348
+2026-05-25T20:28:35.754-0300 task/task.go:143 D] Task session a5bf9a3a-9178-4d6c-8409-7301d0b64348 stream handler finished
+2026-05-25T20:28:35.754-0300 transport/transport_quic.go:94 D] Closing quic stream: shutdown
+2026-05-25T20:28:35.754-0300 task/task.go:137 D] Task [agent] session a5bf9a3a-9178-4d6c-8409-7301d0b64348 read control failed with Application error 0x0 (remote): client shutdown
+2026-05-25T20:28:35.754-0300 task/task.go:143 D] Task quic session a5bf9a3a-9178-4d6c-8409-7301d0b64348 listener finished
+2026-05-25T20:28:35.754-0300 task/task.go:143 D] Task [agent] session a5bf9a3a-9178-4d6c-8409-7301d0b64348 write control finished
+2026-05-25T20:28:35.754-0300 task/task.go:143 D] Task winner-transport-cancel finished
+2026-05-25T20:28:35.754-0300 app/session.go:294 D] Stopping connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 process
+2026-05-25T20:28:35.754-0300 task/task.go:143 D] Task Connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 Write finished
+2026-05-25T20:28:35.754-0300 task/task.go:143 D] Task Connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 Cancel finished
+2026-05-25T20:28:35.754-0300 task/task.go:143 D] Task [agent] session a5bf9a3a-9178-4d6c-8409-7301d0b64348 read control finished
+2026-05-25T20:28:35.775-0300 task/task.go:143 D] Task Connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 Read finished
+2026-05-25T20:28:35.775-0300 task/task.go:143 D] Task Connection Handler cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 finished
+2026-05-25T20:28:35.789-0300 task/task.go:143 D] Task connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 finished
+2026-05-25T20:28:35.789-0300 app/session.go:734 W] Subprocess exited with non-zero code: session a5bf9a3a-9178-4d6c-8409-7301d0b64348 connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 exit code -1
+2026-05-25T20:28:35.789-0300 task/task.go:143 D] Task session a5bf9a3a-9178-4d6c-8409-7301d0b64348 connection cbcd20b0-4d0a-4af4-8bc9-22f58f8bf675 finished
+2026-05-25T20:28:35.789-0300 task/task.go:135 E] task [agent] session a5bf9a3a-9178-4d6c-8409-7301d0b64348 read control failed: Application error 0x0 (remote): client shutdown
+2026-05-25T20:28:35.789-0300 app/session.go:129 D] session a5bf9a3a-9178-4d6c-8409-7301d0b64348 closed
+2026-05-25T20:28:35.789-0300 task/task.go:143 D] Task session a5bf9a3a-9178-4d6c-8409-7301d0b64348 finished
+2026-05-25T20:28:41.021-0300 task/task.go:70 D] Canceling task manager Agent
+2026-05-25T20:28:41.021-0300 task/task.go:143 D] Task ControllerManager Websocket Read finished
+2026-05-25T20:28:41.021-0300 task/task.go:143 D] Task Gateway finished
+2026-05-25T20:28:41.021-0300 task/task.go:143 D] Task Controller Log Sink Websocket KeepAlive finished
+2026-05-25T20:28:41.021-0300 app/controller_manager_agent.go:84 I] Performing clean shutdown of the agent
+2026-05-25T20:28:41.021-0300 task/task.go:143 D] Task ControllerManager Websocket KeepAlive finished
+2026-05-25T20:28:41.021-0300 task/task.go:143 D] Task Controller Log Sink Websocket Read finished
+2026-05-25T20:28:41.027-0300 task/task.go:143 D] Task GpuMetrics finished
+2026-05-25T20:28:42.022-0300 task/task.go:143 D] Task Controller Log Sink Websocket Write finished
+2026-05-25T20:28:42.022-0300 task/task.go:143 D] Task Controller Logs finished
+2026-05-25T20:28:42.030-0300 task/task.go:143 D] Task ControllerManager Websocket Write finished
+2026-05-25T20:28:42.030-0300 task/task.go:143 D] Task ControllerManager Websocket finished
+2026-05-25T20:28:42.030-0300 task/task.go:70 D] Canceling task manager Logging
+2026-05-25T20:28:42.030-0300 task/task.go:143 D] Task Log Rotate finished
