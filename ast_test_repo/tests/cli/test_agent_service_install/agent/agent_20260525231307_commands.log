@@ -1,0 +1,69 @@
+2026-05-25 23:13:15 - INFO: Cleanup: Attempting to stop any running service...
+2026-05-25 23:13:15 - INFO: COMMAND: /opt/hpboost/boost agent service stop --no-banner
+2026-05-25 23:13:16 - COMMAND: </opt/hpboost/boost agent service stop --no-banner> Error: service does not exist
+
+2026-05-25 23:13:16 - COMMAND: </opt/hpboost/boost agent service stop --no-banner - STDERR> Application terminated with code: 1
+
+2026-05-25 23:13:16 - ERROR: Exception running command /opt/hpboost/boost agent service stop --no-banner. Error: Exit running command /opt/hpboost/boost agent service stop --no-banner, Exit code: 1. STDERR: Application terminated with code: 1
+. STDOUT: Error: service does not exist
+
+2026-05-25 23:13:16 - INFO: Stop cleanup failed (expected if service not running): Exit running command /opt/hpboost/boost agent service stop --no-banner, Exit code: 1. STDERR: Application terminated with code: 1
+. STDOUT: Error: service does not exist
+
+2026-05-25 23:13:16 - INFO: Cleanup: Attempting to uninstall any installed service...
+2026-05-25 23:13:16 - INFO: COMMAND: /opt/hpboost/boost agent service uninstall --no-banner
+2026-05-25 23:13:16 - COMMAND: </opt/hpboost/boost agent service uninstall --no-banner> Error: service does not exist
+
+2026-05-25 23:13:16 - COMMAND: </opt/hpboost/boost agent service uninstall --no-banner - STDERR> Application terminated with code: 1
+
+2026-05-25 23:13:16 - ERROR: Exception running command /opt/hpboost/boost agent service uninstall --no-banner. Error: Exit running command /opt/hpboost/boost agent service uninstall --no-banner, Exit code: 1. STDERR: Application terminated with code: 1
+. STDOUT: Error: service does not exist
+
+2026-05-25 23:13:16 - INFO: Uninstall cleanup failed (expected if service not installed): Exit running command /opt/hpboost/boost agent service uninstall --no-banner, Exit code: 1. STDERR: Application terminated with code: 1
+. STDOUT: Error: service does not exist
+
+2026-05-25 23:13:16 - INFO: Installing agent service...
+2026-05-25 23:13:21 - INFO: COMMAND: /opt/hpboost/boost agent service install cef55f5e-f886-4da8-97db-123bc5c1fc17 --no-banner
+2026-05-25 23:13:25 - COMMAND: </opt/hpboost/boost agent service install cef55f5e-f886-4da8-97db-123bc5c1fc17 --no-banner> Installed service
+
+2026-05-25 23:13:25 - COMMAND: </opt/hpboost/boost agent service install cef55f5e-f886-4da8-97db-123bc5c1fc17 --no-banner> Installed service
+
+2026-05-25 23:13:25 - INFO: Install output: Installed service
+
+2026-05-25 23:13:25 - INFO: Verifying service installation...
+2026-05-25 23:13:30 - INFO: COMMAND: /opt/hpboost/boost agent service status --no-banner
+2026-05-25 23:13:31 - COMMAND: </opt/hpboost/boost agent service status --no-banner> Stopped
+
+2026-05-25 23:13:31 - COMMAND: </opt/hpboost/boost agent service status --no-banner> Stopped
+
+2026-05-25 23:13:36 - INFO: Cleanup: Attempting to stop any running service...
+2026-05-25 23:13:36 - INFO: COMMAND: /opt/hpboost/boost agent service stop --no-banner
+2026-05-25 23:13:36 - COMMAND: </opt/hpboost/boost agent service stop --no-banner> Stopped service
+
+2026-05-25 23:13:36 - COMMAND: </opt/hpboost/boost agent service stop --no-banner> Stopped service
+
+2026-05-25 23:13:36 - INFO: Stop cleanup output: Stopped service
+
+2026-05-25 23:13:36 - INFO: Cleanup: Attempting to uninstall any installed service...
+2026-05-25 23:13:36 - INFO: COMMAND: /opt/hpboost/boost agent service uninstall --no-banner
+2026-05-25 23:13:38 - COMMAND: </opt/hpboost/boost agent service uninstall --no-banner> Uninstalled service
+
+2026-05-25 23:13:38 - COMMAND: </opt/hpboost/boost agent service uninstall --no-banner> Uninstalled service
+
+2026-05-25 23:13:38 - INFO: Uninstall cleanup output: Uninstalled service
+
+2026-05-25 23:13:38 - INFO: Transferring logs using SCP...
+2026-05-25 23:13:38 - INFO: Remote path: /tmp/test_agent_service_install.log
+2026-05-25 23:13:38 - INFO: Local log path: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_install/agent/agent.log
+2026-05-25 23:13:38 - INFO: COMMAND: if [ -f "/tmp/test_agent_service_install.log" ]; then echo exists; else echo not exists; fi
+2026-05-25 23:13:38 - COMMAND: <if [ -f "/tmp/test_agent_service_install.log" ]; then echo exists; else echo not exists; fi> not exists
+
+2026-05-25 23:13:38 - WARNING: Remote file /tmp/test_agent_service_install.log does not exist. Skipping transfer.
+2026-05-25 23:13:39 - INFO: COMMAND: echo $HOME
+2026-05-25 23:13:39 - COMMAND: <echo $HOME> /home/dev
+
+2026-05-25 23:13:39 - INFO: Collecting Boost service logs from 15.8.77.106:/home/dev/.config/HP/Boost/logs/
+2026-05-25 23:13:39 - INFO: No Boost service log files found on remote host.
+2026-05-25 23:13:40 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 23:13:40 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 23:13:40 - INFO: Boost service logs cleaned successfully.
