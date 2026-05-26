@@ -1,0 +1,1838 @@
+2026-05-25 23:10:02 - INFO: COMMAND: /opt/hpboost/boost  --help
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help> Usage:
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   boost [command]
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help> 
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help> Available Commands:
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   agent        Agent management commands
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   check        Checks the installation for common issues
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   gpu          GPU querying commands
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   help         Help about any command
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   login        Log in to a controller
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   logout       Log the current user out of the controller
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   m2m          Token management commands
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   pool         Pool management commands
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   release      View and download releases
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   run          Starts an application using the GPU(s) available to the user
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   session      Session management commands
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   user         User management commands
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help> 
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help> Flags:
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   -h, --help               help for boost
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   -l, --log-file string    
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>       --no-banner          
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   -q, --quiet              
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help>   -v, --version            version for boost
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help> 
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help> Use "boost [command] --help" for more information about a command.
+
+2026-05-25 23:10:02 - COMMAND: </opt/hpboost/boost  --help> Usage:
+  boost [command]
+
+Available Commands:
+  agent        Agent management commands
+  check        Checks the installation for common issues
+  gpu          GPU querying commands
+  help         Help about any command
+  login        Log in to a controller
+  logout       Log the current user out of the controller
+  m2m          Token management commands
+  pool         Pool management commands
+  release      View and download releases
+  run          Starts an application using the GPU(s) available to the user
+  session      Session management commands
+  user         User management commands
+
+Flags:
+  -h, --help               help for boost
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet              
+  -v, --version            version for boost
+
+Use "boost [command] --help" for more information about a command.
+
+2026-05-25 23:10:03 - INFO: COMMAND: /opt/hpboost/boost  agent --help
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> Agent management commands
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> Usage:
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help>   boost agent [command]
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> Available Commands:
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help>   info        Gets the information of a specific agent
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help>   list        List all the agents accessible to the user
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help>   run         Run the GPU Sharing agent (not available in WSL)
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help>   service     Manage the agent service (not available in WSL)
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> Flags:
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help>   -h, --help   help for agent
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> Global Flags:
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help>   -l, --log-file string    
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help>       --no-banner          
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help>   -q, --quiet
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> Use "boost agent [command] --help" for more information about a command.
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent --help> Agent management commands
+
+Usage:
+  boost agent [command]
+
+Available Commands:
+  info        Gets the information of a specific agent
+  list        List all the agents accessible to the user
+  run         Run the GPU Sharing agent (not available in WSL)
+  service     Manage the agent service (not available in WSL)
+
+Flags:
+  -h, --help   help for agent
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+Use "boost agent [command] --help" for more information about a command.
+
+2026-05-25 23:10:03 - INFO: COMMAND: /opt/hpboost/boost  agent info --help
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help> Gets the information of a specific agent
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help> Usage:
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help>   boost agent info <id> [flags]
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help> Flags:
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help>       --fields string      Comma-separated fields to be used as table headers for human readable display.
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help>                            Fields are of the form Field.Name[:Display String]
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help>                             (default "state:State,hostname:Host,pool.name:Pool,id:ID,#numgpus,#protocol")
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help>   -h, --help               help for info
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help>       --json               Output information as JSON objects
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help>       --sort-cols string   Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order. (default "1")
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help> Global Flags:
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help>   -l, --log-file string    
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help>       --no-banner          
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help>   -q, --quiet
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent info --help> Gets the information of a specific agent
+
+Usage:
+  boost agent info <id> [flags]
+
+Flags:
+      --fields string      Comma-separated fields to be used as table headers for human readable display.
+                           Fields are of the form Field.Name[:Display String]
+                            (default "state:State,hostname:Host,pool.name:Pool,id:ID,#numgpus,#protocol")
+  -h, --help               help for info
+      --json               Output information as JSON objects
+      --sort-cols string   Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order. (default "1")
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:03 - INFO: COMMAND: /opt/hpboost/boost  agent list --help
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help> List all the agents accessible to the user
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help> Usage:
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>   boost agent list [flags]
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help> Aliases:
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>   list, ls
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help> Flags:
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>       --fields string      Comma-separated fields to be used as table headers for human readable display.
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>                            Fields are of the form Field.Name[:Display String]
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>                             (default "state:State,hostname:Host,pool.name:Pool,id:ID,#numgpus,#protocol")
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>   -h, --help               help for list
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>       --json               Output information as JSON objects
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>       --sort-cols string   Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order. (default "1")
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help> 
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help> Global Flags:
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>   -l, --log-file string    
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>       --no-banner          
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help>   -q, --quiet
+
+2026-05-25 23:10:03 - COMMAND: </opt/hpboost/boost  agent list --help> List all the agents accessible to the user
+
+Usage:
+  boost agent list [flags]
+
+Aliases:
+  list, ls
+
+Flags:
+      --fields string      Comma-separated fields to be used as table headers for human readable display.
+                           Fields are of the form Field.Name[:Display String]
+                            (default "state:State,hostname:Host,pool.name:Pool,id:ID,#numgpus,#protocol")
+  -h, --help               help for list
+      --json               Output information as JSON objects
+      --sort-cols string   Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order. (default "1")
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:04 - INFO: COMMAND: /opt/hpboost/boost  agent run --help
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help> Run the agent in the foreground, sharing your GPU to a specified pool.
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help> Usage:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>   boost agent run [<pool-id>] [flags]
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help> Flags:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --cache-size uint                Cache size in gigabytes, 1-128 (default 16)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --disable-gpu-metrics            
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --enable-nvenc-encoder string    Enable NVENC video encoder (default "true")
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --enable-vulkan-encoder string   Enable Vulkan video encoder (default "true")
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --exit-on-stdin                  If set, the agent will exit when it receives any input on stdin
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --gateway-ips string             Comma separated string of IPs the agent should report (usable in docker containers)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --gateway-port int               The port to use for the agent gateway (default 7865)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --gpu-ids string                 Comma separated list of GPU ids to share via the agent. If unspecified, the agent shares all GPUs on the machine. Use 'nvidia-smi -L' to get a list of GPUs and their UUIDs.
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --gpu-metrics-interval-ms uint    (default 1000)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>   -h, --help                           help for run
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --labels string                  Comma separated list of key=value pairs
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --listen-ip string               IPv4 address to bind to when listening for connections. Empty string binds to all interfaces.
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --metrics-address string         The address the agent will expose prometheus metrics
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --relay-server string            Designation for the relay servers in the format host:[port1,port2]
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --stun-server string             STUN server address and port
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --taints string                  Comma separated list of key=value pairs
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --wait-for-debugger              Wait for a debugger to attach before proceeding
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --workstation-alias string       Workstation alias
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help> Global Flags:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>   -l, --log-file string    
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>       --no-banner          
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help>   -q, --quiet
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent run --help> Run the agent in the foreground, sharing your GPU to a specified pool.
+
+Usage:
+  boost agent run [<pool-id>] [flags]
+
+Flags:
+      --cache-size uint                Cache size in gigabytes, 1-128 (default 16)
+      --disable-gpu-metrics            
+      --enable-nvenc-encoder string    Enable NVENC video encoder (default "true")
+      --enable-vulkan-encoder string   Enable Vulkan video encoder (default "true")
+      --exit-on-stdin                  If set, the agent will exit when it receives any input on stdin
+      --gateway-ips string             Comma separated string of IPs the agent should report (usable in docker containers)
+      --gateway-port int               The port to use for the agent gateway (default 7865)
+      --gpu-ids string                 Comma separated list of GPU ids to share via the agent. If unspecified, the agent shares all GPUs on the machine. Use 'nvidia-smi -L' to get a list of GPUs and their UUIDs.
+      --gpu-metrics-interval-ms uint    (default 1000)
+  -h, --help                           help for run
+      --labels string                  Comma separated list of key=value pairs
+      --listen-ip string               IPv4 address to bind to when listening for connections. Empty string binds to all interfaces.
+      --metrics-address string         The address the agent will expose prometheus metrics
+      --relay-server string            Designation for the relay servers in the format host:[port1,port2]
+      --stun-server string             STUN server address and port
+      --taints string                  Comma separated list of key=value pairs
+      --wait-for-debugger              Wait for a debugger to attach before proceeding
+      --workstation-alias string       Workstation alias
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:04 - INFO: COMMAND: /opt/hpboost/boost  agent service --help
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> These commands manage the agent service on Windows or Linux (via systemd). Start by installing the service with `agent service install <pool-id>`.
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> Usage:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   boost agent service [command]
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> Available Commands:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   disable     Disables the agent service (not available in WSL)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   enable      Enable the agent service (not available in WSL)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   install     Install the GPU Sharing agent as a service (not available in WSL)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   restart     Restarts the agent service (not available in WSL)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   start       Start the agent service manually (not available in WSL)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   status      Returns the status of the agent service (not available in WSL)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   stop        Stops the agent service (not available in WSL)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   token       
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   uninstall   Uninstall the agent service (not available in WSL)
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> Flags:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   -h, --help   help for service
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> Global Flags:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   -l, --log-file string    
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>       --no-banner          
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help>   -q, --quiet
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> Use "boost agent service [command] --help" for more information about a command.
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service --help> These commands manage the agent service on Windows or Linux (via systemd). Start by installing the service with `agent service install <pool-id>`.
+
+Usage:
+  boost agent service [command]
+
+Available Commands:
+  disable     Disables the agent service (not available in WSL)
+  enable      Enable the agent service (not available in WSL)
+  install     Install the GPU Sharing agent as a service (not available in WSL)
+  restart     Restarts the agent service (not available in WSL)
+  start       Start the agent service manually (not available in WSL)
+  status      Returns the status of the agent service (not available in WSL)
+  stop        Stops the agent service (not available in WSL)
+  token       
+  uninstall   Uninstall the agent service (not available in WSL)
+
+Flags:
+  -h, --help   help for service
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+Use "boost agent service [command] --help" for more information about a command.
+
+2026-05-25 23:10:04 - INFO: COMMAND: /opt/hpboost/boost  agent service disable --help
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help> Disables the agent service from starting automatically on boot
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help> Usage:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help>   boost agent service disable [flags]
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help> Flags:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help>   -h, --help   help for disable
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help> Global Flags:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help>   -l, --log-file string    
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help>       --no-banner          
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help>   -q, --quiet
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service disable --help> Disables the agent service from starting automatically on boot
+
+Usage:
+  boost agent service disable [flags]
+
+Flags:
+  -h, --help   help for disable
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:04 - INFO: COMMAND: /opt/hpboost/boost  agent service enable --help
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help> Enable the agent service to start automatically on boot
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help> Usage:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help>   boost agent service enable [flags]
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help> Flags:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help>   -h, --help   help for enable
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help> 
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help> Global Flags:
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help>   -l, --log-file string    
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help>       --no-banner          
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help>   -q, --quiet
+
+2026-05-25 23:10:04 - COMMAND: </opt/hpboost/boost  agent service enable --help> Enable the agent service to start automatically on boot
+
+Usage:
+  boost agent service enable [flags]
+
+Flags:
+  -h, --help   help for enable
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:05 - INFO: COMMAND: /opt/hpboost/boost  agent service install --help
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help> Install the agent as a service on Windows or Linux. Uses the same parameters as the agent command.
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help> 
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help> Usage:
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>   boost agent service install [<pool-id>] [flags]
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help> 
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help> Flags:
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --cache-size uint                Cache size in gigabytes, 1-128 (default 16)
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --disable-gpu-metrics            
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --enable-nvenc-encoder string    Enable NVENC video encoder (default "true")
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --enable-vulkan-encoder string   Enable Vulkan video encoder (default "true")
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --exit-on-stdin                  If set, the agent will exit when it receives any input on stdin
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --gateway-ips string             Comma separated string of IPs the agent should report (usable in docker containers)
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --gateway-port int               The port to use for the agent gateway (default 7865)
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --gpu-ids string                 Comma separated list of GPU ids to share via the agent. If unspecified, the agent shares all GPUs on the machine. Use 'nvidia-smi -L' to get a list of GPUs and their UUIDs.
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --gpu-metrics-interval-ms uint    (default 1000)
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>   -h, --help                           help for install
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --labels string                  Comma separated list of key=value pairs
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --listen-ip string               IPv4 address to bind to when listening for connections. Empty string binds to all interfaces.
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --metrics-address string         The address the agent will expose prometheus metrics
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --relay-server string            Designation for the relay servers in the format host:[port1,port2]
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --stun-server string             STUN server address and port
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --taints string                  Comma separated list of key=value pairs
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --wait-for-debugger              Wait for a debugger to attach before proceeding
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --workstation-alias string       Workstation alias
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help> 
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help> Global Flags:
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>   -l, --log-file string    
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>       --no-banner          
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help>   -q, --quiet
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service install --help> Install the agent as a service on Windows or Linux. Uses the same parameters as the agent command.
+
+Usage:
+  boost agent service install [<pool-id>] [flags]
+
+Flags:
+      --cache-size uint                Cache size in gigabytes, 1-128 (default 16)
+      --disable-gpu-metrics            
+      --enable-nvenc-encoder string    Enable NVENC video encoder (default "true")
+      --enable-vulkan-encoder string   Enable Vulkan video encoder (default "true")
+      --exit-on-stdin                  If set, the agent will exit when it receives any input on stdin
+      --gateway-ips string             Comma separated string of IPs the agent should report (usable in docker containers)
+      --gateway-port int               The port to use for the agent gateway (default 7865)
+      --gpu-ids string                 Comma separated list of GPU ids to share via the agent. If unspecified, the agent shares all GPUs on the machine. Use 'nvidia-smi -L' to get a list of GPUs and their UUIDs.
+      --gpu-metrics-interval-ms uint    (default 1000)
+  -h, --help                           help for install
+      --labels string                  Comma separated list of key=value pairs
+      --listen-ip string               IPv4 address to bind to when listening for connections. Empty string binds to all interfaces.
+      --metrics-address string         The address the agent will expose prometheus metrics
+      --relay-server string            Designation for the relay servers in the format host:[port1,port2]
+      --stun-server string             STUN server address and port
+      --taints string                  Comma separated list of key=value pairs
+      --wait-for-debugger              Wait for a debugger to attach before proceeding
+      --workstation-alias string       Workstation alias
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:05 - INFO: COMMAND: /opt/hpboost/boost  agent service restart --help
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help> Restarts the agent service on Windows or Linux
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help> 
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help> Usage:
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help>   boost agent service restart [flags]
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help> 
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help> Flags:
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help>   -h, --help   help for restart
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help> 
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help> Global Flags:
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help>   -l, --log-file string    
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help>       --no-banner          
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help>   -q, --quiet
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service restart --help> Restarts the agent service on Windows or Linux
+
+Usage:
+  boost agent service restart [flags]
+
+Flags:
+  -h, --help   help for restart
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:05 - INFO: COMMAND: /opt/hpboost/boost  agent service start --help
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help> Start the installed agent service on Windows or Linux
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help> 
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help> Usage:
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help>   boost agent service start [flags]
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help> 
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help> Flags:
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help>   -h, --help   help for start
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help> 
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help> Global Flags:
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help>   -l, --log-file string    
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help>       --no-banner          
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help>   -q, --quiet
+
+2026-05-25 23:10:05 - COMMAND: </opt/hpboost/boost  agent service start --help> Start the installed agent service on Windows or Linux
+
+Usage:
+  boost agent service start [flags]
+
+Flags:
+  -h, --help   help for start
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:06 - INFO: COMMAND: /opt/hpboost/boost  agent service status --help
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help> Gets the current status of the agent service on Windows or Linux
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help> 
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help> Usage:
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help>   boost agent service status [flags]
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help> 
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help> Flags:
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help>   -h, --help   help for status
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help> 
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help> Global Flags:
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help>   -l, --log-file string    
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help>       --no-banner          
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help>   -q, --quiet
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service status --help> Gets the current status of the agent service on Windows or Linux
+
+Usage:
+  boost agent service status [flags]
+
+Flags:
+  -h, --help   help for status
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:06 - INFO: COMMAND: /opt/hpboost/boost  agent service stop --help
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help> Stops the installed running agent service on Windows or Linux
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help> 
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help> Usage:
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help>   boost agent service stop [flags]
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help> 
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help> Flags:
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help>   -h, --help   help for stop
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help> 
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help> Global Flags:
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help>   -l, --log-file string    
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help>       --no-banner          
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help>   -q, --quiet
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service stop --help> Stops the installed running agent service on Windows or Linux
+
+Usage:
+  boost agent service stop [flags]
+
+Flags:
+  -h, --help   help for stop
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:06 - INFO: COMMAND: /opt/hpboost/boost  agent service uninstall --help
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help> Uninstall the agent service on Windows or Linux.
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help> 
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help> Usage:
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help>   boost agent service uninstall [flags]
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help> 
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help> Flags:
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help>   -h, --help   help for uninstall
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help> 
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help> Global Flags:
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help>   -l, --log-file string    
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help>       --no-banner          
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help>   -q, --quiet
+
+2026-05-25 23:10:06 - COMMAND: </opt/hpboost/boost  agent service uninstall --help> Uninstall the agent service on Windows or Linux.
+
+Usage:
+  boost agent service uninstall [flags]
+
+Flags:
+  -h, --help   help for uninstall
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:06 - INFO: COMMAND: /opt/hpboost/boost  check --help
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help> Checks the installation for common issues
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help> Usage:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help>   boost check [options] [flags]
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help> Flags:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help>   -h, --help   help for check
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help>       --json   Format output as JSON
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help> Global Flags:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help>   -l, --log-file string    
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help>       --no-banner          
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help>   -q, --quiet
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  check --help> Checks the installation for common issues
+
+Usage:
+  boost check [options] [flags]
+
+Flags:
+  -h, --help   help for check
+      --json   Format output as JSON
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:07 - INFO: COMMAND: /opt/hpboost/boost  gpu --help
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> GPU querying commands
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> Usage:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help>   boost gpu [command]
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> Available Commands:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help>   list        List all the gpus accessible to the user
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> Flags:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help>   -h, --help   help for gpu
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> Global Flags:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help>   -l, --log-file string    
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help>       --no-banner          
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help>   -q, --quiet
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> Use "boost gpu [command] --help" for more information about a command.
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu --help> GPU querying commands
+
+Usage:
+  boost gpu [command]
+
+Available Commands:
+  list        List all the gpus accessible to the user
+
+Flags:
+  -h, --help   help for gpu
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+Use "boost gpu [command] --help" for more information about a command.
+
+2026-05-25 23:10:07 - INFO: COMMAND: /opt/hpboost/boost  gpu list --help
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help> List all the gpus accessible to the user
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help> Usage:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>   boost gpu list [flags]
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help> Aliases:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>   list, ls
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help> Flags:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>       --fields string       Comma-separated fields to be used as table headers for human readable display.
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>                             Fields are of the form Field.Name[:Display String]
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>                              (default "hostname:Host,name:Name,uuid:ID,#gpuPCIe,agentVersion:Version,#vram-h,#compatible")
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>       --full-version        Include full agent version in the output
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>   -h, --help                help for list
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>       --json                Output information as JSON objects
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>       --show-incompatible   Show incompatible GPUs in the output
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>       --sort-cols string    Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order. (default "-6,3,2,1,7")
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help> Global Flags:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>   -l, --log-file string    
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>       --no-banner          
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help>   -q, --quiet
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  gpu list --help> List all the gpus accessible to the user
+
+Usage:
+  boost gpu list [flags]
+
+Aliases:
+  list, ls
+
+Flags:
+      --fields string       Comma-separated fields to be used as table headers for human readable display.
+                            Fields are of the form Field.Name[:Display String]
+                             (default "hostname:Host,name:Name,uuid:ID,#gpuPCIe,agentVersion:Version,#vram-h,#compatible")
+      --full-version        Include full agent version in the output
+  -h, --help                help for list
+      --json                Output information as JSON objects
+      --show-incompatible   Show incompatible GPUs in the output
+      --sort-cols string    Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order. (default "-6,3,2,1,7")
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:07 - INFO: COMMAND: /opt/hpboost/boost  help --help
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help> Help provides help for any command in the application.
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help> Simply type boost help [path to command] for full details.
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help> Usage:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help>   boost help [command] [flags]
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help> Flags:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help>   -h, --help   help for help
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help> 
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help> Global Flags:
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help>   -l, --log-file string    
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help>       --no-banner          
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help>   -q, --quiet
+
+2026-05-25 23:10:07 - COMMAND: </opt/hpboost/boost  help --help> Help provides help for any command in the application.
+Simply type boost help [path to command] for full details.
+
+Usage:
+  boost help [command] [flags]
+
+Flags:
+  -h, --help   help for help
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:08 - INFO: COMMAND: /opt/hpboost/boost  login --help
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help> Log in to a controller
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help> 
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help> Usage:
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help>   boost login [<controller>] [flags]
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help> 
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help> Flags:
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help>   -h, --help                       help for login
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help>   -k, --insecure-skip-tls-verify   Skip verification of TLS certificates
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help>   -t, --token string               Token to use for authentication
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help> 
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help> Global Flags:
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help>   -l, --log-file string    
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help>       --no-banner          
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help>   -q, --quiet
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  login --help> Log in to a controller
+
+Usage:
+  boost login [<controller>] [flags]
+
+Flags:
+  -h, --help                       help for login
+  -k, --insecure-skip-tls-verify   Skip verification of TLS certificates
+  -t, --token string               Token to use for authentication
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:08 - INFO: COMMAND: /opt/hpboost/boost  logout --help
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help> Log the current user out of the controller
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help> 
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help> Usage:
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help>   boost logout [flags]
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help> 
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help> Flags:
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help>   -h, --help   help for logout
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help> 
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help> Global Flags:
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help>   -l, --log-file string    
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help>       --no-banner          
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help>   -q, --quiet
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  logout --help> Log the current user out of the controller
+
+Usage:
+  boost logout [flags]
+
+Flags:
+  -h, --help   help for logout
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:08 - INFO: COMMAND: /opt/hpboost/boost  pool --help
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> Pool management commands
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> 
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> Usage:
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help>   boost pool [command]
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> 
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> Available Commands:
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help>   list        List all the pools accessible to the user
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> 
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> Flags:
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help>   -h, --help   help for pool
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> 
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> Global Flags:
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help>   -l, --log-file string    
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help>       --no-banner          
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help>   -q, --quiet
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> 
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> Use "boost pool [command] --help" for more information about a command.
+
+2026-05-25 23:10:08 - COMMAND: </opt/hpboost/boost  pool --help> Pool management commands
+
+Usage:
+  boost pool [command]
+
+Available Commands:
+  list        List all the pools accessible to the user
+
+Flags:
+  -h, --help   help for pool
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+Use "boost pool [command] --help" for more information about a command.
+
+2026-05-25 23:10:08 - INFO: COMMAND: /opt/hpboost/boost  pool list --help
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help> List all the pools accessible to the user
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help> Usage:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>   boost pool list [flags]
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help> Aliases:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>   list, ls
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help> Flags:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>       --fields string            Comma-separated fields to be used as table headers for human readable display.
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>                                  Fields are of the form Field.Name[:Display String]
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>                                   (default "organization.name:Org-Name,name:Name,id:ID,#sessions,gpuCount:GPUs,#cansharegpu,#canusegpu")
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>   -h, --help                     help for list
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>       --json                     Output information as JSON objects
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>       --sort-cols string         Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order. (default "6,3,2,5,4,1")
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>       --with-permission string   Comma-separated list of permissions to filter pools list by. Pool must have ALL listed permissions to be displayed.
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>                                  Permissions can be fully qualified or abbreviated as follows:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>                                    register_agent .... A
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>                                    add_privilege ..... P
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>                                    remove_privilege .. p
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>                                    create_session .... S
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>                                    add_user .......... U
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>                                    remove_user ....... u
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help> Global Flags:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>   -l, --log-file string    
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>       --no-banner          
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help>   -q, --quiet
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  pool list --help> List all the pools accessible to the user
+
+Usage:
+  boost pool list [flags]
+
+Aliases:
+  list, ls
+
+Flags:
+      --fields string            Comma-separated fields to be used as table headers for human readable display.
+                                 Fields are of the form Field.Name[:Display String]
+                                  (default "organization.name:Org-Name,name:Name,id:ID,#sessions,gpuCount:GPUs,#cansharegpu,#canusegpu")
+  -h, --help                     help for list
+      --json                     Output information as JSON objects
+      --sort-cols string         Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order. (default "6,3,2,5,4,1")
+      --with-permission string   Comma-separated list of permissions to filter pools list by. Pool must have ALL listed permissions to be displayed.
+                                 Permissions can be fully qualified or abbreviated as follows:
+                                   register_agent .... A
+                                   add_privilege ..... P
+                                   remove_privilege .. p
+                                   create_session .... S
+                                   add_user .......... U
+                                   remove_user ....... u
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:09 - INFO: COMMAND: /opt/hpboost/boost  release --help
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> View and download releases
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> Usage:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help>   boost release [command]
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> Available Commands:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help>   download    download release
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help>   list        list releases
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> Flags:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help>   -h, --help   help for release
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> Global Flags:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help>   -l, --log-file string    
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help>       --no-banner          
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help>   -q, --quiet
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> Use "boost release [command] --help" for more information about a command.
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release --help> View and download releases
+
+Usage:
+  boost release [command]
+
+Available Commands:
+  download    download release
+  list        list releases
+
+Flags:
+  -h, --help   help for release
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+Use "boost release [command] --help" for more information about a command.
+
+2026-05-25 23:10:09 - INFO: COMMAND: /opt/hpboost/boost  release download --help
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help> download release
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help> Usage:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help>   boost release download <version> [flags]
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help> Aliases:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help>   download, dl
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help> Flags:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help>       --arch string   CPU architecture (amd64, arm64). Defaults to current system architecture.
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help>   -h, --help          help for download
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help>       --os string     Operating system (linux, windows). Defaults to current system operating system.
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help>       --zip           Download the release as a zip file.
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help> Global Flags:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help>   -l, --log-file string    
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help>       --no-banner          
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help>   -q, --quiet
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release download --help> download release
+
+Usage:
+  boost release download <version> [flags]
+
+Aliases:
+  download, dl
+
+Flags:
+      --arch string   CPU architecture (amd64, arm64). Defaults to current system architecture.
+  -h, --help          help for download
+      --os string     Operating system (linux, windows). Defaults to current system operating system.
+      --zip           Download the release as a zip file.
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:09 - INFO: COMMAND: /opt/hpboost/boost  release list --help
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help> list releases
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help> Usage:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>   boost release list [flags]
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help> Aliases:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>   list, ls
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help> Flags:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>       --fields string      Comma-separated fields to be used as table headers for human readable display.
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>                            Fields are of the form Field.Name[:Display String]
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>                             (default "version:Version,notes:Notes")
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>   -h, --help               help for list
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>       --json               Output information as JSON objects
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>       --sort-cols string   Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order.
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help> 
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help> Global Flags:
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>   -l, --log-file string    
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>       --no-banner          
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help>   -q, --quiet
+
+2026-05-25 23:10:09 - COMMAND: </opt/hpboost/boost  release list --help> list releases
+
+Usage:
+  boost release list [flags]
+
+Aliases:
+  list, ls
+
+Flags:
+      --fields string      Comma-separated fields to be used as table headers for human readable display.
+                           Fields are of the form Field.Name[:Display String]
+                            (default "version:Version,notes:Notes")
+  -h, --help               help for list
+      --json               Output information as JSON objects
+      --sort-cols string   Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order.
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:10 - INFO: COMMAND: /opt/hpboost/boost  run --help
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help> Starts an application using the GPU(s) available to the user
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help> Usage:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>   boost run [flags] <application> [<application args>]
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help> Flags:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --disable-cache                        Disables caching
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --disable-compression                  Disables compression
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --disable-readbacks                    Disables readbacks
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --disable-uvm-kernel-synchronization   Disable synchronizing UVM memory before/after kernel launches
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --dump-config                          Dumps the client configuration to the console in json format
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --enable-sentry                        Enable logging crashes and errors to Sentry
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --ephemeral                            Always requests a new session for the application
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --gpu-ids string                       Comma separated list GPUs ids to allocate
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>   -h, --help                                 help for run
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --log-file string                      Set client log file path
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --log-level string                     Set client log level
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --log-level-session-service string     Log level for the session service (default "info")
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --match-labels string                  Comma separated list of key=value pairs
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --no-version-check                     Disables version checking when allocating the session requirements
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --num-gpus int                         Number of GPUs required (default 1)
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --on-connection-error string           When a connection error happens, [fail, continue] (default "fail")
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --on-queue-timeout string              When a queue timeout happens, [fail, continue] (default "fail")
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --pool-ids string                      Comma separated list of pool ids from which to allocate the session resources, when empty any available pool you have access to is used
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --relaxed-api                          Enables a relaxed API conformance mode
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --scheduler string                     The scheduler to use when matching requests to gpus (balanced,priority) (default "balanced")
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --session string                       
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --session-timeout int                  Time for the session to be automatically returned to the pool if it's not in use (default -1)
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --tolerates string                     Comma separated list of key=value pairs
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --wait-for int                         Maximum number of seconds to wait for a GPU
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --watch-pid int                        Watch the specified process and stop the session when it exits (default -1)
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help> Global Flags:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>       --no-banner   
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help>   -q, --quiet
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  run --help> Starts an application using the GPU(s) available to the user
+
+Usage:
+  boost run [flags] <application> [<application args>]
+
+Flags:
+      --disable-cache                        Disables caching
+      --disable-compression                  Disables compression
+      --disable-readbacks                    Disables readbacks
+      --disable-uvm-kernel-synchronization   Disable synchronizing UVM memory before/after kernel launches
+      --dump-config                          Dumps the client configuration to the console in json format
+      --enable-sentry                        Enable logging crashes and errors to Sentry
+      --ephemeral                            Always requests a new session for the application
+      --gpu-ids string                       Comma separated list GPUs ids to allocate
+  -h, --help                                 help for run
+      --log-file string                      Set client log file path
+      --log-level string                     Set client log level
+      --log-level-session-service string     Log level for the session service (default "info")
+      --match-labels string                  Comma separated list of key=value pairs
+      --no-version-check                     Disables version checking when allocating the session requirements
+      --num-gpus int                         Number of GPUs required (default 1)
+      --on-connection-error string           When a connection error happens, [fail, continue] (default "fail")
+      --on-queue-timeout string              When a queue timeout happens, [fail, continue] (default "fail")
+      --pool-ids string                      Comma separated list of pool ids from which to allocate the session resources, when empty any available pool you have access to is used
+      --relaxed-api                          Enables a relaxed API conformance mode
+      --scheduler string                     The scheduler to use when matching requests to gpus (balanced,priority) (default "balanced")
+      --session string                       
+      --session-timeout int                  Time for the session to be automatically returned to the pool if it's not in use (default -1)
+      --tolerates string                     Comma separated list of key=value pairs
+      --wait-for int                         Maximum number of seconds to wait for a GPU
+      --watch-pid int                        Watch the specified process and stop the session when it exits (default -1)
+
+Global Flags:
+      --no-banner   
+  -q, --quiet
+
+2026-05-25 23:10:10 - INFO: COMMAND: /opt/hpboost/boost  session --help
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> Session management commands
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> Usage:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help>   boost session [command]
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> Available Commands:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help>   list        List all the users sessions
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help>   release     Releases the active session
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help>   request     Requests a new session
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> Flags:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help>   -h, --help   help for session
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> Global Flags:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help>   -l, --log-file string    
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help>       --no-banner          
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help>   -q, --quiet
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> Use "boost session [command] --help" for more information about a command.
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session --help> Session management commands
+
+Usage:
+  boost session [command]
+
+Available Commands:
+  list        List all the users sessions
+  release     Releases the active session
+  request     Requests a new session
+
+Flags:
+  -h, --help   help for session
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+Use "boost session [command] --help" for more information about a command.
+
+2026-05-25 23:10:10 - INFO: COMMAND: /opt/hpboost/boost  session list --help
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help> List all the users sessions
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help> Usage:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>   boost session list [flags]
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help> Aliases:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>   list, ls
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help> Flags:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>       --all                List all sessions
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>       --allow-ephemeral    Include ephemeral sessions
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>       --fields string      Comma-separated fields to be used as table headers for human readable display.
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>                            Fields are of the form Field.Name[:Display String]
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>                             (default "state:State,id:ID,#gpusUtilization,#gpusUsedVram,#gpusTotalVram,#latencyMs,#uploadMbps,#downloadMbps,protocol:Protocol")
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>   -h, --help               help for list
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>       --json               Output information as JSON objects
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>       --sort-cols string   Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order. (default "1")
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help> Global Flags:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>   -l, --log-file string    
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>       --no-banner          
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help>   -q, --quiet
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session list --help> List all the users sessions
+
+Usage:
+  boost session list [flags]
+
+Aliases:
+  list, ls
+
+Flags:
+      --all                List all sessions
+      --allow-ephemeral    Include ephemeral sessions
+      --fields string      Comma-separated fields to be used as table headers for human readable display.
+                           Fields are of the form Field.Name[:Display String]
+                            (default "state:State,id:ID,#gpusUtilization,#gpusUsedVram,#gpusTotalVram,#latencyMs,#uploadMbps,#downloadMbps,protocol:Protocol")
+  -h, --help               help for list
+      --json               Output information as JSON objects
+      --sort-cols string   Comma-separated list of (1-indexed) columns to sort by. Negative integers specify descending order. (default "1")
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:10 - INFO: COMMAND: /opt/hpboost/boost  session release --help
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help> Releases the active session
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help> Usage:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help>   boost session release [flags]
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help> Flags:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help>       --force   Force removal of local session, even if we can't contact the controller
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help>   -h, --help    help for release
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help> 
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help> Global Flags:
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help>   -l, --log-file string    
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help>       --log-level string    (default "info")
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help>       --no-banner          
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help>   -q, --quiet
+
+2026-05-25 23:10:10 - COMMAND: </opt/hpboost/boost  session release --help> Releases the active session
+
+Usage:
+  boost session release [flags]
+
+Flags:
+      --force   Force removal of local session, even if we can't contact the controller
+  -h, --help    help for release
+
+Global Flags:
+  -l, --log-file string    
+      --log-level string    (default "info")
+      --no-banner          
+  -q, --quiet
+
+2026-05-25 23:10:11 - INFO: COMMAND: /opt/hpboost/boost  session request --help
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help> Requests a new session
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help> 
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help> Usage:
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>   boost session request [flags]
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help> 
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help> Flags:
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --disable-cache                        Disables caching
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --disable-compression                  Disables compression
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --disable-readbacks                    Disables readbacks
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --disable-uvm-kernel-synchronization   Disable synchronizing UVM memory before/after kernel launches
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --dry-run                              Try request a session returning success or failure, but don't actually allocate any resources
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --dump-config                          Dumps the client configuration to the console in json format
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --enable-sentry                        Enable logging crashes and errors to Sentry
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --gpu-ids string                       Comma separated list GPUs ids to allocate
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>   -h, --help                                 help for request
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --log-file string                      Set client log file path
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --log-level string                     Set client log level
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --log-level-session-service string     Log level for the session service (default "info")
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --match-labels string                  Comma separated list of key=value pairs
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --no-version-check                     Disables version checking when allocating the session requirements
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --num-gpus int                         Number of GPUs required (default 1)
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --pool-ids string                      Comma separated list of pool ids from which to allocate the session resources, when empty any available pool you have access to is used
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --relaxed-api                          Enables a relaxed API conformance mode
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --scheduler string                     The scheduler to use when matching requests to gpus (balanced,priority) (default "balanced")
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --session-timeout int                  Time for the session to be automatically returned to the pool if it's not in use (default -1)
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --tolerates string                     Comma separated list of key=value pairs
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --wait-for int                         Maximum number of seconds to wait for a GPU
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --watch-pid int                        Watch the specified process and stop the session when it exits (default -1)
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help> 
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help> Global Flags:
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>       --no-banner   
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help>   -q, --quiet
+
+2026-05-25 23:10:11 - COMMAND: </opt/hpboost/boost  session request --help> Requests a new session
+
+Usage:
+  boost session request [flags]
+
+Flags:
+      --disable-cache                        Disables caching
+      --disable-compression                  Disables compression
+      --disable-readbacks                    Disables readbacks
+      --disable-uvm-kernel-synchronization   Disable synchronizing UVM memory before/after kernel launches
+      --dry-run                              Try request a session returning success or failure, but don't actually allocate any resources
+      --dump-config                          Dumps the client configuration to the console in json format
+      --enable-sentry                        Enable logging crashes and errors to Sentry
+      --gpu-ids string                       Comma separated list GPUs ids to allocate
+  -h, --help                                 help for request
+      --log-file string                      Set client log file path
+      --log-level string                     Set client log level
+      --log-level-session-service string     Log level for the session service (default "info")
+      --match-labels string                  Comma separated list of key=value pairs
+      --no-version-check                     Disables version checking when allocating the session requirements
+      --num-gpus int                         Number of GPUs required (default 1)
+      --pool-ids string                      Comma separated list of pool ids from which to allocate the session resources, when empty any available pool you have access to is used
+      --relaxed-api                          Enables a relaxed API conformance mode
+      --scheduler string                     The scheduler to use when matching requests to gpus (balanced,priority) (default "balanced")
+      --session-timeout int                  Time for the session to be automatically returned to the pool if it's not in use (default -1)
+      --tolerates string                     Comma separated list of key=value pairs
+      --wait-for int                         Maximum number of seconds to wait for a GPU
+      --watch-pid int                        Watch the specified process and stop the session when it exits (default -1)
+
+Global Flags:
+      --no-banner   
+  -q, --quiet
+
+2026-05-25 23:10:11 - INFO: COMMAND: echo $HOME
+2026-05-25 23:10:11 - COMMAND: <echo $HOME> /home/dev
+
+2026-05-25 23:10:11 - INFO: Collecting Boost service logs from 15.8.77.106:/home/dev/.config/HP/Boost/logs/
+2026-05-25 23:10:12 - INFO: No Boost service log files found on remote host.
+2026-05-25 23:10:12 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 23:10:12 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 23:10:12 - INFO: Boost service logs cleaned successfully.
