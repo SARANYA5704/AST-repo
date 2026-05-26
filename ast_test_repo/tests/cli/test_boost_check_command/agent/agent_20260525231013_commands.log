@@ -1,0 +1,15 @@
+2026-05-25 23:10:20 - INFO: Transferring logs using SCP...
+2026-05-25 23:10:20 - INFO: Remote path: /tmp/test_boost_check_command.log
+2026-05-25 23:10:20 - INFO: Local log path: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_check_command/agent/agent.log
+2026-05-25 23:10:21 - INFO: COMMAND: if [ -f "/tmp/test_boost_check_command.log" ]; then echo exists; else echo not exists; fi
+2026-05-25 23:10:21 - COMMAND: <if [ -f "/tmp/test_boost_check_command.log" ]; then echo exists; else echo not exists; fi> not exists
+
+2026-05-25 23:10:21 - WARNING: Remote file /tmp/test_boost_check_command.log does not exist. Skipping transfer.
+2026-05-25 23:10:21 - INFO: COMMAND: echo $HOME
+2026-05-25 23:10:21 - COMMAND: <echo $HOME> /home/dev
+
+2026-05-25 23:10:21 - INFO: Collecting Boost service logs from 15.8.77.106:/home/dev/.config/HP/Boost/logs/
+2026-05-25 23:10:21 - INFO: No Boost service log files found on remote host.
+2026-05-25 23:10:22 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 23:10:22 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 23:10:22 - INFO: Boost service logs cleaned successfully.
