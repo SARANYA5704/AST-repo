@@ -1,0 +1,15 @@
+2026-05-25T22:51:17.794Z main.cpp:44 25cc:25cc I] Logging initialized: `/home/dev/.config/HP/Boost/logs/accounting-3b9988e4-e740-4003-a1df-e99658f8fbaa.log`
+2026-05-25T22:51:17.794Z accounting_server.cpp:74 25cc:25cc D] Checking session 3b9988e4-e740-4003-a1df-e99658f8fbaa
+2026-05-25T22:51:17.795Z juice_curl.cpp:249 25cc:25cc I] CURL using TLS CA bundle at /etc/ssl/certs/ca-certificates.crt
+2026-05-25T22:51:17.795Z juice_curl.cpp:397 25cc:25cc D] GET http://localhost:39251/v1/session/3b9988e4-e740-4003-a1df-e99658f8fbaa
+2026-05-25T22:51:17.795Z accounting_server.cpp:140 25cc:25cc D] Session 3b9988e4-e740-4003-a1df-e99658f8fbaa is active
+2026-05-25T22:51:17.795Z accounting_server.cpp:154 25cc:25cc D] Adding gpu 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 with vram 5368709120
+2026-05-25T22:51:17.795Z accounting_server.cpp:177 25cc:25cc I] Created VRAM shared memory 'juice-vram-3b9988e4-e740-4003-a1df-e99658f8fbaa' with 1 GPUs
+2026-05-25T22:51:17.796Z accounting_server.cpp:194 25cc:25cc I] Created external handle shared memory 'juice-exthandle-3b9988e4-e740-4003-a1df-e99658f8fbaa'
+2026-05-25T22:51:17.796Z accounting_server.cpp:419 25cc:25cc D] Starting accounting service
+2026-05-25T22:51:17.796Z accounting_server.cpp:426 25cc:25cc I] Accounting service started.
+2026-05-25T22:51:32.796Z accounting_server.cpp:74 25cc:25ce D] Checking session 3b9988e4-e740-4003-a1df-e99658f8fbaa
+2026-05-25T22:51:32.796Z juice_curl.cpp:249 25cc:25ce I] CURL using TLS CA bundle at /etc/ssl/certs/ca-certificates.crt
+2026-05-25T22:51:32.796Z juice_curl.cpp:397 25cc:25ce D] GET http://localhost:39251/v1/session/3b9988e4-e740-4003-a1df-e99658f8fbaa
+2026-05-25T22:51:32.797Z accounting_server.cpp:108 25cc:25ce E] Session 3b9988e4-e740-4003-a1df-e99658f8fbaa is not active, state: closed
+2026-05-25T22:51:32.797Z accounting_server.cpp:435 25cc:25cc I] Accounting service shutting down.
