@@ -1,0 +1,20 @@
+2026-05-25T23:24:12.585Z main.cpp:44 5245:5245 I] Logging initialized: `/home/dev/.config/HP/Boost/logs/accounting-39f9899a-894c-42d0-9928-d49a4361d6dd.log`
+2026-05-25T23:24:12.585Z accounting_server.cpp:74 5245:5245 D] Checking session 39f9899a-894c-42d0-9928-d49a4361d6dd
+2026-05-25T23:24:12.585Z juice_curl.cpp:249 5245:5245 I] CURL using TLS CA bundle at /etc/ssl/certs/ca-certificates.crt
+2026-05-25T23:24:12.585Z juice_curl.cpp:397 5245:5245 D] GET http://localhost:35763/v1/session/39f9899a-894c-42d0-9928-d49a4361d6dd
+2026-05-25T23:24:12.586Z accounting_server.cpp:140 5245:5245 D] Session 39f9899a-894c-42d0-9928-d49a4361d6dd is active
+2026-05-25T23:24:12.586Z accounting_server.cpp:154 5245:5245 D] Adding gpu 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 with vram 5368709120
+2026-05-25T23:24:12.586Z accounting_server.cpp:177 5245:5245 I] Created VRAM shared memory 'juice-vram-39f9899a-894c-42d0-9928-d49a4361d6dd' with 1 GPUs
+2026-05-25T23:24:12.586Z accounting_server.cpp:194 5245:5245 I] Created external handle shared memory 'juice-exthandle-39f9899a-894c-42d0-9928-d49a4361d6dd'
+2026-05-25T23:24:12.586Z accounting_server.cpp:419 5245:5245 D] Starting accounting service
+2026-05-25T23:24:12.586Z accounting_server.cpp:426 5245:5245 I] Accounting service started.
+2026-05-25T23:24:25.992Z vram_accounting.cpp:11 5245:5248 I] Client connected to gpuId 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8, connected clients 1 allocated vram 0
+2026-05-25T23:24:25.992Z accounting_server.cpp:217 5245:5248 D] Client  resolve-21113 connected from 21113:0 with 1 connections
+2026-05-25T23:24:27.586Z accounting_server.cpp:74 5245:5247 D] Checking session 39f9899a-894c-42d0-9928-d49a4361d6dd
+2026-05-25T23:24:27.586Z juice_curl.cpp:249 5245:5247 I] CURL using TLS CA bundle at /etc/ssl/certs/ca-certificates.crt
+2026-05-25T23:24:27.586Z juice_curl.cpp:397 5245:5247 D] GET http://localhost:35763/v1/session/39f9899a-894c-42d0-9928-d49a4361d6dd
+2026-05-25T23:24:28.957Z accounting_server.cpp:254 5245:5248 D] Client resolve-21113 disconnected from 21113:0 with 0 connections remaining
+2026-05-25T23:24:28.957Z vram_accounting.cpp:18 5245:5248 I] Client disconnected from gpuId 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8, remaining connected clients 0 allocated vram 0 client used vram 0
+2026-05-25T23:24:28.957Z juice_curl.cpp:249 5245:5248 I] CURL using TLS CA bundle at /etc/ssl/certs/ca-certificates.crt
+2026-05-25T23:24:28.957Z juice_curl.cpp:435 5245:5248 D] POST http://localhost:35763/v1/client/39f9899a-894c-42d0-9928-d49a4361d6dd/disconnect with body 
+2026-05-25T23:24:28.957Z juice_curl.cpp:435 5245:5248 D] {"connection_id":"resolve-21113","message":"e30K","message_type":"DONE","session":"39f9899a-894c-42d0-9928-d49a4361d6dd"}
