@@ -1,0 +1,324 @@
+2026-05-25 23:20:15 - INFO: ++++++++ Fixture to start agent starting +++++++++++++
+2026-05-25 23:20:15 - INFO: Get pool id
+2026-05-25 23:20:15 - INFO: COMMAND: /opt/hpboost/boost pool list --json
+2026-05-25 23:20:15 - COMMAND: </opt/hpboost/boost pool list --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:20:15 - COMMAND: </opt/hpboost/boost pool list --json> 
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"2bcdcef8-1e1e-4da2-9301-9ccda99ce96c","name":"Personal Pool [boost.user@proton.me]","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":1,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["add_user","create_session","register_agent","remove_privilege","remove_user","add_privilege"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"9758e9d0-1c78-4ad4-8b39-0a000bdb67b6","name":"edge","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":1,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["add_user","create_session","register_agent","remove_privilege","remove_user","add_privilege"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"00ec7c07-d299-4dba-9b8a-bdce99d791ff","name":"enscape","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"0dfde60f-3c7b-4361-bad1-a1f8e7d16c46","name":"unreal","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"8b98323d-680d-4a19-9553-0bbf1f140d40","name":"functional.wsl","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"93b65481-61ea-47be-a632-3f4eb4296f13","name":"workflow.wsl2win","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"afed8b78-8395-4657-85bc-6619b4938cdc","name":"functionality.wsl","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":1,"gpuCount":1,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"e08de27a-cdd2-464b-a570-b952c081e3dd","name":"healthcheck","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"9ea363c4-b08e-427f-bc87-79c7da151770","name":"boost.api","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"1e9c3a09-087d-4a27-a865-7895cd0b6c75","name":"nx","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":1,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["add_user","create_session","register_agent","remove_privilege","remove_user","add_privilege"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"45d04a2b-6cc3-43fe-a63f-0e810c0e34b7","name":"Personal Pool [marden.rocha@hp.com]","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":1,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["add_user","create_session","register_agent","remove_privilege","remove_user","add_privilege"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"13189a4e-af37-4355-87fe-76bf1f3f8408","name":"workflow.lin2win","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"167c082f-69ea-48d5-8d42-fcd44b2f2093","name":"functionality.win","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"5ffdefa7-dfba-4f7c-b7fb-c65123b6e00b","name":"3dapps","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"62faeeb3-b01f-4eb9-86f0-d9b847a53aec","name":"workflow.wsl2lin","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"7a330bff-0589-4109-835a-6c4213bb9bb2","name":"functional.lin","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"dc75e777-5be8-4c87-a031-b59b8f392ac5","name":"workflow.win2win","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"237108a9-6709-4c54-a41f-99987fe9bedd","name":"functional.win","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"582acd95-ab3d-4f03-99d9-ebdac1fcbe11","name":"workflow.lin2lin","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"822492e8-f660-42b8-89b4-b3f9da855490","name":"workflow.win2lin","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":1,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> {"id":"cef55f5e-f886-4da8-97db-123bc5c1fc17","name":"functionality.lin","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - COMMAND: </opt/hpboost/boost pool list --json> HP Z Boost, v33.0.0-4
+
+{"id":"2bcdcef8-1e1e-4da2-9301-9ccda99ce96c","name":"Personal Pool [boost.user@proton.me]","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":1,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["add_user","create_session","register_agent","remove_privilege","remove_user","add_privilege"]}
+{"id":"9758e9d0-1c78-4ad4-8b39-0a000bdb67b6","name":"edge","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":1,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["add_user","create_session","register_agent","remove_privilege","remove_user","add_privilege"]}
+{"id":"00ec7c07-d299-4dba-9b8a-bdce99d791ff","name":"enscape","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"0dfde60f-3c7b-4361-bad1-a1f8e7d16c46","name":"unreal","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"8b98323d-680d-4a19-9553-0bbf1f140d40","name":"functional.wsl","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"93b65481-61ea-47be-a632-3f4eb4296f13","name":"workflow.wsl2win","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"afed8b78-8395-4657-85bc-6619b4938cdc","name":"functionality.wsl","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":1,"gpuCount":1,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"e08de27a-cdd2-464b-a570-b952c081e3dd","name":"healthcheck","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"9ea363c4-b08e-427f-bc87-79c7da151770","name":"boost.api","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"1e9c3a09-087d-4a27-a865-7895cd0b6c75","name":"nx","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":1,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["add_user","create_session","register_agent","remove_privilege","remove_user","add_privilege"]}
+{"id":"45d04a2b-6cc3-43fe-a63f-0e810c0e34b7","name":"Personal Pool [marden.rocha@hp.com]","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":1,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["add_user","create_session","register_agent","remove_privilege","remove_user","add_privilege"]}
+{"id":"13189a4e-af37-4355-87fe-76bf1f3f8408","name":"workflow.lin2win","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"167c082f-69ea-48d5-8d42-fcd44b2f2093","name":"functionality.win","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"5ffdefa7-dfba-4f7c-b7fb-c65123b6e00b","name":"3dapps","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"62faeeb3-b01f-4eb9-86f0-d9b847a53aec","name":"workflow.wsl2lin","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"7a330bff-0589-4109-835a-6c4213bb9bb2","name":"functional.lin","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"dc75e777-5be8-4c87-a031-b59b8f392ac5","name":"workflow.win2win","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"237108a9-6709-4c54-a41f-99987fe9bedd","name":"functional.win","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"582acd95-ab3d-4f03-99d9-ebdac1fcbe11","name":"workflow.lin2lin","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"822492e8-f660-42b8-89b4-b3f9da855490","name":"workflow.win2lin","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":1,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+{"id":"cef55f5e-f886-4da8-97db-123bc5c1fc17","name":"functionality.lin","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":2,"organization":{"id":"11a01a7e-ad37-45a6-ba21-17fabe57ec71","name":"Boost QA Automation","auth0Id":"","entitlement":null,"maxVersion":""},"Permissions":["create_session","register_agent"]}
+
+2026-05-25 23:20:18 - INFO: Chosen pool: {'id': 'cef55f5e-f886-4da8-97db-123bc5c1fc17', 'name': 'functionality.lin', 'sessionActiveCount': 0, 'sessionQeueudCount': 0, 'sessionTotalCount': 0, 'agentCount': 0, 'gpuCount': 0, 'userCount': 2, 'organization': {'id': '11a01a7e-ad37-45a6-ba21-17fabe57ec71', 'name': 'Boost QA Automation', 'auth0Id': '', 'entitlement': None, 'maxVersion': ''}, 'Permissions': ['create_session', 'register_agent']}
+2026-05-25 23:20:18 - INFO: Starting agent for pool id: cef55f5e-f886-4da8-97db-123bc5c1fc17
+2026-05-25 23:20:26 - INFO: ++++++++ Fixture to start agent done +++++++++++++
+2026-05-25 23:20:26 - INFO: Creating directory: /tmp/execução_rede
+2026-05-25 23:20:27 - INFO: COMMAND: mkdir -p "/tmp/execução_rede"
+2026-05-25 23:20:27 - INFO: COMMAND: if [ -d "/tmp/execução_rede" ]; then echo exists ;  else echo not exists ; fi
+2026-05-25 23:20:27 - COMMAND: <if [ -d "/tmp/execução_rede" ]; then echo exists ;  else echo not exists ; fi> exists
+
+2026-05-25 23:20:27 - INFO: Copying /opt/hpboost/tools/network_test to /tmp/execução_rede
+2026-05-25 23:20:27 - INFO: COMMAND: cp "/opt/hpboost/tools/network_test" "/tmp/execução_rede/"
+2026-05-25 23:20:27 - INFO: Copy output: 
+2026-05-25 23:20:27 - INFO: Copying /opt/hpboost/tools/network_test as /tmp/aplicação_rede
+2026-05-25 23:20:27 - INFO: COMMAND: cp "/opt/hpboost/tools/network_test" "/tmp/aplicação_rede"
+2026-05-25 23:20:27 - INFO: Copy output: 
+2026-05-25 23:20:28 - INFO: COMMAND: if [ -f "/tmp/execução_rede/network_test" ]; then echo exists; else echo not exists; fi
+2026-05-25 23:20:28 - COMMAND: <if [ -f "/tmp/execução_rede/network_test" ]; then echo exists; else echo not exists; fi> exists
+
+2026-05-25 23:20:28 - INFO: COMMAND: if [ -f "/tmp/aplicação_rede" ]; then echo exists; else echo not exists; fi
+2026-05-25 23:20:28 - COMMAND: <if [ -f "/tmp/aplicação_rede" ]; then echo exists; else echo not exists; fi> exists
+
+2026-05-25 23:20:30 - INFO: [execução_rede directory] Running boost run
+2026-05-25 23:20:30 - INFO: COMMAND: /opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json> [
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>     {
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>         "device": {
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "id": 0,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "name": "HP Z Boost [Quadro P2000]",
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "uuid": "GPU-8393e7ea-9847-44cd-d45e-d9bf0ff68eb8"
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>         },
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>         "download": {
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "max": 3034.275184797314,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "mean": 2865.010721550453,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "min": 2526.286054205658,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "stdDev": 188.3740980592695
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>         },
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>         "iterations": 5,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>         "latency": {
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "max": 0.45631900429725647,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "mean": 0.28514100313186647,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "min": 0.1804489940404892,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "stdDev": 0.09276838141271206
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>         },
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>         "size": 32.0,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>         "upload": {
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "max": 2915.921915755326,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "mean": 2550.234558299587,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "min": 2277.615907022011,
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>             "stdDev": 212.0266512998724
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>         }
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json>     }
+
+2026-05-25 23:20:41 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json> ]
+
+2026-05-25 23:20:43 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json - STDERR> 2026/05/25 20:20:35 Waiting for /home/dev/.config/HP/Boost/logs/client-36e10a2e-6223-4235-a434-3d87bbf58c03.log to appear...
+
+2026-05-25 23:20:43 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/execução_rede/network_test" --json> [
+    {
+        "device": {
+            "id": 0,
+            "name": "HP Z Boost [Quadro P2000]",
+            "uuid": "GPU-8393e7ea-9847-44cd-d45e-d9bf0ff68eb8"
+        },
+        "download": {
+            "max": 3034.275184797314,
+            "mean": 2865.010721550453,
+            "min": 2526.286054205658,
+            "stdDev": 188.3740980592695
+        },
+        "iterations": 5,
+        "latency": {
+            "max": 0.45631900429725647,
+            "mean": 0.28514100313186647,
+            "min": 0.1804489940404892,
+            "stdDev": 0.09276838141271206
+        },
+        "size": 32.0,
+        "upload": {
+            "max": 2915.921915755326,
+            "mean": 2550.234558299587,
+            "min": 2277.615907022011,
+            "stdDev": 212.0266512998724
+        }
+    }
+]
+
+2026-05-25 23:20:43 - INFO: [execução_rede directory] PASSED
+2026-05-25 23:20:44 - INFO: COMMAND: /opt/hpboost/boost session release
+2026-05-25 23:20:44 - COMMAND: </opt/hpboost/boost session release> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:20:44 - COMMAND: </opt/hpboost/boost session release> 
+
+2026-05-25 23:20:44 - COMMAND: </opt/hpboost/boost session release> no session to release
+
+2026-05-25 23:20:44 - COMMAND: </opt/hpboost/boost session release> HP Z Boost, v33.0.0-4
+
+no session to release
+
+2026-05-25 23:20:44 - INFO: Waiting for GPU to be released...
+2026-05-25 23:20:45 - INFO: GPU available after 0s
+2026-05-25 23:20:45 - INFO: [aplicação_rede executable] Running boost run
+2026-05-25 23:20:45 - INFO: COMMAND: /opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json> [
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>     {
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>         "device": {
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "id": 0,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "name": "HP Z Boost [Quadro P2000]",
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "uuid": "GPU-8393e7ea-9847-44cd-d45e-d9bf0ff68eb8"
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>         },
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>         "download": {
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "max": 3036.7356661251947,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "mean": 2790.0460795003555,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "min": 2070.9116084414145,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "stdDev": 370.1594525555821
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>         },
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>         "iterations": 5,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>         "latency": {
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "max": 0.5085539817810059,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "mean": 0.39434939026832583,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "min": 0.2774229943752289,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "stdDev": 0.07665952983303063
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>         },
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>         "size": 32.0,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>         "upload": {
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "max": 2995.4406577136697,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "mean": 2624.625643727532,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "min": 2223.826140576027,
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>             "stdDev": 281.4527846944614
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>         }
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json>     }
+
+2026-05-25 23:20:56 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json> ]
+
+2026-05-25 23:20:58 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json - STDERR> 2026/05/25 20:20:50 Waiting for /home/dev/.config/HP/Boost/logs/client-1925b66a-9660-475d-a094-2e5dbaad01c0.log to appear...
+
+2026-05-25 23:20:58 - COMMAND: </opt/hpboost/boost run --gpu-ids 8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 --no-banner "/tmp/aplicação_rede" --json> [
+    {
+        "device": {
+            "id": 0,
+            "name": "HP Z Boost [Quadro P2000]",
+            "uuid": "GPU-8393e7ea-9847-44cd-d45e-d9bf0ff68eb8"
+        },
+        "download": {
+            "max": 3036.7356661251947,
+            "mean": 2790.0460795003555,
+            "min": 2070.9116084414145,
+            "stdDev": 370.1594525555821
+        },
+        "iterations": 5,
+        "latency": {
+            "max": 0.5085539817810059,
+            "mean": 0.39434939026832583,
+            "min": 0.2774229943752289,
+            "stdDev": 0.07665952983303063
+        },
+        "size": 32.0,
+        "upload": {
+            "max": 2995.4406577136697,
+            "mean": 2624.625643727532,
+            "min": 2223.826140576027,
+            "stdDev": 281.4527846944614
+        }
+    }
+]
+
+2026-05-25 23:20:58 - INFO: Validating GPU 1 results: {'device': {'id': 0, 'name': 'HP Z Boost [Quadro P2000]', 'uuid': 'GPU-8393e7ea-9847-44cd-d45e-d9bf0ff68eb8'}, 'download': {'max': 3036.7356661251947, 'mean': 2790.0460795003555, 'min': 2070.9116084414145, 'stdDev': 370.1594525555821}, 'iterations': 5, 'latency': {'max': 0.5085539817810059, 'mean': 0.39434939026832583, 'min': 0.2774229943752289, 'stdDev': 0.07665952983303063}, 'size': 32.0, 'upload': {'max': 2995.4406577136697, 'mean': 2624.625643727532, 'min': 2223.826140576027, 'stdDev': 281.4527846944614}}
+2026-05-25 23:20:58 - INFO: [aplicação_rede executable] PASSED
+2026-05-25 23:20:58 - INFO: Cleaning up directory: /tmp/execução_rede
+2026-05-25 23:20:59 - INFO: COMMAND: rm -rf "/tmp/execução_rede"
+2026-05-25 23:20:59 - INFO: Cleaning up renamed executable: /tmp/aplicação_rede
+2026-05-25 23:20:59 - INFO: COMMAND: rm -f "/tmp/aplicação_rede"
+2026-05-25 23:20:59 - INFO: ++++++++ Fixture to release_session_and_kill_agent starting +++++++++++++
+2026-05-25 23:20:59 - INFO: COMMAND: /opt/hpboost/boost session release
+2026-05-25 23:20:59 - COMMAND: </opt/hpboost/boost session release> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:20:59 - COMMAND: </opt/hpboost/boost session release> 
+
+2026-05-25 23:20:59 - COMMAND: </opt/hpboost/boost session release> no session to release
+
+2026-05-25 23:20:59 - COMMAND: </opt/hpboost/boost session release> HP Z Boost, v33.0.0-4
+
+no session to release
+
+2026-05-25 23:20:59 - INFO: Session released
+2026-05-25 23:21:05 - INFO: COMMAND: /opt/hpboost/boost session list --no-banner --json
+2026-05-25 23:21:06 - COMMAND: </opt/hpboost/boost session list --no-banner --json - STDERR> No active sessions found. Try running with --allow-ephemeral or --all to see more sessions.
+
+2026-05-25 23:21:06 - COMMAND: </opt/hpboost/boost session list --no-banner --json> 
+2026-05-25 23:21:06 - INFO: Killing agent process... see agent log for details.
+2026-05-25 23:21:16 - INFO: ++++++++ Fixture to release_session_and_kill_agent done +++++++++++++
+2026-05-25 23:21:18 - INFO: COMMAND: echo $HOME
+2026-05-25 23:21:18 - COMMAND: <echo $HOME> /home/dev
+
+2026-05-25 23:21:18 - INFO: Collecting Boost service logs from 15.8.77.106:/home/dev/.config/HP/Boost/logs/
+2026-05-25 23:21:18 - INFO: Downloaded 6 Boost service log files to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client/boost_app_logs
+2026-05-25 23:21:19 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 23:21:19 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 23:21:19 - INFO: Boost service logs cleaned successfully.
