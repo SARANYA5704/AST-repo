@@ -1,0 +1,138 @@
+2026-05-25 23:19:14 - INFO: running: pgrep -f /opt/hpboost/boost
+2026-05-25 23:19:14 - INFO: COMMAND: pgrep -f /opt/hpboost/boost
+2026-05-25 23:19:14 - ERROR: Exception running command pgrep -f /opt/hpboost/boost. Error: Exit running command pgrep -f /opt/hpboost/boost, Exit code: 1. STDERR: . STDOUT: 
+2026-05-25 23:19:14 - INFO: pgrep -f /opt/hpboost/boost output: 
+ 
+2026-05-25 23:19:14 - INFO: /opt/hpboost/boost was not running
+2026-05-25 23:19:14 - INFO: COMMAND: ps -aux | grep /opt/hpboost/boost
+2026-05-25 23:19:14 - COMMAND: <ps -aux | grep /opt/hpboost/boost> dev        18258  0.0  0.0   7340  3664 ?        Ss   20:19   0:00 bash -c ps -aux | grep /opt/hpboost/boost
+
+2026-05-25 23:19:14 - COMMAND: <ps -aux | grep /opt/hpboost/boost> dev        18260  0.0  0.0   6676  2332 ?        S    20:19   0:00 grep /opt/hpboost/boost
+
+2026-05-25 23:19:14 - INFO: Running processes:dev        18258  0.0  0.0   7340  3664 ?        Ss   20:19   0:00 bash -c ps -aux | grep /opt/hpboost/boost
+dev        18260  0.0  0.0   6676  2332 ?        S    20:19   0:00 grep /opt/hpboost/boost
+
+2026-05-25 23:19:14 - INFO: Run Agent: Running agent
+2026-05-25 23:19:14 - INFO: Running command /opt/hpboost/boost agent run cef55f5e-f886-4da8-97db-123bc5c1fc17 --cache-size 16 --log-level debug --exit-on-stdin --log-file /tmp/test_boost_run_special_chars.log
+2026-05-25 23:19:14 - INFO: Starting agent process with command: /opt/hpboost/boost agent run cef55f5e-f886-4da8-97db-123bc5c1fc17 --cache-size 16 --log-level debug --exit-on-stdin --log-file /tmp/test_boost_run_special_chars.log
+2026-05-25 23:19:14 - INFO: COMMAND: hostname
+2026-05-25 23:19:14 - COMMAND: <hostname> boost-runner06
+
+2026-05-25 23:19:14 - INFO: Waiting for agent host boost-runner06 to start
+2026-05-25 23:19:14 - INFO: Agent process started, monitoring output...
+2026-05-25 23:19:15 - INFO: Agent output: HP Z Boost, v33.0.0-4
+2026-05-25 23:19:15 - INFO: COMMAND: /opt/hpboost/boost gpu list --json
+2026-05-25 23:19:15 - COMMAND: </opt/hpboost/boost gpu list --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:19:15 - COMMAND: </opt/hpboost/boost gpu list --json> 
+
+2026-05-25 23:19:16 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"899c7b8f-60d4-4f8c-97c7-ecaf91194fd3","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":4294967296}
+
+2026-05-25 23:19:16 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:16 - COMMAND: </opt/hpboost/boost gpu list --json> HP Z Boost, v33.0.0-4
+
+{"isCompatible":true,"agentId":"899c7b8f-60d4-4f8c-97c7-ecaf91194fd3","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":4294967296}
+{"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:16 - INFO: Retrieved GPUs: HP Z Boost, v33.0.0-4
+
+{"isCompatible":true,"agentId":"899c7b8f-60d4-4f8c-97c7-ecaf91194fd3","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":4294967296}
+{"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:16 - INFO: No GPUs found for hostname boost-runner06
+2026-05-25 23:19:21 - INFO: COMMAND: /opt/hpboost/boost gpu list --json
+2026-05-25 23:19:21 - COMMAND: </opt/hpboost/boost gpu list --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:19:21 - COMMAND: </opt/hpboost/boost gpu list --json> 
+
+2026-05-25 23:19:22 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"899c7b8f-60d4-4f8c-97c7-ecaf91194fd3","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":0}
+
+2026-05-25 23:19:22 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"d4bf1d00-993a-434b-bfdc-45ffc21cf085","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:22 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:22 - COMMAND: </opt/hpboost/boost gpu list --json> HP Z Boost, v33.0.0-4
+
+{"isCompatible":true,"agentId":"899c7b8f-60d4-4f8c-97c7-ecaf91194fd3","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":0}
+{"isCompatible":true,"agentId":"d4bf1d00-993a-434b-bfdc-45ffc21cf085","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+{"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:22 - INFO: Retrieved GPUs: HP Z Boost, v33.0.0-4
+
+{"isCompatible":true,"agentId":"899c7b8f-60d4-4f8c-97c7-ecaf91194fd3","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":0}
+{"isCompatible":true,"agentId":"d4bf1d00-993a-434b-bfdc-45ffc21cf085","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+{"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:22 - INFO: Agent is up - Found 1 GPU(s) with hostname: boost-runner06
+2026-05-25 23:19:22 - INFO: Agent started
+2026-05-25 23:19:24 - INFO: COMMAND: hostname
+2026-05-25 23:19:24 - COMMAND: <hostname> boost-runner06
+
+2026-05-25 23:19:24 - INFO: COMMAND: /opt/hpboost/boost gpu list --json
+2026-05-25 23:19:24 - COMMAND: </opt/hpboost/boost gpu list --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:19:24 - COMMAND: </opt/hpboost/boost gpu list --json> 
+
+2026-05-25 23:19:25 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"899c7b8f-60d4-4f8c-97c7-ecaf91194fd3","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":0}
+
+2026-05-25 23:19:25 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"d4bf1d00-993a-434b-bfdc-45ffc21cf085","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:25 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:25 - COMMAND: </opt/hpboost/boost gpu list --json> HP Z Boost, v33.0.0-4
+
+{"isCompatible":true,"agentId":"899c7b8f-60d4-4f8c-97c7-ecaf91194fd3","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":0}
+{"isCompatible":true,"agentId":"d4bf1d00-993a-434b-bfdc-45ffc21cf085","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+{"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:25 - INFO: Retrieved GPUs: HP Z Boost, v33.0.0-4
+
+{"isCompatible":true,"agentId":"899c7b8f-60d4-4f8c-97c7-ecaf91194fd3","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":0}
+{"isCompatible":true,"agentId":"d4bf1d00-993a-434b-bfdc-45ffc21cf085","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+{"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:39 - INFO: COMMAND: /opt/hpboost/boost gpu list --json
+2026-05-25 23:19:39 - COMMAND: </opt/hpboost/boost gpu list --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:19:39 - COMMAND: </opt/hpboost/boost gpu list --json> 
+
+2026-05-25 23:19:40 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"d4bf1d00-993a-434b-bfdc-45ffc21cf085","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:19:40 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":5368709120}
+
+2026-05-25 23:19:40 - COMMAND: </opt/hpboost/boost gpu list --json> HP Z Boost, v33.0.0-4
+
+{"isCompatible":true,"agentId":"d4bf1d00-993a-434b-bfdc-45ffc21cf085","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+{"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":5368709120}
+
+2026-05-25 23:19:40 - INFO: Retrieved GPUs: HP Z Boost, v33.0.0-4
+
+{"isCompatible":true,"agentId":"d4bf1d00-993a-434b-bfdc-45ffc21cf085","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+{"isCompatible":true,"agentId":"4261bc6e-baee-48e0-a08a-44d5667995d0","agentVersion":"33.0.0-4","hostname":"boost-runner05","uuid":"53f5f238-82bc-ee2b-0d7e-1e13257a8cc2","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"582.53","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":5368709120}
+
+2026-05-25 23:20:02 - INFO: Checking if agent log file exists after stopping agent...
+2026-05-25 23:20:02 - INFO: Stopping agent using stdin input...
+2026-05-25 23:20:02 - INFO: Sent input to agent stdin
+2026-05-25 23:20:12 - INFO: Agent exited with code: 0
+2026-05-25 23:20:12 - INFO: Agent Killed via thread stop_agent()
+2026-05-25 23:20:12 - INFO: Transferring logs using SCP...
+2026-05-25 23:20:12 - INFO: Remote path: /tmp/test_boost_run_special_chars.log
+2026-05-25 23:20:12 - INFO: Local log path: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent/agent.log
+2026-05-25 23:20:12 - INFO: COMMAND: if [ -f "/tmp/test_boost_run_special_chars.log" ]; then echo exists; else echo not exists; fi
+2026-05-25 23:20:12 - COMMAND: <if [ -f "/tmp/test_boost_run_special_chars.log" ]; then echo exists; else echo not exists; fi> exists
+
+2026-05-25 23:20:12 - INFO: Remote file /tmp/test_boost_run_special_chars.log exists. Proceeding with transfer.
+2026-05-25 23:20:13 - INFO: Files transfered from /tmp/test_boost_run_special_chars.log to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent/agent.log
+2026-05-25 23:20:13 - INFO: SSH connection closed.
+2026-05-25 23:20:13 - INFO: Removing remote file after transfer...
+2026-05-25 23:20:13 - INFO: Remote file /tmp/test_boost_run_special_chars.log removed successfully.
+2026-05-25 23:20:13 - INFO: SSH connection closed.
+2026-05-25 23:20:14 - INFO: COMMAND: echo $HOME
+2026-05-25 23:20:14 - COMMAND: <echo $HOME> /home/dev
+
+2026-05-25 23:20:14 - INFO: Collecting Boost service logs from 15.8.77.106:/home/dev/.config/HP/Boost/logs/
+2026-05-25 23:20:15 - INFO: Downloaded 6 Boost service log files to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent/boost_app_logs
+2026-05-25 23:20:15 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 23:20:15 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 23:20:15 - INFO: Boost service logs cleaned successfully.
