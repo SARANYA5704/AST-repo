@@ -1,0 +1,107 @@
+2026-05-25 23:24:54 - INFO: Cleanup: Attempting to stop any running service...
+2026-05-25 23:24:54 - INFO: COMMAND: /opt/hpboost/boost agent service stop --no-banner
+2026-05-25 23:24:54 - COMMAND: </opt/hpboost/boost agent service stop --no-banner> Error: service does not exist
+
+2026-05-25 23:24:54 - COMMAND: </opt/hpboost/boost agent service stop --no-banner - STDERR> Application terminated with code: 1
+
+2026-05-25 23:24:54 - ERROR: Exception running command /opt/hpboost/boost agent service stop --no-banner. Error: Exit running command /opt/hpboost/boost agent service stop --no-banner, Exit code: 1. STDERR: Application terminated with code: 1
+. STDOUT: Error: service does not exist
+
+2026-05-25 23:24:54 - INFO: Stop cleanup failed (expected if service not running): Exit running command /opt/hpboost/boost agent service stop --no-banner, Exit code: 1. STDERR: Application terminated with code: 1
+. STDOUT: Error: service does not exist
+
+2026-05-25 23:24:54 - INFO: Cleanup: Attempting to uninstall any installed service...
+2026-05-25 23:24:55 - INFO: COMMAND: /opt/hpboost/boost agent service uninstall --no-banner
+2026-05-25 23:24:55 - COMMAND: </opt/hpboost/boost agent service uninstall --no-banner> Error: service does not exist
+
+2026-05-25 23:24:55 - COMMAND: </opt/hpboost/boost agent service uninstall --no-banner - STDERR> Application terminated with code: 1
+
+2026-05-25 23:24:55 - ERROR: Exception running command /opt/hpboost/boost agent service uninstall --no-banner. Error: Exit running command /opt/hpboost/boost agent service uninstall --no-banner, Exit code: 1. STDERR: Application terminated with code: 1
+. STDOUT: Error: service does not exist
+
+2026-05-25 23:24:55 - INFO: Uninstall cleanup failed (expected if service not installed): Exit running command /opt/hpboost/boost agent service uninstall --no-banner, Exit code: 1. STDERR: Application terminated with code: 1
+. STDOUT: Error: service does not exist
+
+2026-05-25 23:25:00 - INFO: COMMAND: /opt/hpboost/boost agent service install cef55f5e-f886-4da8-97db-123bc5c1fc17 --no-banner
+2026-05-25 23:25:04 - COMMAND: </opt/hpboost/boost agent service install cef55f5e-f886-4da8-97db-123bc5c1fc17 --no-banner> Installed service
+
+2026-05-25 23:25:04 - COMMAND: </opt/hpboost/boost agent service install cef55f5e-f886-4da8-97db-123bc5c1fc17 --no-banner> Installed service
+
+2026-05-25 23:25:04 - INFO: COMMAND: /opt/hpboost/boost agent service start --no-banner
+2026-05-25 23:25:08 - COMMAND: </opt/hpboost/boost agent service start --no-banner> Started service
+
+2026-05-25 23:25:08 - COMMAND: </opt/hpboost/boost agent service start --no-banner> Started service
+
+2026-05-25 23:25:13 - INFO: COMMAND: /opt/hpboost/boost agent service status --no-banner
+2026-05-25 23:25:13 - COMMAND: </opt/hpboost/boost agent service status --no-banner> Running
+
+2026-05-25 23:25:13 - COMMAND: </opt/hpboost/boost agent service status --no-banner> Running
+
+2026-05-25 23:25:13 - INFO: COMMAND: hostname
+2026-05-25 23:25:13 - COMMAND: <hostname> boost-runner06
+
+2026-05-25 23:25:14 - INFO: COMMAND: /opt/hpboost/boost gpu list --json
+2026-05-25 23:25:14 - COMMAND: </opt/hpboost/boost gpu list --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:25:14 - COMMAND: </opt/hpboost/boost gpu list --json> 
+
+2026-05-25 23:25:14 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"e751a02a-bfb5-4272-88bb-54997adc0c40","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":4294967296}
+
+2026-05-25 23:25:14 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"8e7a152c-b55e-4c3d-be4a-8c5092a981e4","agentVersion":"33.0.0-4","hostname":"boost-runner20","uuid":"55a3cb9f-3248-f47c-6ae5-8a322fd06082","name":"Quadro RTX 4000","vendorId":4318,"deviceId":7857,"driverVersion":"596.36","vbiosVersion":"90.04.87.00.04","pciBus":"00000000:72:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":8589934592,"usedvram":8589934592}
+
+2026-05-25 23:25:14 - COMMAND: </opt/hpboost/boost gpu list --json> {"isCompatible":true,"agentId":"45a30054-cb16-4eb3-9905-61d925fbf5b8","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:25:14 - COMMAND: </opt/hpboost/boost gpu list --json> HP Z Boost, v33.0.0-4
+
+{"isCompatible":true,"agentId":"e751a02a-bfb5-4272-88bb-54997adc0c40","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":4294967296}
+{"isCompatible":true,"agentId":"8e7a152c-b55e-4c3d-be4a-8c5092a981e4","agentVersion":"33.0.0-4","hostname":"boost-runner20","uuid":"55a3cb9f-3248-f47c-6ae5-8a322fd06082","name":"Quadro RTX 4000","vendorId":4318,"deviceId":7857,"driverVersion":"596.36","vbiosVersion":"90.04.87.00.04","pciBus":"00000000:72:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":8589934592,"usedvram":8589934592}
+{"isCompatible":true,"agentId":"45a30054-cb16-4eb3-9905-61d925fbf5b8","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:25:14 - INFO: Retrieved GPUs: HP Z Boost, v33.0.0-4
+
+{"isCompatible":true,"agentId":"e751a02a-bfb5-4272-88bb-54997adc0c40","agentVersion":"33.0.0-4","hostname":"boost-runner12","uuid":"9edb2fb5-f9ee-bb09-cb15-7d948d30f36a","name":"Quadro P600","vendorId":4318,"deviceId":7356,"driverVersion":"582.53","vbiosVersion":"86.07.90.00.2f","pciBus":"00000000:01:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":4294967296,"usedvram":4294967296}
+{"isCompatible":true,"agentId":"8e7a152c-b55e-4c3d-be4a-8c5092a981e4","agentVersion":"33.0.0-4","hostname":"boost-runner20","uuid":"55a3cb9f-3248-f47c-6ae5-8a322fd06082","name":"Quadro RTX 4000","vendorId":4318,"deviceId":7857,"driverVersion":"596.36","vbiosVersion":"90.04.87.00.04","pciBus":"00000000:72:00.0","pcieGeneration":3,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":8589934592,"usedvram":8589934592}
+{"isCompatible":true,"agentId":"45a30054-cb16-4eb3-9905-61d925fbf5b8","agentVersion":"33.0.0-4","hostname":"boost-runner06","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0}
+
+2026-05-25 23:25:43 - INFO: Cleanup: Attempting to stop any running service...
+2026-05-25 23:25:44 - INFO: COMMAND: /opt/hpboost/boost agent service stop --no-banner
+2026-05-25 23:25:45 - COMMAND: </opt/hpboost/boost agent service stop --no-banner> Stopped service
+
+2026-05-25 23:25:45 - COMMAND: </opt/hpboost/boost agent service stop --no-banner> Stopped service
+
+2026-05-25 23:25:45 - INFO: Stop cleanup output: Stopped service
+
+2026-05-25 23:25:45 - INFO: Cleanup: Attempting to uninstall any installed service...
+2026-05-25 23:25:45 - INFO: COMMAND: /opt/hpboost/boost agent service uninstall --no-banner
+2026-05-25 23:25:46 - COMMAND: </opt/hpboost/boost agent service uninstall --no-banner> Uninstalled service
+
+2026-05-25 23:25:46 - COMMAND: </opt/hpboost/boost agent service uninstall --no-banner> Uninstalled service
+
+2026-05-25 23:25:46 - INFO: Uninstall cleanup output: Uninstalled service
+
+2026-05-25 23:25:46 - INFO: Transferring logs using SCP...
+2026-05-25 23:25:46 - INFO: Remote path: /tmp/test_proxy_using_env_variables_with_agent_service.log
+2026-05-25 23:25:46 - INFO: Local log path: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_agent_service/agent/agent.log
+2026-05-25 23:25:47 - INFO: COMMAND: if [ -f "/tmp/test_proxy_using_env_variables_with_agent_service.log" ]; then echo exists; else echo not exists; fi
+2026-05-25 23:25:47 - COMMAND: <if [ -f "/tmp/test_proxy_using_env_variables_with_agent_service.log" ]; then echo exists; else echo not exists; fi> not exists
+
+2026-05-25 23:25:47 - WARNING: Remote file /tmp/test_proxy_using_env_variables_with_agent_service.log does not exist. Skipping transfer.
+2026-05-25 23:25:48 - INFO: COMMAND: echo $HOME
+2026-05-25 23:25:48 - COMMAND: <echo $HOME> /home/dev
+
+2026-05-25 23:25:48 - INFO: Collecting Boost service logs from 15.8.77.106:/home/dev/.config/HP/Boost/logs/
+2026-05-25 23:25:48 - INFO: Downloaded 5 Boost service log files to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_agent_service/agent/boost_app_logs
+2026-05-25 23:25:52 - INFO: running: pgrep -f /opt/hpboost/boost
+2026-05-25 23:25:53 - INFO: COMMAND: pgrep -f /opt/hpboost/boost
+2026-05-25 23:25:53 - COMMAND: <pgrep -f /opt/hpboost/boost> 21677
+
+2026-05-25 23:25:53 - INFO: pgrep -f /opt/hpboost/boost output: 
+ 21677
+
+2026-05-25 23:25:53 - INFO: running: kill -9 $(pgrep -f /opt/hpboost/boost)
+2026-05-25 23:25:53 - INFO: COMMAND: kill -9 $(pgrep -f /opt/hpboost/boost)
+2026-05-25 23:25:53 - ERROR: Exception running command kill -9 $(pgrep -f /opt/hpboost/boost). Error: Exit running command kill -9 $(pgrep -f /opt/hpboost/boost), Exit code: -1. STDERR: . STDOUT: 
+2026-05-25 23:25:53 - INFO: ran: kill -9 $(pgrep -f /opt/hpboost/boost)  output: 
+ 
+2026-05-25 23:25:53 - INFO: Wait process death: 65 seconds
+2026-05-25 23:26:58 - INFO: Agent death wait completed
