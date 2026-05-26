@@ -1,0 +1,129 @@
+2026-05-25T20:16:34.200-0300 task/task.go:120 D] Task Log Rotate starting
+2026-05-25T20:16:38.720-0300 agent/run.go:403 I] Agent 744fb324-d075-4c7c-ba74-f33d09d2fa34 starting in pool: functionality.lin
+2026-05-25T20:16:38.720-0300 agent/run.go:403 I] GPUs
+2026-05-25T20:16:38.720-0300 agent/run.go:403 I]   8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 @ 00000000:01:00.0: Quadro P2000 5GiB
+2026-05-25T20:16:38.728-0300 task/task.go:120 D] Task ControllerManager starting
+2026-05-25T20:16:38.728-0300 task/task.go:120 D] Task GpuMetrics starting
+2026-05-25T20:16:38.728-0300 task/task.go:120 D] Task Gateway starting
+2026-05-25T20:16:38.728-0300 task/task.go:120 D] Task Controller Logs starting
+2026-05-25T20:16:38.728-0300 task/task.go:143 D] Task ControllerManager finished
+2026-05-25T20:16:38.728-0300 task/task.go:120 D] Task ControllerManager Websocket starting
+2026-05-25T20:16:38.733-0300 gateway/gateway.go:464 I] Gateway listening on UDP port 7865
+2026-05-25T20:16:39.623-0300 task/task.go:120 D] Task Controller Log Sink Websocket Write starting
+2026-05-25T20:16:39.623-0300 task/task.go:120 D] Task Controller Log Sink Websocket KeepAlive starting
+2026-05-25T20:16:39.623-0300 task/task.go:120 D] Task Controller Log Sink Websocket Read starting
+2026-05-25T20:16:39.665-0300 task/task.go:120 D] Task ControllerManager Websocket Write starting
+2026-05-25T20:16:39.665-0300 task/task.go:120 D] Task ControllerManager Websocket Read starting
+2026-05-25T20:16:39.665-0300 task/task.go:120 D] Task ControllerManager Websocket KeepAlive starting
+2026-05-25T20:17:15.157-0300 task/task.go:120 D] Task Log Rotate starting
+2026-05-25T20:17:19.699-0300 agent/run.go:403 I] Agent 7e0b0b11-15d3-44ef-bdfb-14da4434d3b8 starting in pool: functionality.lin
+2026-05-25T20:17:19.699-0300 agent/run.go:403 I] GPUs
+2026-05-25T20:17:19.699-0300 agent/run.go:403 I]   8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 @ 00000000:01:00.0: Quadro P2000 5GiB
+2026-05-25T20:17:19.699-0300 task/task.go:120 D] Task ControllerManager starting
+2026-05-25T20:17:19.699-0300 task/task.go:120 D] Task GpuMetrics starting
+2026-05-25T20:17:19.699-0300 task/task.go:120 D] Task Gateway starting
+2026-05-25T20:17:19.700-0300 task/task.go:120 D] Task Controller Logs starting
+2026-05-25T20:17:19.700-0300 task/task.go:120 D] Task ControllerManager Websocket starting
+2026-05-25T20:17:19.699-0300 task/task.go:143 D] Task ControllerManager finished
+2026-05-25T20:17:19.704-0300 gateway/gateway.go:464 I] Gateway listening on UDP port 7865
+2026-05-25T20:17:20.446-0300 task/task.go:120 D] Task Controller Log Sink Websocket Write starting
+2026-05-25T20:17:20.446-0300 task/task.go:120 D] Task Controller Log Sink Websocket KeepAlive starting
+2026-05-25T20:17:20.446-0300 task/task.go:120 D] Task Controller Log Sink Websocket Read starting
+2026-05-25T20:17:20.463-0300 task/task.go:120 D] Task ControllerManager Websocket KeepAlive starting
+2026-05-25T20:17:20.463-0300 task/task.go:120 D] Task ControllerManager Websocket Write starting
+2026-05-25T20:17:20.463-0300 task/task.go:120 D] Task ControllerManager Websocket Read starting
+2026-05-25T20:17:30.120-0300 restapi/client.go:1079 D] ControllerManager Websocket Received string {"version":1,"id":"e9f0b7c8-cb0e-4ee4-8470-bd769dcbeaaf","type":"SessionAssignMessage","message":{"session":{"id":"bfb37d33-9f33-47f0-88c8-5c738ca51006","state":"assigned","poolId":"cef55f5e-f886-4da8-97db-123bc5c1fc17","userId":"863928b6-546f-4bf3-844f-4a55bd42e212","agentId":"7e0b0b11-15d3-44ef-bdfb-14da4434d3b8","agent":{"id":"7e0b0b11-15d3-44ef-bdfb-14da4434d3b8","state":"active","hostname":"boost-runner06","address":"","version":"33.0.0-4+2026.05.25-1619Z-9111230f","deviceId":"16b6c8c18d2848269f1f36a2ac91b112","poolId":"cef55f5e-f886-4da8-97db-123bc5c1fc17","pool":{"id":"","name":"","sessionActiveCount":0,"sessionQeueudCount":0,"sessionTotalCount":0,"agentCount":0,"gpuCount":0,"userCount":0,"organization":{"id":"","name":"","auth0Id":"","entitlement":null,"maxVersion":""}},"userId":"","owner":{"id":"","name":""},"startedAt":"2026-05-25T23:17:19.590364Z","gpus":[{"uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","vendorId":4318,"deviceId":7216,"driverVersion":"580.159.04","vbiosVersion":"86.06.74.00.04","pciBus":"00000000:01:00.0","pcieGeneration":1,"pcieMaxGeneration":3,"pcieWidth":16,"pcieMaxWidth":16,"vram":5368709120,"usedvram":0,"metrics":{"uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","clockCore":139,"clockMemory":405,"clockSM":139,"clockVideo":544,"maxClockCore":1721,"maxClockMemory":3504,"maxClockSM":1721,"maxClockVideo":1556,"clockThrottling":1,"utilizationGpu":0,"utilizationVram":0,"temperatureGpu":32,"vramUsed":112066560,"vramFree":5256642560,"powerDraw":4620,"powerLimit":75000,"pState":8,"fanSpeed":45,"timestamp":"2026-05-25T20:17:26.757550157-03:00"}}],"labels":{},"taints":{},"sessions":[],"protocol":"quic","authoritative":true,"os":"","os_arch":"","os_managed_vram":false,"metrics":{"systemModel":"HP Z2 Tower G4 Workstation","systemManufacturer":"HP","systemType":"103C_53335X HP Workstation","systemRam":16219536,"systemProcessor":"Intel(R) Xeon(R) E-2144G CPU @ 3.60GHz","systemStorage":500235124736,"os":"linux","osVersion":"Ubuntu 24.04.2 LTS","gpus":["NVIDIA Corporation GP106GL [Quadro P2000] (rev a1)"],"gpuDriverVersion":"580.159","cudaDriverVersion":"13.0"},"workstationAlias":""},"expiresAt":"2026-05-25T23:18:29.972080933Z","idleExpiresAt":"2026-05-26T03:17:29.972080933Z","idleExpiresAfter":14399962876313,"queuedAt":"2026-05-25T23:17:28.946208Z","assignedAt":"2026-05-25T23:17:29.972080933Z","closedReason":"unknown","protocol":"","requirements":{"version":"33.0.0-4+2026.05.25-1619Z-9111230f","poolIds":null,"protocol":"","queuePriority":0,"scheduler":"balanced","expireAfter":60000000000,"gpus":[{"vramRequired":0,"vramStrict":false,"pciBus":"","uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":""}],"gpuCount":1,"matchLabels":{},"tolerates":{},"metrics":{"systemModel":"HP Z2 Tower G4 Workstation","systemManufacturer":"HP","systemType":"103C_53335X HP Workstation","systemRam":16219536,"systemProcessor":"Intel(R) Xeon(R) E-2144G CPU @ 3.60GHz","systemStorage":500235124736,"os":"linux","osVersion":"Ubuntu 24.04.2 LTS","gpus":["NVIDIA Corporation GP106GL [Quadro P2000] (rev a1)"],"gpuDriverVersion":"580.159","cudaDriverVersion":"13.0"},"idleTimeout":14400000000000,"dryRun":false},"gpus":[{"uuid":"8393e7ea-9847-44cd-d45e-d9bf0ff68eb8","name":"Quadro P2000","pciBus":"00000000:01:00.0","vram":5368709120,"totalVram":5368709120,"utilizationGpu":0,"utilizationVram":0}],"latencyMs":0,"uploadMbps":0,"downloadMbps":0}},"date":"2026-05-25T23:17:30Z"}
+2026-05-25T20:17:30.121-0300 app/controller_manager_agent.go:105 D] Starting Session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:30.121-0300 transport/transport.go:47 D] Starting transport with protocol: tcp for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:30.121-0300 transport/transport_tcp.go:54 D] Generating certificates
+2026-05-25T20:17:30.123-0300 transport/transport_tcp.go:61 D] Binding to address ''
+2026-05-25T20:17:30.123-0300 transport/transport.go:47 D] Starting transport with protocol: quic for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:30.123-0300 transport/transport_quic.go:47 D] Binding to address ''
+2026-05-25T20:17:30.123-0300 gateway/gateway.go:231 D] Enqueue gateway connection for sessionId: bfb37d33-9f33-47f0-88c8-5c738ca51006, connectionId: , port: 37620 as bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:30.123-0300 app/agent.go:268 D] session bfb37d33-9f33-47f0-88c8-5c738ca51006 active
+2026-05-25T20:17:30.123-0300 task/task.go:120 D] Task session bfb37d33-9f33-47f0-88c8-5c738ca51006 starting
+2026-05-25T20:17:30.124-0300 app/session.go:135 D] Starting Session Listener for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:30.124-0300 runtime/asm_amd64.s:1693 D] [quic] starting rendezvous for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:30.124-0300 transport/stun.go:30 D] using STUN servers: stun.l.google.com:19302, stun.l.google.com:3478, stun.cloudflare.com:3478
+2026-05-25T20:17:30.454-0300 transport/stun.go:73 D] Got STUN response: 15.8.77.106 37620
+2026-05-25T20:17:30.556-0300 transport/stun.go:176 D] Using STUN response: 15.8.77.106:37620
+2026-05-25T20:17:30.556-0300 transport/rendezvous.go:35 D] [proto=quic] Starting rendezvous with peer for session bfb37d33-9f33-47f0-88c8-5c738ca51006 (isAgent: true)
+2026-05-25T20:17:30.556-0300 transport/rendezvous.go:35 D] [proto=quic] Starting exchange peer info for session bfb37d33-9f33-47f0-88c8-5c738ca51006 (isAgent: true)
+2026-05-25T20:17:31.288-0300 transport/rendezvous.go:35 D] [proto=quic] Exchange peer connection established for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:31.288-0300 task/task.go:120 D] Task RDVU bfb37d33-9f33-47f0-88c8-5c738ca51006 Websocket KeepAlive starting
+2026-05-25T20:17:31.289-0300 transport/rendezvous.go:35 D] [proto=quic] Generated local key and relay client ID for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:31.289-0300 task/task.go:120 D] Task RDVU bfb37d33-9f33-47f0-88c8-5c738ca51006 Websocket Read starting
+2026-05-25T20:17:31.289-0300 transport/rendezvous.go:35 D] [proto=quic] Created local address info: LocalIPs=[15.8.77.106], ExternalIP=15.8.77.106, LocalPort=37620, ExternalPort=37620, GatewayPort=7865
+2026-05-25T20:17:31.289-0300 task/task.go:120 D] Task RDVU bfb37d33-9f33-47f0-88c8-5c738ca51006 Websocket Write starting
+2026-05-25T20:17:31.289-0300 transport/rendezvous.go:35 D] [proto=quic] Sending local address info to peer for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:31.290-0300 transport/rendezvous.go:35 D] [proto=quic] Successfully sent local address info to peer for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:31.290-0300 transport/rendezvous.go:35 D] [proto=quic] Waiting to receive peer address info for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:34.326-0300 gateway/gateway.go:298 D] Dequeuing port from 15.8.77.106:52537, queue size 1
+2026-05-25T20:17:34.326-0300 gateway/gateway.go:302 D] matched connection  to port 37620
+2026-05-25T20:17:34.326-0300 gateway/gateway.go:313 D] missing session connection registration for sessionId bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:34.326-0300 gateway/gateway.go:406 D] No mapping or queued port available for 15.8.77.106:52537
+2026-05-25T20:17:34.520-0300 restapi/client.go:1079 D] RDVU bfb37d33-9f33-47f0-88c8-5c738ca51006 Websocket Received string {"local_ips":["15.8.77.106"],"external_ip":"15.8.77.106","local_port":52537,"external_port":52537,"nat_port":0,"key":"tC3kPL8N5_SfPrnlJLSnWA==","relay_client_id":"4QzinyMo_iw=","protocol":"quic"}
+2026-05-25T20:17:34.520-0300 transport/rendezvous.go:35 D] [proto=quic] Received peer address info: LocalIPs=[15.8.77.106], ExternalIP=15.8.77.106, LocalPort=52537, ExternalPort=52537, NatPort=0, Protocol=quic
+2026-05-25T20:17:34.520-0300 gateway/gateway.go:262 D] Enqueue new session connection bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:34.520-0300 transport/rendezvous.go:35 D] [proto=quic] Starting peer finding process for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:34.520-0300 transport/rendezvous.go:35 D] [proto=quic] Local connection info: LocalIPs=[15.8.77.106], LocalPort=37620, ExternalIP=15.8.77.106, ExternalPort=37620, NatPort=7865, Protocol=quic
+2026-05-25T20:17:34.520-0300 transport/rendezvous.go:35 D] [proto=quic] Peer connection info: LocalIPs=[15.8.77.106], LocalPort=52537, ExternalIP=15.8.77.106, ExternalPort=52537, NatPort=0, Protocol=quic
+2026-05-25T20:17:34.520-0300 transport/rendezvous.go:35 D] [proto=quic] Local UDP socket bound to: 0.0.0.0:37620
+2026-05-25T20:17:34.520-0300 transport/rendezvous.go:35 D] [proto=quic] Target IP 0: 15.8.77.106:52537
+2026-05-25T20:17:34.520-0300 transport/rendezvous.go:35 D] [proto=quic] Sending ping to 15.8.77.106:52537
+2026-05-25T20:17:34.520-0300 transport/rendezvous.go:35 D] [proto=quic] Successfully sent ping to 15.8.77.106:52537
+2026-05-25T20:17:34.521-0300 task/task.go:120 D] Task read-quic starting
+2026-05-25T20:17:34.521-0300 transport/rendezvous.go:35 D] [proto=quic] Received message from 15.8.77.106:52537 on QUIC: {"session":"bfb37d33-9f33-47f0-88c8-5c738ca51006","message_type":"PING","connection_id":"","message":"MTUuOC43Ny4xMDY6Mzc2MjA="}
+2026-05-25T20:17:34.621-0300 task/task.go:143 D] Task read-quic finished
+2026-05-25T20:17:34.621-0300 transport/rendezvous.go:35 D] [proto=quic] Successfully found peer for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:34.622-0300 transport/rendezvous.go:35 D] [proto=quic] Preparing RDVU message as agent for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:34.622-0300 transport/rendezvous.go:35 D] [proto=quic] RDVU message content: ServerReachableIP=15.8.77.106:37620
+2026-05-25T20:17:34.622-0300 transport/rendezvous.go:35 D] [proto=quic] Sending RDVU message for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:34.622-0300 transport/rendezvous.go:35 D] [proto=quic] Successfully sent RDVU message for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:34.622-0300 task/task.go:143 D] Task RDVU bfb37d33-9f33-47f0-88c8-5c738ca51006 Websocket KeepAlive finished
+2026-05-25T20:17:34.622-0300 task/task.go:143 D] Task RDVU bfb37d33-9f33-47f0-88c8-5c738ca51006 Websocket Read finished
+2026-05-25T20:17:34.701-0300 gateway/gateway.go:439 D] Thread 3 (of 8) processed 1 packets and 128 bytes
+2026-05-25T20:17:34.722-0300 restapi/client.go:1079 D] RDVU bfb37d33-9f33-47f0-88c8-5c738ca51006 Websocket Received string {"session":"bfb37d33-9f33-47f0-88c8-5c738ca51006","message_type":"PING","connection_id":"","message":"MTUuOC43Ny4xMDY6NTI1Mzc="}
+2026-05-25T20:17:35.623-0300 task/task.go:143 D] Task RDVU bfb37d33-9f33-47f0-88c8-5c738ca51006 Websocket Write finished
+2026-05-25T20:17:35.623-0300 transport/rendezvous.go:35 D] [proto=quic] Rendezvous completed successfully for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:35.623-0300 transport/transport_quic.go:73 D] Rendezvous successful: ServerIP=15.8.77.106:37620, Protocol=quic
+2026-05-25T20:17:35.623-0300 runtime/asm_amd64.s:1693 D] [quic] rendezvous complete, opening control stream for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:35.624-0300 transport/transport_quic.go:142 D] Generating TLS certificate for QUIC listener
+2026-05-25T20:17:35.625-0300 transport/transport_quic.go:147 D] Certificate generated successfully
+2026-05-25T20:17:35.625-0300 transport/transport_quic.go:149 D] Creating QUIC configuration
+2026-05-25T20:17:35.625-0300 transport/transport_quic.go:158 D] Starting QUIC listener on 0.0.0.0:37620
+2026-05-25T20:17:35.625-0300 D] 2026/05/25 20:17:35 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+2026-05-25T20:17:35.626-0300 transport/transport_quic.go:163 D] QUIC listener created successfully on 0.0.0.0:37620
+2026-05-25T20:17:35.626-0300 task/task.go:120 D] Task quic session bfb37d33-9f33-47f0-88c8-5c738ca51006 listener starting
+2026-05-25T20:17:35.829-0300 task/task.go:120 D] Task session bfb37d33-9f33-47f0-88c8-5c738ca51006 stream handler starting
+2026-05-25T20:17:36.626-0300 app/session.go:135 I] chosen transport: quic for session bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:36.626-0300 app/session.go:527 D] session bfb37d33-9f33-47f0-88c8-5c738ca51006 protocol changed to quic
+2026-05-25T20:17:36.626-0300 task/task.go:120 D] Task [agent] session bfb37d33-9f33-47f0-88c8-5c738ca51006 read control starting
+2026-05-25T20:17:36.626-0300 task/task.go:120 D] Task winner-transport-cancel starting
+2026-05-25T20:17:36.627-0300 task/task.go:135 D] Read message from control: {"version":1,"id":"6063e730-5e99-4ad0-bd28-2c19c6bbf42d","type":"SessionMessage","message":{"session":"","message_type":"OPEN","message":"","connection_id":""},"date":"2026-05-25T23:17:35Z"}
+2026-05-25T20:17:36.627-0300 task/task.go:120 D] Task [agent] session bfb37d33-9f33-47f0-88c8-5c738ca51006 write control starting
+2026-05-25T20:17:43.675-0300 task/task.go:70 D] Canceling task manager quic-bfb37d33-9f33-47f0-88c8-5c738ca51006
+2026-05-25T20:17:43.675-0300 task/task.go:143 D] Task session bfb37d33-9f33-47f0-88c8-5c738ca51006 stream handler finished
+2026-05-25T20:17:43.675-0300 task/task.go:137 D] Task [agent] session bfb37d33-9f33-47f0-88c8-5c738ca51006 read control failed with Application error 0x0 (remote): client shutdown
+2026-05-25T20:17:43.675-0300 transport/transport_quic.go:94 D] Closing quic stream: shutdown
+2026-05-25T20:17:43.675-0300 task/task.go:143 D] Task quic session bfb37d33-9f33-47f0-88c8-5c738ca51006 listener finished
+2026-05-25T20:17:43.675-0300 task/task.go:143 D] Task [agent] session bfb37d33-9f33-47f0-88c8-5c738ca51006 write control finished
+2026-05-25T20:17:43.675-0300 task/task.go:143 D] Task winner-transport-cancel finished
+2026-05-25T20:17:43.675-0300 task/task.go:143 D] Task [agent] session bfb37d33-9f33-47f0-88c8-5c738ca51006 read control finished
+2026-05-25T20:17:43.675-0300 task/task.go:135 E] task [agent] session bfb37d33-9f33-47f0-88c8-5c738ca51006 read control failed: Application error 0x0 (remote): client shutdown
+2026-05-25T20:17:43.676-0300 app/session.go:129 D] session bfb37d33-9f33-47f0-88c8-5c738ca51006 closed
+2026-05-25T20:17:43.676-0300 task/task.go:143 D] Task session bfb37d33-9f33-47f0-88c8-5c738ca51006 finished
+2026-05-25T20:17:50.905-0300 task/task.go:70 D] Canceling task manager Agent
+2026-05-25T20:17:50.905-0300 task/task.go:143 D] Task ControllerManager Websocket Read finished
+2026-05-25T20:17:50.905-0300 task/task.go:143 D] Task Gateway finished
+2026-05-25T20:17:50.905-0300 task/task.go:143 D] Task ControllerManager Websocket KeepAlive finished
+2026-05-25T20:17:50.905-0300 app/controller_manager_agent.go:84 I] Performing clean shutdown of the agent
+2026-05-25T20:17:50.905-0300 task/task.go:143 D] Task Controller Log Sink Websocket KeepAlive finished
+2026-05-25T20:17:50.905-0300 task/task.go:143 D] Task Controller Log Sink Websocket Read finished
+2026-05-25T20:17:50.908-0300 task/task.go:143 D] Task GpuMetrics finished
+2026-05-25T20:17:51.905-0300 task/task.go:143 D] Task Controller Log Sink Websocket Write finished
+2026-05-25T20:17:51.905-0300 task/task.go:143 D] Task ControllerManager Websocket Write finished
+2026-05-25T20:17:51.905-0300 task/task.go:143 D] Task Controller Logs finished
+2026-05-25T20:17:51.913-0300 task/task.go:143 D] Task ControllerManager Websocket finished
+2026-05-25T20:17:51.913-0300 task/task.go:70 D] Canceling task manager Logging
+2026-05-25T20:17:51.913-0300 task/task.go:143 D] Task Log Rotate finished
