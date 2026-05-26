@@ -1,0 +1,155 @@
+2026-05-25 23:23:28 - INFO: Loading from properties from env variables
+2026-05-25 23:23:28 - INFO: Properties:
+2026-05-25 23:23:28 - INFO: 	Client Hostname: 15.8.77.106
+2026-05-25 23:23:28 - INFO: 	Client Port: 22
+2026-05-25 23:23:28 - INFO: 	Client Username: dev
+2026-05-25 23:23:28 - INFO: 	Client Password: Rock*111
+2026-05-25 23:23:28 - INFO: 	Client OS: linux
+2026-05-25 23:23:28 - INFO: 	Agent Hostname: 15.8.77.106
+2026-05-25 23:23:28 - INFO: 	Agent Port: 22
+2026-05-25 23:23:28 - INFO: 	Agent Username: dev
+2026-05-25 23:23:28 - INFO: 	Agent Password: Rock*111
+2026-05-25 23:23:28 - INFO: 	Agent OS: linux
+2026-05-25 23:23:28 - INFO: 	Environment: development
+2026-05-25 23:23:28 - INFO: 	Token: m2m_w8hKMRY0yYKXkgVTSudxBMdcTWEFSMYx
+2026-05-25 23:23:28 - INFO: 	Test User Username: boost.user@proton.me
+2026-05-25 23:23:28 - INFO: 	Test User Password: IamYourW0rstN1ghtmare
+2026-05-25 23:23:28 - INFO: 	Test User Username Microsoft: boost.hp@outlook.com
+2026-05-25 23:23:28 - INFO: 	Test User Password Microsoft: Rock*111
+2026-05-25 23:23:28 - INFO: 	Pool: functionality.lin
+2026-05-25 23:23:28 - INFO: 	Support Client ID: 35eefc70-4038-4bcc-8f11-385562ead537
+2026-05-25 23:23:28 - INFO: 	Support Client Secret: 806tkwUj9c04K8a84lz6ooMGn9sGgrppAg2m7Y6z7Rdw86mdTEV6XJwhO181FukX
+2026-05-25 23:23:28 - INFO: 	Entitlement Account ID: 22507826-564c-43cf-8c22-d351eec45bba
+2026-05-25 23:23:28 - INFO: COMMAND: uname
+2026-05-25 23:23:28 - COMMAND: <uname> Linux
+
+2026-05-25 23:23:28 - INFO: Detected client OS: linux
+2026-05-25 23:23:29 - INFO: COMMAND: uname
+2026-05-25 23:23:29 - COMMAND: <uname> Linux
+
+2026-05-25 23:23:29 - INFO: Detected agent OS: linux
+2026-05-25 23:23:29 - INFO: ++++++++ HP Boost Version +++++++++++++
+2026-05-25 23:23:29 - INFO: COMMAND: /opt/hpboost/boost --version
+2026-05-25 23:23:29 - COMMAND: </opt/hpboost/boost --version> boost version 33.0.0-4
+
+2026-05-25 23:23:29 - COMMAND: </opt/hpboost/boost --version> boost version 33.0.0-4
+
+2026-05-25 23:23:29 - INFO: HP Boost Client version: boost version 33.0.0-4
+
+2026-05-25 23:23:29 - INFO: COMMAND: /opt/hpboost/boost --version
+2026-05-25 23:23:29 - COMMAND: </opt/hpboost/boost --version> boost version 33.0.0-4
+
+2026-05-25 23:23:29 - COMMAND: </opt/hpboost/boost --version> boost version 33.0.0-4
+
+2026-05-25 23:23:29 - INFO: HP Boost Agent version: boost version 33.0.0-4
+
+2026-05-25 23:23:29 - INFO: +++++++++++++++++++++++++++++++++++++++
+2026-05-25 23:23:29 - INFO: ++++++++ Test suite setup +++++++++++++
+2026-05-25 23:23:29 - INFO: Setup: Removing log folder
+2026-05-25 23:23:29 - INFO: COMMAND: if [ -d ".config/HP/Boost/logs/" ]; then echo exists ;  else echo not exists ; fi
+2026-05-25 23:23:29 - COMMAND: <if [ -d ".config/HP/Boost/logs/" ]; then echo exists ;  else echo not exists ; fi> exists
+
+2026-05-25 23:23:30 - INFO: COMMAND: rm -rf .config/HP/Boost/logs/
+2026-05-25 23:23:30 - INFO: COMMAND: if [ -d ".config/HP/Boost/logs/" ]; then echo exists ;  else echo not exists ; fi
+2026-05-25 23:23:30 - COMMAND: <if [ -d ".config/HP/Boost/logs/" ]; then echo exists ;  else echo not exists ; fi> not exists
+
+2026-05-25 23:23:30 - INFO: Setup: log folder removed
+2026-05-25 23:23:35 - INFO: Client login complete. Output: HP Z Boost, v33.0.0-4
+
+Logged in as boost.user@proton.me
+
+2026-05-25 23:23:39 - INFO: Agent login complete. Output: HP Z Boost, v33.0.0-4
+
+Logged in as boost.user@proton.me
+
+2026-05-25 23:23:40 - INFO: COMMAND: /opt/hpboost/boost session release
+2026-05-25 23:23:40 - COMMAND: </opt/hpboost/boost session release> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:23:40 - COMMAND: </opt/hpboost/boost session release> 
+
+2026-05-25 23:23:40 - COMMAND: </opt/hpboost/boost session release> no session to release
+
+2026-05-25 23:23:40 - COMMAND: </opt/hpboost/boost session release> HP Z Boost, v33.0.0-4
+
+no session to release
+
+2026-05-25 23:23:40 - INFO: Session clean-up complete on client. Output: HP Z Boost, v33.0.0-4
+
+no session to release
+
+2026-05-25 23:23:40 - INFO: Clean-up: Killing agent
+2026-05-25 23:23:40 - INFO: running: pgrep -f /opt/hpboost/boost
+2026-05-25 23:23:40 - INFO: COMMAND: pgrep -f /opt/hpboost/boost
+2026-05-25 23:23:40 - ERROR: Exception running command pgrep -f /opt/hpboost/boost. Error: Exit running command pgrep -f /opt/hpboost/boost, Exit code: 1. STDERR: . STDOUT: 
+2026-05-25 23:23:40 - INFO: pgrep -f /opt/hpboost/boost output: 
+ 
+2026-05-25 23:23:40 - INFO: /opt/hpboost/boost was not running
+2026-05-25 23:23:40 - INFO: COMMAND: ps -aux | grep /opt/hpboost/boost
+2026-05-25 23:23:40 - COMMAND: <ps -aux | grep /opt/hpboost/boost> dev        20754  0.0  0.0   7340  3668 ?        Ss   20:23   0:00 bash -c ps -aux | grep /opt/hpboost/boost
+
+2026-05-25 23:23:40 - COMMAND: <ps -aux | grep /opt/hpboost/boost> dev        20756  0.0  0.0   6676  2328 ?        S    20:23   0:00 grep /opt/hpboost/boost
+
+2026-05-25 23:23:40 - INFO: Running processes:dev        20754  0.0  0.0   7340  3668 ?        Ss   20:23   0:00 bash -c ps -aux | grep /opt/hpboost/boost
+dev        20756  0.0  0.0   6676  2328 ?        S    20:23   0:00 grep /opt/hpboost/boost
+
+2026-05-25 23:23:40 - INFO: Clean-up: Agent should not be running now
+2026-05-25 23:23:40 - INFO: Cleanup complete
+2026-05-25 23:23:40 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy
+2026-05-25 23:23:40 - INFO: ++++++++ Test suite setup Complete ++++++++++++++
+2026-05-25 23:23:41 - INFO: COMMAND: uname -a
+2026-05-25 23:23:41 - COMMAND: <uname -a> Linux boost-runner06 6.8.0-117-generic #117-Ubuntu SMP PREEMPT_DYNAMIC Tue May  5 19:26:24 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+
+2026-05-25 23:23:41 - INFO: COMMAND: uname -a
+2026-05-25 23:23:41 - COMMAND: <uname -a> Linux boost-runner06 6.8.0-117-generic #117-Ubuntu SMP PREEMPT_DYNAMIC Tue May  5 19:26:24 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+
+2026-05-25 23:23:44 - INFO: COMMAND: uname -a
+2026-05-25 23:23:44 - COMMAND: <uname -a> Linux boost-runner06 6.8.0-117-generic #117-Ubuntu SMP PREEMPT_DYNAMIC Tue May  5 19:26:24 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+
+2026-05-25 23:23:52 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 23:23:52 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 23:23:52 - INFO: Boost service logs cleaned successfully.
+2026-05-25 23:23:52 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 23:23:52 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 23:23:52 - INFO: Boost service logs cleaned successfully.
+2026-05-25 23:23:52 - INFO: +++++ Setup for test_proxy_using_env_variables_with_run_agent Starting ++++++
+2026-05-25 23:23:52 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_run_agent
+2026-05-25 23:23:52 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_run_agent/client
+2026-05-25 23:23:52 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_run_agent/agent
+2026-05-25 23:23:55 - INFO: +++++ Test test_proxy_using_env_variables_with_run_agent Started ++++++
+2026-05-25 23:24:43 - INFO: +++++ Test test_proxy_using_env_variables_with_run_agent Finished ++++++
+2026-05-25 23:24:43 - INFO: +++++ Teardown for test_proxy_using_env_variables_with_run_agent Starting ++++++
+2026-05-25 23:24:43 - INFO: Transferring agent log file via SCP
+2026-05-25 23:24:44 - INFO: +++++ Teardown for test_proxy_using_env_variables_with_run_agent Completed ++++++
+2026-05-25 23:24:44 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_run_agent/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_run_agent/agent
+2026-05-25 23:24:44 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_run_agent/client/boost_app_logs
+2026-05-25 23:24:44 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:24:44 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_run_agent/agent/boost_app_logs
+2026-05-25 23:24:45 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:24:46 - INFO: +++++ Setup for test_proxy_using_env_variables_with_agent_service Starting ++++++
+2026-05-25 23:24:46 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_agent_service
+2026-05-25 23:24:46 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_agent_service/client
+2026-05-25 23:24:46 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_agent_service/agent
+2026-05-25 23:24:49 - INFO: +++++ Test test_proxy_using_env_variables_with_agent_service Started ++++++
+2026-05-25 23:24:49 - INFO: Using pool: functionality.lin (ID: cef55f5e-f886-4da8-97db-123bc5c1fc17)
+2026-05-25 23:24:55 - INFO: Installing agent service...
+2026-05-25 23:25:04 - INFO: Starting agent service...
+2026-05-25 23:25:08 - INFO: Start output: Started service
+
+2026-05-25 23:25:08 - INFO: Verifying service is running...
+2026-05-25 23:25:46 - INFO: +++++ Test test_proxy_using_env_variables_with_agent_service Finished ++++++
+2026-05-25 23:25:46 - INFO: +++++ Teardown for test_proxy_using_env_variables_with_agent_service Starting ++++++
+2026-05-25 23:25:46 - INFO: Transferring agent log file via SCP
+2026-05-25 23:25:47 - INFO: +++++ Teardown for test_proxy_using_env_variables_with_agent_service Completed ++++++
+2026-05-25 23:25:47 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_agent_service/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_agent_service/agent
+2026-05-25 23:25:47 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_agent_service/client/boost_app_logs
+2026-05-25 23:25:48 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:25:48 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/proxy/test_proxy_using_env_variables_with_agent_service/agent/boost_app_logs
+2026-05-25 23:25:48 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:25:52 - INFO: Session clean-up complete on client. Output: HP Z Boost, v33.0.0-4
+
+no session to release
+
+2026-05-25 23:25:52 - INFO: Clean-up: Killing agent
+2026-05-25 23:26:58 - INFO: Clean-up: Agent should not be running now
+2026-05-25 23:26:58 - INFO: Cleanup complete
+2026-05-25 23:26:58 - INFO: ++++++++ Test suite teardown complete+++++++++++++
