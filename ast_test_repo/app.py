@@ -1,8 +1,3 @@
-from src.controllers.user_controller import create_user
+# Automation-Repository-Final-4
 
-def main():
-    user = {"name": "Durai", "email": "durai@test.com"}
-    create_user(user)
-
-if __name__ == "__main__":
-    main()
+Repository for automated test cases
