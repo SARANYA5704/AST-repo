@@ -1,0 +1,31 @@
+2026-05-25 22:48:57 - INFO: Loading from properties from env variables
+2026-05-25 22:48:57 - INFO: Properties:
+2026-05-25 22:48:57 - INFO: 	Client Hostname: 15.8.77.106
+2026-05-25 22:48:57 - INFO: 	Client Port: 22
+2026-05-25 22:48:57 - INFO: 	Client Username: dev
+2026-05-25 22:48:57 - INFO: 	Client Password: Rock*111
+2026-05-25 22:48:57 - INFO: 	Client OS: linux
+2026-05-25 22:48:57 - INFO: 	Agent Hostname: 15.8.77.106
+2026-05-25 22:48:57 - INFO: 	Agent Port: 22
+2026-05-25 22:48:57 - INFO: 	Agent Username: dev
+2026-05-25 22:48:57 - INFO: 	Agent Password: Rock*111
+2026-05-25 22:48:57 - INFO: 	Agent OS: linux
+2026-05-25 22:48:57 - INFO: 	Environment: development
+2026-05-25 22:48:57 - INFO: 	Token: m2m_w8hKMRY0yYKXkgVTSudxBMdcTWEFSMYx
+2026-05-25 22:48:57 - INFO: 	Test User Username: boost.user@proton.me
+2026-05-25 22:48:57 - INFO: 	Test User Password: IamYourW0rstN1ghtmare
+2026-05-25 22:48:57 - INFO: 	Test User Username Microsoft: boost.hp@outlook.com
+2026-05-25 22:48:57 - INFO: 	Test User Password Microsoft: Rock*111
+2026-05-25 22:48:57 - INFO: 	Pool: functionality.lin
+2026-05-25 22:48:57 - INFO: 	Support Client ID: 35eefc70-4038-4bcc-8f11-385562ead537
+2026-05-25 22:48:57 - INFO: 	Support Client Secret: 806tkwUj9c04K8a84lz6ooMGn9sGgrppAg2m7Y6z7Rdw86mdTEV6XJwhO181FukX
+2026-05-25 22:48:57 - INFO: 	Entitlement Account ID: 22507826-564c-43cf-8c22-d351eec45bba
+2026-05-25 22:48:58 - INFO: COMMAND: uname
+2026-05-25 22:48:58 - COMMAND: <uname> Linux
+
+2026-05-25 22:48:58 - INFO: Detected client OS: linux
+2026-05-25 22:48:58 - INFO: COMMAND: uname
+2026-05-25 22:48:58 - COMMAND: <uname> Linux
+
+2026-05-25 22:48:58 - INFO: Detected agent OS: linux
+2026-05-25 22:48:58 - INFO: Using default properties file: properties.ini
