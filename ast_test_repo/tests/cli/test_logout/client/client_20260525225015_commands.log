@@ -1,0 +1,66 @@
+2026-05-25 22:50:16 - INFO: COMMAND: /opt/hpboost/boost user info --json
+2026-05-25 22:50:16 - COMMAND: </opt/hpboost/boost user info --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:50:16 - COMMAND: </opt/hpboost/boost user info --json> 
+
+2026-05-25 22:50:16 - COMMAND: </opt/hpboost/boost user info --json> {"id":"863928b6-546f-4bf3-844f-4a55bd42e212","auth0Id":"Users/6fo3jfhbgszc578979k6gimzfh3166f1","name":"Boost User","email":"boost.user@proton.me"}
+
+2026-05-25 22:50:16 - COMMAND: </opt/hpboost/boost user info --json> HP Z Boost, v33.0.0-4
+
+{"id":"863928b6-546f-4bf3-844f-4a55bd42e212","auth0Id":"Users/6fo3jfhbgszc578979k6gimzfh3166f1","name":"Boost User","email":"boost.user@proton.me"}
+
+2026-05-25 22:50:17 - INFO: COMMAND: /opt/hpboost/boost logout
+2026-05-25 22:50:17 - COMMAND: </opt/hpboost/boost logout> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:50:17 - COMMAND: </opt/hpboost/boost logout> 
+
+2026-05-25 22:50:18 - COMMAND: </opt/hpboost/boost logout> Logged out
+
+2026-05-25 22:50:18 - COMMAND: </opt/hpboost/boost logout> HP Z Boost, v33.0.0-4
+
+Logged out
+
+2026-05-25 22:50:18 - INFO: COMMAND: /opt/hpboost/boost user info --json
+2026-05-25 22:50:18 - COMMAND: </opt/hpboost/boost user info --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:50:18 - COMMAND: </opt/hpboost/boost user info --json> 
+
+2026-05-25 22:50:18 - COMMAND: </opt/hpboost/boost user info --json> Error: please login with 'boost login' before using this command
+
+2026-05-25 22:50:18 - ERROR: Exception running command /opt/hpboost/boost user info --json. Error: Exit running command /opt/hpboost/boost user info --json, Exit code: 1. STDERR: . STDOUT: HP Z Boost, v33.0.0-4
+
+Error: please login with 'boost login' before using this command
+
+2026-05-25 22:50:18 - INFO: ++++++++ Fixture to login after test starting +++++++++++++
+2026-05-25 22:50:18 - INFO: ++++++++ Doing login +++++++++++++
+2026-05-25 22:50:18 - INFO: COMMAND: /opt/hpboost/boost user info --json
+2026-05-25 22:50:18 - COMMAND: </opt/hpboost/boost user info --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:50:18 - COMMAND: </opt/hpboost/boost user info --json> 
+
+2026-05-25 22:50:18 - COMMAND: </opt/hpboost/boost user info --json> Error: please login with 'boost login' before using this command
+
+2026-05-25 22:50:18 - ERROR: Exception running command /opt/hpboost/boost user info --json. Error: Exit running command /opt/hpboost/boost user info --json, Exit code: 1. STDERR: . STDOUT: HP Z Boost, v33.0.0-4
+
+Error: please login with 'boost login' before using this command
+
+2026-05-25 22:50:29 - INFO: COMMAND: /opt/hpboost/boost user info --json
+2026-05-25 22:50:29 - COMMAND: </opt/hpboost/boost user info --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:50:29 - COMMAND: </opt/hpboost/boost user info --json> 
+
+2026-05-25 22:50:30 - COMMAND: </opt/hpboost/boost user info --json> {"id":"863928b6-546f-4bf3-844f-4a55bd42e212","auth0Id":"Users/6fo3jfhbgszc578979k6gimzfh3166f1","name":"Boost User","email":"boost.user@proton.me"}
+
+2026-05-25 22:50:30 - COMMAND: </opt/hpboost/boost user info --json> HP Z Boost, v33.0.0-4
+
+{"id":"863928b6-546f-4bf3-844f-4a55bd42e212","auth0Id":"Users/6fo3jfhbgszc578979k6gimzfh3166f1","name":"Boost User","email":"boost.user@proton.me"}
+
+2026-05-25 22:50:30 - INFO: ++++++++ Fixture to login after test done +++++++++++++
+2026-05-25 22:50:30 - INFO: COMMAND: echo $HOME
+2026-05-25 22:50:30 - COMMAND: <echo $HOME> /home/dev
+
+2026-05-25 22:50:30 - INFO: Collecting Boost service logs from 15.8.77.106:/home/dev/.config/HP/Boost/logs/
+2026-05-25 22:50:30 - INFO: No Boost service log files found on remote host.
+2026-05-25 22:50:31 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 22:50:31 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 22:50:31 - INFO: Boost service logs cleaned successfully.
