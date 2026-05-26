@@ -1,0 +1,847 @@
+2026-05-25 22:48:58 - INFO: Initiating health monitor for controller (client side) availability.
+2026-05-25 22:49:00 - INFO: Starting Attempt 1
+2026-05-25 22:49:01 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:49:01 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:49:02 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:49:03 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:49:15 - INFO: Starting Attempt 1
+2026-05-25 22:49:15 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:49:16 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:49:16 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:49:17 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:49:29 - INFO: Starting Attempt 1
+2026-05-25 22:49:29 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:49:30 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:49:30 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:49:31 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:49:43 - INFO: Starting Attempt 1
+2026-05-25 22:49:43 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:49:44 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:49:45 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:49:45 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:49:57 - INFO: Starting Attempt 1
+2026-05-25 22:49:58 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:49:59 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:49:59 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:50:00 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:50:12 - INFO: Starting Attempt 1
+2026-05-25 22:50:12 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:50:13 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:50:13 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:50:14 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:50:26 - INFO: Starting Attempt 1
+2026-05-25 22:50:26 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:50:27 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:50:27 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:50:28 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:50:40 - INFO: Starting Attempt 1
+2026-05-25 22:50:40 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:50:41 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:50:41 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:50:42 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:50:54 - INFO: Starting Attempt 1
+2026-05-25 22:50:55 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:50:55 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:50:56 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:50:56 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:51:08 - INFO: Starting Attempt 1
+2026-05-25 22:51:09 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:51:09 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:51:10 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:51:11 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:51:23 - INFO: Starting Attempt 1
+2026-05-25 22:51:23 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:51:24 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:51:24 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:51:25 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:51:37 - INFO: Starting Attempt 1
+2026-05-25 22:51:37 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:51:38 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:51:38 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:51:39 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:51:51 - INFO: Starting Attempt 1
+2026-05-25 22:51:51 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:51:52 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:51:52 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:51:53 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:52:05 - INFO: Starting Attempt 1
+2026-05-25 22:52:05 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:52:06 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:52:07 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:52:07 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:52:20 - INFO: Starting Attempt 1
+2026-05-25 22:52:20 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:52:21 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:52:21 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:52:22 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:52:34 - INFO: Starting Attempt 1
+2026-05-25 22:52:34 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:52:35 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:52:35 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:52:36 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:52:48 - INFO: Starting Attempt 1
+2026-05-25 22:52:48 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:52:49 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:52:49 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:52:50 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:53:02 - INFO: Starting Attempt 1
+2026-05-25 22:53:02 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:53:03 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:53:03 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:53:04 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:53:16 - INFO: Starting Attempt 1
+2026-05-25 22:53:16 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:53:17 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:53:17 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:53:18 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:53:30 - INFO: Starting Attempt 1
+2026-05-25 22:53:30 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:53:31 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:53:31 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:53:32 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:53:44 - INFO: Starting Attempt 1
+2026-05-25 22:53:44 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:53:45 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:53:45 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:53:46 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:53:58 - INFO: Starting Attempt 1
+2026-05-25 22:53:58 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:53:59 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:53:59 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:54:00 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:54:12 - INFO: Starting Attempt 1
+2026-05-25 22:54:12 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:54:13 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:54:13 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:54:14 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:54:26 - INFO: Starting Attempt 1
+2026-05-25 22:54:26 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:54:27 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:54:27 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:54:28 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:54:40 - INFO: Starting Attempt 1
+2026-05-25 22:54:40 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:54:41 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:54:41 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:54:42 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:54:54 - INFO: Starting Attempt 1
+2026-05-25 22:54:54 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:54:55 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:54:55 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:54:56 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:55:08 - INFO: Starting Attempt 1
+2026-05-25 22:55:08 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:55:09 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:55:09 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:55:10 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:55:22 - INFO: Starting Attempt 1
+2026-05-25 22:55:22 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:55:23 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:55:23 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:55:24 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:55:36 - INFO: Starting Attempt 1
+2026-05-25 22:55:36 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:55:37 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:55:37 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:55:38 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:55:50 - INFO: Starting Attempt 1
+2026-05-25 22:55:50 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:55:51 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:55:51 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:55:52 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:56:04 - INFO: Starting Attempt 1
+2026-05-25 22:56:04 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:56:05 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:56:05 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:56:06 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:56:18 - INFO: Starting Attempt 1
+2026-05-25 22:56:18 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:56:19 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:56:19 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:56:20 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:56:32 - INFO: Starting Attempt 1
+2026-05-25 22:56:32 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:56:33 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:56:33 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:56:34 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:56:46 - INFO: Starting Attempt 1
+2026-05-25 22:56:46 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:56:47 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:56:47 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:56:48 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:57:00 - INFO: Starting Attempt 1
+2026-05-25 22:57:00 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:57:01 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:57:01 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:57:02 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:57:14 - INFO: Starting Attempt 1
+2026-05-25 22:57:14 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:57:15 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:57:16 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:57:16 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:57:28 - INFO: Starting Attempt 1
+2026-05-25 22:57:29 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:57:29 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:57:30 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:57:30 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:57:42 - INFO: Starting Attempt 1
+2026-05-25 22:57:43 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:57:43 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:57:44 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:57:44 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:57:56 - INFO: Starting Attempt 1
+2026-05-25 22:57:57 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:57:57 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:57:58 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:57:58 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:58:11 - INFO: Starting Attempt 1
+2026-05-25 22:58:11 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:58:12 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:58:12 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:58:13 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:58:25 - INFO: Starting Attempt 1
+2026-05-25 22:58:25 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:58:26 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:58:26 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:58:27 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:58:39 - INFO: Starting Attempt 1
+2026-05-25 22:58:39 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:58:40 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:58:40 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:58:41 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:58:53 - INFO: Starting Attempt 1
+2026-05-25 22:58:53 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:58:54 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:58:54 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:58:55 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:59:07 - INFO: Starting Attempt 1
+2026-05-25 22:59:07 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:59:08 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:59:08 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:59:09 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:59:21 - INFO: Starting Attempt 1
+2026-05-25 22:59:21 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:59:22 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:59:22 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:59:23 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:59:35 - INFO: Starting Attempt 1
+2026-05-25 22:59:35 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:59:36 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:59:36 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:59:37 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 22:59:49 - INFO: Starting Attempt 1
+2026-05-25 22:59:49 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 22:59:50 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 22:59:50 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 22:59:51 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:00:03 - INFO: Starting Attempt 1
+2026-05-25 23:00:03 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:00:04 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:00:04 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:00:05 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:00:17 - INFO: Starting Attempt 1
+2026-05-25 23:00:17 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:00:18 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:00:18 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:00:19 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:00:31 - INFO: Starting Attempt 1
+2026-05-25 23:00:31 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:00:32 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:00:32 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:00:33 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:00:45 - INFO: Starting Attempt 1
+2026-05-25 23:00:45 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:00:46 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:00:46 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:00:47 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:00:59 - INFO: Starting Attempt 1
+2026-05-25 23:00:59 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:01:00 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:01:00 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:01:01 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:01:13 - INFO: Starting Attempt 1
+2026-05-25 23:01:13 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:01:14 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:01:14 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:01:15 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:01:27 - INFO: Starting Attempt 1
+2026-05-25 23:01:27 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:01:28 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:01:28 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:01:29 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:01:41 - INFO: Starting Attempt 1
+2026-05-25 23:01:41 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:01:42 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:01:42 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:01:43 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:01:55 - INFO: Starting Attempt 1
+2026-05-25 23:01:55 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:01:56 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:01:56 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:01:57 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:02:09 - INFO: Starting Attempt 1
+2026-05-25 23:02:09 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:02:10 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:02:10 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:02:11 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:02:23 - INFO: Starting Attempt 1
+2026-05-25 23:02:23 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:02:24 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:02:24 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:02:25 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:02:37 - INFO: Starting Attempt 1
+2026-05-25 23:02:37 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:02:38 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:02:38 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:02:39 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:02:51 - INFO: Starting Attempt 1
+2026-05-25 23:02:51 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:02:52 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:02:52 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:02:53 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:03:05 - INFO: Starting Attempt 1
+2026-05-25 23:03:05 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:03:06 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:03:06 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:03:07 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:03:19 - INFO: Starting Attempt 1
+2026-05-25 23:03:19 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:03:20 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:03:20 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:03:21 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:03:33 - INFO: Starting Attempt 1
+2026-05-25 23:03:33 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:03:34 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:03:34 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:03:35 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:03:47 - INFO: Starting Attempt 1
+2026-05-25 23:03:47 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:03:48 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:03:48 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:03:49 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:04:01 - INFO: Starting Attempt 1
+2026-05-25 23:04:01 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:04:02 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:04:02 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:04:03 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:04:15 - INFO: Starting Attempt 1
+2026-05-25 23:04:15 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:04:16 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:04:16 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:04:17 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:04:29 - INFO: Starting Attempt 1
+2026-05-25 23:04:29 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:04:30 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:04:30 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:04:31 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:04:43 - INFO: Starting Attempt 1
+2026-05-25 23:04:43 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:04:44 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:04:44 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:04:45 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:04:57 - INFO: Starting Attempt 1
+2026-05-25 23:04:57 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:04:58 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:04:58 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:04:59 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:05:11 - INFO: Starting Attempt 1
+2026-05-25 23:05:11 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:05:12 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:05:12 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:05:13 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:05:25 - INFO: Starting Attempt 1
+2026-05-25 23:05:25 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:05:26 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:05:26 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:05:27 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:05:39 - INFO: Starting Attempt 1
+2026-05-25 23:05:39 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:05:40 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:05:40 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:05:41 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:05:53 - INFO: Starting Attempt 1
+2026-05-25 23:05:53 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:05:54 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:05:54 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:05:55 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:06:07 - INFO: Starting Attempt 1
+2026-05-25 23:06:07 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:06:08 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:06:08 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:06:09 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:06:21 - INFO: Starting Attempt 1
+2026-05-25 23:06:21 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:06:22 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:06:22 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:06:23 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:06:35 - INFO: Starting Attempt 1
+2026-05-25 23:06:35 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:06:36 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:06:36 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:06:37 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:06:49 - INFO: Starting Attempt 1
+2026-05-25 23:06:49 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:06:50 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:06:50 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:06:51 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:07:03 - INFO: Starting Attempt 1
+2026-05-25 23:07:03 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:07:04 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:07:04 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:07:05 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:07:17 - INFO: Starting Attempt 1
+2026-05-25 23:07:17 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:07:18 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:07:18 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:07:19 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:07:31 - INFO: Starting Attempt 1
+2026-05-25 23:07:31 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:07:32 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:07:32 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:07:33 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:07:45 - INFO: Starting Attempt 1
+2026-05-25 23:07:45 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:07:46 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:07:46 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:07:47 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:07:59 - INFO: Starting Attempt 1
+2026-05-25 23:07:59 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:08:00 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:08:00 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:08:01 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:08:13 - INFO: Starting Attempt 1
+2026-05-25 23:08:13 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:08:14 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:08:14 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:08:15 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:08:27 - INFO: Starting Attempt 1
+2026-05-25 23:08:27 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:08:28 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:08:28 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:08:29 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:08:41 - INFO: Starting Attempt 1
+2026-05-25 23:08:41 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:08:42 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:08:42 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:08:43 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:08:55 - INFO: Starting Attempt 1
+2026-05-25 23:08:55 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:08:56 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:08:56 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:08:57 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:09:09 - INFO: Starting Attempt 1
+2026-05-25 23:09:09 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:09:10 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:09:10 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:09:11 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:09:23 - INFO: Starting Attempt 1
+2026-05-25 23:09:23 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:09:24 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:09:24 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:09:25 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:09:37 - INFO: Starting Attempt 1
+2026-05-25 23:09:37 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:09:38 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:09:38 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:09:39 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:09:51 - INFO: Starting Attempt 1
+2026-05-25 23:09:51 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:09:52 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:09:53 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:09:53 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:10:05 - INFO: Starting Attempt 1
+2026-05-25 23:10:06 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:10:06 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:10:07 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:10:07 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:10:19 - INFO: Starting Attempt 1
+2026-05-25 23:10:20 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:10:21 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:10:21 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:10:21 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:10:34 - INFO: Starting Attempt 1
+2026-05-25 23:10:34 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:10:35 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:10:35 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:10:36 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:10:48 - INFO: Starting Attempt 1
+2026-05-25 23:10:48 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:10:49 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:10:49 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:10:50 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:11:03 - INFO: Starting Attempt 1
+2026-05-25 23:11:03 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:11:04 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:11:04 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:11:05 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:11:17 - INFO: Starting Attempt 1
+2026-05-25 23:11:17 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:11:18 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:11:18 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:11:19 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:11:31 - INFO: Starting Attempt 1
+2026-05-25 23:11:31 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:11:32 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:11:33 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:11:33 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:11:46 - INFO: Starting Attempt 1
+2026-05-25 23:11:46 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:11:47 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:11:47 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:11:48 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:12:00 - INFO: Starting Attempt 1
+2026-05-25 23:12:00 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:12:01 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:12:01 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:12:02 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:12:14 - INFO: Starting Attempt 1
+2026-05-25 23:12:14 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:12:15 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:12:15 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:12:16 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:12:28 - INFO: Starting Attempt 1
+2026-05-25 23:12:29 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:12:30 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:12:30 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:12:30 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:12:43 - INFO: Starting Attempt 1
+2026-05-25 23:12:43 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:12:44 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:12:44 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:12:45 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:12:57 - INFO: Starting Attempt 1
+2026-05-25 23:12:57 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:12:58 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:12:58 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:12:59 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:13:11 - INFO: Starting Attempt 1
+2026-05-25 23:13:12 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:13:12 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:13:13 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:13:14 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:13:26 - INFO: Starting Attempt 1
+2026-05-25 23:13:26 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:13:27 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:13:28 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:13:28 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:13:41 - INFO: Starting Attempt 1
+2026-05-25 23:13:41 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:13:42 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:13:42 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:13:43 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:13:55 - INFO: Starting Attempt 1
+2026-05-25 23:13:55 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:13:56 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:13:56 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:13:57 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:14:09 - INFO: Starting Attempt 1
+2026-05-25 23:14:10 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:14:10 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:14:11 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:14:11 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:14:24 - INFO: Starting Attempt 1
+2026-05-25 23:14:24 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:14:25 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:14:25 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:14:26 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:14:38 - INFO: Starting Attempt 1
+2026-05-25 23:14:38 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:14:39 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:14:39 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:14:40 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:14:52 - INFO: Starting Attempt 1
+2026-05-25 23:14:53 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:14:53 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:14:54 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:14:55 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:15:07 - INFO: Starting Attempt 1
+2026-05-25 23:15:07 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:15:08 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:15:08 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:15:09 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:15:21 - INFO: Starting Attempt 1
+2026-05-25 23:15:22 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:15:22 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:15:23 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:15:23 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:15:36 - INFO: Starting Attempt 1
+2026-05-25 23:15:36 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:15:37 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:15:37 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:15:38 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:15:50 - INFO: Starting Attempt 1
+2026-05-25 23:15:50 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:15:51 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:15:52 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:15:52 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:16:05 - INFO: Starting Attempt 1
+2026-05-25 23:16:05 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:16:06 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:16:06 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:16:07 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:16:19 - INFO: Starting Attempt 1
+2026-05-25 23:16:19 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:16:20 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:16:20 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:16:21 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:16:33 - INFO: Starting Attempt 1
+2026-05-25 23:16:34 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:16:35 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:16:35 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:16:36 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:16:48 - INFO: Starting Attempt 1
+2026-05-25 23:16:48 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:16:49 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:16:49 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:16:50 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:17:02 - INFO: Starting Attempt 1
+2026-05-25 23:17:02 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:17:03 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:17:03 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:17:04 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:17:17 - INFO: Starting Attempt 1
+2026-05-25 23:17:17 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:17:18 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:17:18 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:17:19 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:17:31 - INFO: Starting Attempt 1
+2026-05-25 23:17:31 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:17:32 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:17:32 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:17:33 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:17:45 - INFO: Starting Attempt 1
+2026-05-25 23:17:45 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:17:46 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:17:46 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:17:47 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:17:59 - INFO: Starting Attempt 1
+2026-05-25 23:18:00 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:18:01 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:18:01 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:18:02 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:18:14 - INFO: Starting Attempt 1
+2026-05-25 23:18:14 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:18:15 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:18:15 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:18:16 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:18:28 - INFO: Starting Attempt 1
+2026-05-25 23:18:28 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:18:29 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:18:29 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:18:30 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:18:42 - INFO: Starting Attempt 1
+2026-05-25 23:18:43 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:18:44 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:18:44 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:18:45 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:18:57 - INFO: Starting Attempt 1
+2026-05-25 23:18:57 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:18:58 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:18:58 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:18:59 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:19:11 - INFO: Starting Attempt 1
+2026-05-25 23:19:12 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:19:12 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:19:13 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:19:13 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:19:25 - INFO: Starting Attempt 1
+2026-05-25 23:19:26 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:19:27 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:19:27 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:19:28 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:19:40 - INFO: Starting Attempt 1
+2026-05-25 23:19:40 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:19:41 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:19:41 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:19:42 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:19:54 - INFO: Starting Attempt 1
+2026-05-25 23:19:54 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:19:55 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:19:56 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:19:56 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:20:09 - INFO: Starting Attempt 1
+2026-05-25 23:20:09 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:20:10 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:20:10 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:20:11 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:20:23 - INFO: Starting Attempt 1
+2026-05-25 23:20:23 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:20:24 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:20:24 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:20:25 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:20:37 - INFO: Starting Attempt 1
+2026-05-25 23:20:37 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:20:38 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:20:39 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:20:39 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:20:52 - INFO: Starting Attempt 1
+2026-05-25 23:20:52 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:20:53 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:20:53 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:20:54 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:21:06 - INFO: Starting Attempt 1
+2026-05-25 23:21:06 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:21:07 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:21:07 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:21:08 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:21:20 - INFO: Starting Attempt 1
+2026-05-25 23:21:20 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:21:21 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:21:22 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:21:22 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:21:34 - INFO: Starting Attempt 1
+2026-05-25 23:21:35 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:21:36 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:21:36 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:21:37 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:21:49 - INFO: Starting Attempt 1
+2026-05-25 23:21:49 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:21:50 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:21:50 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:21:51 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:22:03 - INFO: Starting Attempt 1
+2026-05-25 23:22:03 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:22:04 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:22:04 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:22:05 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:22:17 - INFO: Starting Attempt 1
+2026-05-25 23:22:18 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:22:18 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:22:19 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:22:19 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:22:32 - INFO: Starting Attempt 1
+2026-05-25 23:22:32 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:22:33 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:22:33 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:22:34 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:22:46 - INFO: Starting Attempt 1
+2026-05-25 23:22:46 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:22:47 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:22:47 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:22:48 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:23:00 - INFO: Starting Attempt 1
+2026-05-25 23:23:00 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:23:01 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:23:02 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:23:02 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:23:15 - INFO: Starting Attempt 1
+2026-05-25 23:23:15 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:23:16 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:23:16 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:23:17 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:23:29 - INFO: Starting Attempt 1
+2026-05-25 23:23:29 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:23:30 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:23:30 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:23:31 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:23:52 - INFO: Starting Attempt 1
+2026-05-25 23:23:52 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:23:53 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:23:53 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:23:54 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:24:06 - INFO: Starting Attempt 1
+2026-05-25 23:24:07 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:24:07 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:24:08 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:24:08 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:24:20 - INFO: Starting Attempt 1
+2026-05-25 23:24:21 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:24:22 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:24:22 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:24:22 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:24:34 - INFO: Starting Attempt 1
+2026-05-25 23:24:35 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:24:36 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:24:36 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:24:36 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:24:48 - INFO: Starting Attempt 1
+2026-05-25 23:24:49 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:24:49 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:24:50 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:24:50 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:25:02 - INFO: Starting Attempt 1
+2026-05-25 23:25:03 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:25:04 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:25:04 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:25:05 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:25:17 - INFO: Starting Attempt 1
+2026-05-25 23:25:17 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:25:18 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:25:18 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:25:19 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:25:31 - INFO: Starting Attempt 1
+2026-05-25 23:25:31 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:25:32 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:25:32 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:25:33 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:25:45 - INFO: Starting Attempt 1
+2026-05-25 23:25:45 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:25:46 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:25:47 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:25:47 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:25:59 - INFO: Starting Attempt 1
+2026-05-25 23:26:00 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:26:01 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:26:01 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:26:02 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:26:14 - INFO: Starting Attempt 1
+2026-05-25 23:26:14 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:26:15 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:26:15 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:26:16 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:26:28 - INFO: Starting Attempt 1
+2026-05-25 23:26:28 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:26:29 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:26:29 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:26:30 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:26:42 - INFO: Starting Attempt 1
+2026-05-25 23:26:43 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:26:44 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:26:44 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:26:45 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:26:57 - INFO: Starting Attempt 1
+2026-05-25 23:26:57 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:26:58 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:26:58 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:26:59 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:27:11 - INFO: Starting Attempt 1
+2026-05-25 23:27:11 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:27:12 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:27:12 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:27:13 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:27:25 - INFO: Starting Attempt 1
+2026-05-25 23:27:25 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:27:26 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:27:26 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:27:27 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:27:39 - INFO: Starting Attempt 1
+2026-05-25 23:27:40 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:27:41 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:27:41 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:27:42 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:27:54 - INFO: Starting Attempt 1
+2026-05-25 23:27:54 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:27:55 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:27:55 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:27:56 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:28:08 - INFO: Starting Attempt 1
+2026-05-25 23:28:08 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:28:09 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:28:09 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:28:10 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:28:22 - INFO: Starting Attempt 1
+2026-05-25 23:28:22 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:28:23 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:28:23 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:28:24 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:28:36 - INFO: Starting Attempt 1
+2026-05-25 23:28:36 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:28:37 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:28:37 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:28:38 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:28:51 - INFO: Starting Attempt 1
+2026-05-25 23:28:51 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:28:52 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:28:52 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status
+2026-05-25 23:28:53 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://controller.boost-dev.hp.com/v1/status> 200
+2026-05-25 23:29:03 - INFO: Health monitor (client side) finished.
