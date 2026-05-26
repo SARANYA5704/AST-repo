@@ -1,0 +1,53 @@
+2026-05-25 22:46:20 - INFO: Loading from properties from env variables
+2026-05-25 22:46:20 - INFO: Properties:
+2026-05-25 22:46:20 - INFO: 	Client Hostname: 15.8.77.106
+2026-05-25 22:46:20 - INFO: 	Client Port: 22
+2026-05-25 22:46:20 - INFO: 	Client Username: dev
+2026-05-25 22:46:20 - INFO: 	Client Password: Rock*111
+2026-05-25 22:46:20 - INFO: 	Client OS: linux
+2026-05-25 22:46:20 - INFO: 	Agent Hostname: 15.8.77.106
+2026-05-25 22:46:20 - INFO: 	Agent Port: 22
+2026-05-25 22:46:20 - INFO: 	Agent Username: dev
+2026-05-25 22:46:20 - INFO: 	Agent Password: Rock*111
+2026-05-25 22:46:20 - INFO: 	Agent OS: linux
+2026-05-25 22:46:20 - INFO: 	Environment: development
+2026-05-25 22:46:20 - INFO: 	Token: m2m_w8hKMRY0yYKXkgVTSudxBMdcTWEFSMYx
+2026-05-25 22:46:20 - INFO: 	Test User Username: boost.user@proton.me
+2026-05-25 22:46:20 - INFO: 	Test User Password: IamYourW0rstN1ghtmare
+2026-05-25 22:46:20 - INFO: 	Test User Username Microsoft: boost.hp@outlook.com
+2026-05-25 22:46:20 - INFO: 	Test User Password Microsoft: Rock*111
+2026-05-25 22:46:20 - INFO: 	Pool: functionality.lin
+2026-05-25 22:46:20 - INFO: 	Support Client ID: 35eefc70-4038-4bcc-8f11-385562ead537
+2026-05-25 22:46:20 - INFO: 	Support Client Secret: 806tkwUj9c04K8a84lz6ooMGn9sGgrppAg2m7Y6z7Rdw86mdTEV6XJwhO181FukX
+2026-05-25 22:46:20 - INFO: 	Entitlement Account ID: 22507826-564c-43cf-8c22-d351eec45bba
+2026-05-25 22:46:20 - INFO: COMMAND: uname
+2026-05-25 22:46:20 - COMMAND: <uname> Linux
+
+2026-05-25 22:46:20 - INFO: Detected client OS: linux
+2026-05-25 22:46:21 - INFO: COMMAND: uname
+2026-05-25 22:46:21 - COMMAND: <uname> Linux
+
+2026-05-25 22:46:21 - INFO: Detected agent OS: linux
+2026-05-25 22:46:21 - INFO: ============================================================
+2026-05-25 22:46:21 - INFO: SYSTEM ALLOCATION STARTING
+2026-05-25 22:46:21 - INFO: ============================================================
+2026-05-25 22:46:21 - INFO: Client: 15.8.77.106
+2026-05-25 22:46:21 - INFO: Agent: 15.8.77.106
+2026-05-25 22:46:21 - INFO: Check interval: 30 seconds
+2026-05-25 22:46:21 - INFO: Max lock duration: 360 minutes
+2026-05-25 22:46:21 - INFO: Max lock duration: 360 minutes
+2026-05-25 22:46:21 - INFO: Client and agent are the same physical machine - using unified allocation
+2026-05-25 22:46:21 - INFO: Client: 15.8.77.106:22
+2026-05-25 22:46:21 - INFO: Agent: 15.8.77.106:22
+2026-05-25 22:46:21 - INFO: COMMAND: if [ -f "/var/tmp/hpboostauto/allocation.lock" ]; then echo exists; else echo not exists; fi
+2026-05-25 22:46:21 - COMMAND: <if [ -f "/var/tmp/hpboostauto/allocation.lock" ]; then echo exists; else echo not exists; fi> not exists
+
+2026-05-25 22:46:21 - INFO: COMMAND: mkdir -p /var/tmp/hpboostauto
+2026-05-25 22:46:21 - INFO: COMMAND: echo "Allocated: 2026-05-25 22:46:21 | Job: lin_functionality_test | Workflow: https://github.com/hpi-main/solution-boost-test-automation/actions/runs/26422737412 | TTL: 360" > "/var/tmp/hpboostauto/allocation.lock"
+2026-05-25 22:46:21 - INFO: Created lock file on system 15.8.77.106:22: /var/tmp/hpboostauto/allocation.lock
+2026-05-25 22:46:21 - INFO: Same system allocated successfully for both client and agent roles
+2026-05-25 22:46:21 - INFO: ============================================================
+2026-05-25 22:46:21 - INFO: SYSTEMS SUCCESSFULLY ALLOCATED
+2026-05-25 22:46:21 - INFO: ============================================================
+2026-05-25 22:46:21 - INFO: Both client and agent systems are now locked and ready for use.
+2026-05-25 22:46:21 - INFO: Remember to run this script with --deallocate when finished.
