@@ -1,0 +1,432 @@
+2026-05-25 22:48:58 - INFO: Loading from properties from env variables
+2026-05-25 22:48:58 - INFO: Properties:
+2026-05-25 22:48:58 - INFO: 	Client Hostname: 15.8.77.106
+2026-05-25 22:48:58 - INFO: 	Client Port: 22
+2026-05-25 22:48:58 - INFO: 	Client Username: dev
+2026-05-25 22:48:58 - INFO: 	Client Password: Rock*111
+2026-05-25 22:48:58 - INFO: 	Client OS: linux
+2026-05-25 22:48:58 - INFO: 	Agent Hostname: 15.8.77.106
+2026-05-25 22:48:58 - INFO: 	Agent Port: 22
+2026-05-25 22:48:58 - INFO: 	Agent Username: dev
+2026-05-25 22:48:58 - INFO: 	Agent Password: Rock*111
+2026-05-25 22:48:58 - INFO: 	Agent OS: linux
+2026-05-25 22:48:58 - INFO: 	Environment: development
+2026-05-25 22:48:58 - INFO: 	Token: m2m_w8hKMRY0yYKXkgVTSudxBMdcTWEFSMYx
+2026-05-25 22:48:58 - INFO: 	Test User Username: boost.user@proton.me
+2026-05-25 22:48:58 - INFO: 	Test User Password: IamYourW0rstN1ghtmare
+2026-05-25 22:48:58 - INFO: 	Test User Username Microsoft: boost.hp@outlook.com
+2026-05-25 22:48:58 - INFO: 	Test User Password Microsoft: Rock*111
+2026-05-25 22:48:58 - INFO: 	Pool: functionality.lin
+2026-05-25 22:48:58 - INFO: 	Support Client ID: 35eefc70-4038-4bcc-8f11-385562ead537
+2026-05-25 22:48:58 - INFO: 	Support Client Secret: 806tkwUj9c04K8a84lz6ooMGn9sGgrppAg2m7Y6z7Rdw86mdTEV6XJwhO181FukX
+2026-05-25 22:48:58 - INFO: 	Entitlement Account ID: 22507826-564c-43cf-8c22-d351eec45bba
+2026-05-25 22:48:58 - INFO: COMMAND: uname
+2026-05-25 22:48:58 - COMMAND: <uname> Linux
+
+2026-05-25 22:48:58 - INFO: Detected client OS: linux
+2026-05-25 22:48:58 - INFO: COMMAND: uname
+2026-05-25 22:48:58 - COMMAND: <uname> Linux
+
+2026-05-25 22:48:58 - INFO: Detected agent OS: linux
+2026-05-25 22:48:58 - INFO: ++++++++ HP Boost Version +++++++++++++
+2026-05-25 22:48:59 - INFO: COMMAND: /opt/hpboost/boost --version
+2026-05-25 22:48:59 - COMMAND: </opt/hpboost/boost --version> boost version 33.0.0-4
+
+2026-05-25 22:48:59 - COMMAND: </opt/hpboost/boost --version> boost version 33.0.0-4
+
+2026-05-25 22:48:59 - INFO: HP Boost Client version: boost version 33.0.0-4
+
+2026-05-25 22:48:59 - INFO: COMMAND: /opt/hpboost/boost --version
+2026-05-25 22:48:59 - COMMAND: </opt/hpboost/boost --version> boost version 33.0.0-4
+
+2026-05-25 22:48:59 - COMMAND: </opt/hpboost/boost --version> boost version 33.0.0-4
+
+2026-05-25 22:48:59 - INFO: HP Boost Agent version: boost version 33.0.0-4
+
+2026-05-25 22:48:59 - INFO: +++++++++++++++++++++++++++++++++++++++
+2026-05-25 22:48:59 - INFO: ++++++++ Test suite setup +++++++++++++
+2026-05-25 22:48:59 - INFO: Setup: Removing log folder
+2026-05-25 22:48:59 - INFO: COMMAND: if [ -d ".config/HP/Boost/logs/" ]; then echo exists ;  else echo not exists ; fi
+2026-05-25 22:48:59 - COMMAND: <if [ -d ".config/HP/Boost/logs/" ]; then echo exists ;  else echo not exists ; fi> exists
+
+2026-05-25 22:48:59 - INFO: COMMAND: rm -rf .config/HP/Boost/logs/
+2026-05-25 22:49:00 - INFO: COMMAND: if [ -d ".config/HP/Boost/logs/" ]; then echo exists ;  else echo not exists ; fi
+2026-05-25 22:49:00 - COMMAND: <if [ -d ".config/HP/Boost/logs/" ]; then echo exists ;  else echo not exists ; fi> not exists
+
+2026-05-25 22:49:00 - INFO: Setup: log folder removed
+2026-05-25 22:49:05 - INFO: Client login complete. Output: HP Z Boost, v33.0.0-4
+
+Logged in as boost.user@proton.me
+
+2026-05-25 22:49:09 - INFO: Agent login complete. Output: HP Z Boost, v33.0.0-4
+
+Logged in as boost.user@proton.me
+
+2026-05-25 22:49:10 - INFO: COMMAND: /opt/hpboost/boost session release
+2026-05-25 22:49:10 - COMMAND: </opt/hpboost/boost session release> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:49:10 - COMMAND: </opt/hpboost/boost session release> 
+
+2026-05-25 22:49:10 - COMMAND: </opt/hpboost/boost session release> no session to release
+
+2026-05-25 22:49:10 - COMMAND: </opt/hpboost/boost session release> HP Z Boost, v33.0.0-4
+
+no session to release
+
+2026-05-25 22:49:10 - INFO: Session clean-up complete on client. Output: HP Z Boost, v33.0.0-4
+
+no session to release
+
+2026-05-25 22:49:10 - INFO: Clean-up: Killing agent
+2026-05-25 22:49:10 - INFO: running: pgrep -f /opt/hpboost/boost
+2026-05-25 22:49:10 - INFO: COMMAND: pgrep -f /opt/hpboost/boost
+2026-05-25 22:49:10 - ERROR: Exception running command pgrep -f /opt/hpboost/boost. Error: Exit running command pgrep -f /opt/hpboost/boost, Exit code: 1. STDERR: . STDOUT: 
+2026-05-25 22:49:10 - INFO: pgrep -f /opt/hpboost/boost output: 
+ 
+2026-05-25 22:49:10 - INFO: /opt/hpboost/boost was not running
+2026-05-25 22:49:10 - INFO: COMMAND: ps -aux | grep /opt/hpboost/boost
+2026-05-25 22:49:10 - COMMAND: <ps -aux | grep /opt/hpboost/boost> dev         8566  0.0  0.0   7340  3604 ?        Ss   19:49   0:00 bash -c ps -aux | grep /opt/hpboost/boost
+
+2026-05-25 22:49:10 - COMMAND: <ps -aux | grep /opt/hpboost/boost> dev         8568  0.0  0.0   6676  2332 ?        S    19:49   0:00 grep /opt/hpboost/boost
+
+2026-05-25 22:49:10 - INFO: Running processes:dev         8566  0.0  0.0   7340  3604 ?        Ss   19:49   0:00 bash -c ps -aux | grep /opt/hpboost/boost
+dev         8568  0.0  0.0   6676  2332 ?        S    19:49   0:00 grep /opt/hpboost/boost
+
+2026-05-25 22:49:10 - INFO: Clean-up: Agent should not be running now
+2026-05-25 22:49:10 - INFO: Cleanup complete
+2026-05-25 22:49:10 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli
+2026-05-25 22:49:10 - INFO: ++++++++ Test suite setup Complete ++++++++++++++
+2026-05-25 22:49:10 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 22:49:10 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 22:49:10 - INFO: Boost service logs cleaned successfully.
+2026-05-25 22:49:10 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 22:49:11 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 22:49:11 - INFO: Boost service logs cleaned successfully.
+2026-05-25 22:49:11 - INFO: +++++ Setup for test_list_pools Starting ++++++
+2026-05-25 22:49:11 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_list_pools
+2026-05-25 22:49:11 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_list_pools/client
+2026-05-25 22:49:11 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_list_pools/agent
+2026-05-25 22:49:11 - INFO: +++++ Test test_list_pools Starting ++++++
+2026-05-25 22:49:17 - INFO: +++++ Test test_list_pools Done ++++++
+2026-05-25 22:49:17 - INFO: +++++ Teardown for test_list_pools Starting ++++++
+2026-05-25 22:49:17 - INFO: Transferring agent log file via SCP
+2026-05-25 22:49:17 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_list_pools/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_list_pools/agent
+2026-05-25 22:49:17 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_list_pools/client/boost_app_logs
+2026-05-25 22:49:18 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 22:49:18 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_list_pools/agent/boost_app_logs
+2026-05-25 22:49:18 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 22:49:19 - INFO: +++++ Setup for test_gpu_list Starting ++++++
+2026-05-25 22:49:19 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_gpu_list
+2026-05-25 22:49:19 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_gpu_list/client
+2026-05-25 22:49:19 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_gpu_list/agent
+2026-05-25 22:49:30 - INFO: +++++ Test test_gpu_list Starting ++++++
+2026-05-25 22:50:06 - INFO: +++++ Test test_gpu_list Done ++++++
+2026-05-25 22:50:13 - INFO: Session list after release: []
+2026-05-25 22:50:13 - INFO: +++++ Teardown for test_gpu_list Starting ++++++
+2026-05-25 22:50:13 - INFO: Transferring agent log file via SCP
+2026-05-25 22:50:13 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_gpu_list/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_gpu_list/agent
+2026-05-25 22:50:13 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_gpu_list/client/boost_app_logs
+2026-05-25 22:50:14 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 22:50:14 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_gpu_list/agent/boost_app_logs
+2026-05-25 22:50:15 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 22:50:15 - INFO: +++++ Setup for test_logout Starting ++++++
+2026-05-25 22:50:15 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_logout
+2026-05-25 22:50:15 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_logout/client
+2026-05-25 22:50:15 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_logout/agent
+2026-05-25 22:50:15 - INFO: +++++ Test test_logout Starting ++++++
+2026-05-25 22:50:18 - INFO: +++++ Test test_logout Done ++++++
+2026-05-25 22:50:24 - INFO: Client login complete. Output: HP Z Boost, v33.0.0-4
+
+Logged in as boost.user@proton.me
+
+2026-05-25 22:50:29 - INFO: Agent login complete. Output: HP Z Boost, v33.0.0-4
+
+Logged in as boost.user@proton.me
+
+2026-05-25 22:50:30 - INFO: +++++ Teardown for test_logout Starting ++++++
+2026-05-25 22:50:30 - INFO: Transferring agent log file via SCP
+2026-05-25 22:50:30 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_logout/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_logout/agent
+2026-05-25 22:50:30 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_logout/client/boost_app_logs
+2026-05-25 22:50:30 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 22:50:30 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_logout/agent/boost_app_logs
+2026-05-25 22:50:31 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 22:50:31 - INFO: +++++ Setup for test_m2m_flow Starting ++++++
+2026-05-25 22:50:31 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_m2m_flow
+2026-05-25 22:50:31 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_m2m_flow/client
+2026-05-25 22:50:31 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_m2m_flow/agent
+2026-05-25 22:50:31 - INFO: +++++ Test test_m2m_flow Starting ++++++
+2026-05-25 22:50:42 - INFO: +++++ Test test_m2m_flow Done ++++++
+2026-05-25 22:50:48 - INFO: Client login complete. Output: HP Z Boost, v33.0.0-4
+
+Logged in as boost.user@proton.me
+
+2026-05-25 22:50:53 - INFO: Agent login complete. Output: HP Z Boost, v33.0.0-4
+
+Logged in as boost.user@proton.me
+
+2026-05-25 22:50:54 - INFO: +++++ Teardown for test_m2m_flow Starting ++++++
+2026-05-25 22:50:54 - INFO: Transferring agent log file via SCP
+2026-05-25 22:50:54 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_m2m_flow/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_m2m_flow/agent
+2026-05-25 22:50:54 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_m2m_flow/client/boost_app_logs
+2026-05-25 22:50:54 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 22:50:54 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_m2m_flow/agent/boost_app_logs
+2026-05-25 22:50:55 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 22:50:55 - INFO: +++++ Setup for test_session Starting ++++++
+2026-05-25 22:50:55 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_session
+2026-05-25 22:50:55 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_session/client
+2026-05-25 22:50:55 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_session/agent
+2026-05-25 22:51:06 - INFO: +++++ Test test_session Starting ++++++
+2026-05-25 22:51:30 - INFO: +++++ Test test_session Done ++++++
+2026-05-25 22:51:37 - INFO: Session list after release: []
+2026-05-25 22:51:47 - INFO: +++++ Teardown for test_session Starting ++++++
+2026-05-25 22:51:47 - INFO: Transferring agent log file via SCP
+2026-05-25 22:51:48 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_session/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_session/agent
+2026-05-25 22:51:48 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_session/client/boost_app_logs
+2026-05-25 22:51:49 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 22:51:49 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_session/agent/boost_app_logs
+2026-05-25 22:51:49 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 22:51:50 - INFO: +++++ Setup for test_agent_list_and_info Starting ++++++
+2026-05-25 22:51:50 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_list_and_info
+2026-05-25 22:51:50 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_list_and_info/client
+2026-05-25 22:51:50 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_list_and_info/agent
+2026-05-25 22:52:01 - INFO: +++++ Test test_agent_list_and_info Starting ++++++
+2026-05-25 22:52:17 - INFO: +++++ Test test_agent_list_and_info Done ++++++
+2026-05-25 22:52:24 - INFO: Session list after release: []
+2026-05-25 22:52:24 - INFO: +++++ Teardown for test_agent_list_and_info Starting ++++++
+2026-05-25 22:52:24 - INFO: Transferring agent log file via SCP
+2026-05-25 22:52:25 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_list_and_info/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_list_and_info/agent
+2026-05-25 22:52:25 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_list_and_info/client/boost_app_logs
+2026-05-25 22:52:26 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 22:52:26 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_list_and_info/agent/boost_app_logs
+2026-05-25 22:52:27 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 22:52:27 - INFO: +++++ Setup for test_workload_without_creating_session Starting ++++++
+2026-05-25 22:52:27 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_workload_without_creating_session
+2026-05-25 22:52:27 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_workload_without_creating_session/client
+2026-05-25 22:52:27 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_workload_without_creating_session/agent
+2026-05-25 22:52:38 - INFO: +++++ Test test_workload_without_creating_session Starting ++++++
+2026-05-25 23:09:42 - INFO: +++++ Test test_workload_without_creating_session Done ++++++
+2026-05-25 23:09:49 - INFO: Session list after release: []
+2026-05-25 23:09:59 - INFO: +++++ Teardown for test_workload_without_creating_session Starting ++++++
+2026-05-25 23:09:59 - INFO: Transferring agent log file via SCP
+2026-05-25 23:10:00 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_workload_without_creating_session/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_workload_without_creating_session/agent
+2026-05-25 23:10:00 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_workload_without_creating_session/client/boost_app_logs
+2026-05-25 23:10:01 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:10:01 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_workload_without_creating_session/agent/boost_app_logs
+2026-05-25 23:10:02 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:10:02 - INFO: +++++ Setup for test_help_all_commands Starting ++++++
+2026-05-25 23:10:02 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_help_all_commands
+2026-05-25 23:10:02 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_help_all_commands/client
+2026-05-25 23:10:02 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_help_all_commands/agent
+2026-05-25 23:10:02 - INFO: +++++ Test test_help_all_commands Starting ++++++
+2026-05-25 23:10:11 - INFO: +++++ Test test_help_all_commands Done ++++++
+2026-05-25 23:10:11 - INFO: +++++ Teardown for test_help_all_commands Starting ++++++
+2026-05-25 23:10:11 - INFO: Transferring agent log file via SCP
+2026-05-25 23:10:11 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_help_all_commands/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_help_all_commands/agent
+2026-05-25 23:10:11 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_help_all_commands/client/boost_app_logs
+2026-05-25 23:10:12 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:10:12 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_help_all_commands/agent/boost_app_logs
+2026-05-25 23:10:12 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:10:13 - INFO: +++++ Setup for test_boost_check_command Starting ++++++
+2026-05-25 23:10:13 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_check_command
+2026-05-25 23:10:13 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_check_command/client
+2026-05-25 23:10:13 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_check_command/agent
+2026-05-25 23:10:13 - INFO: +++++ Test test_boost_check_command Starting ++++++
+2026-05-25 23:10:20 - INFO: +++++ Test test_boost_check_command Done ++++++
+2026-05-25 23:10:20 - INFO: +++++ Teardown for test_boost_check_command Starting ++++++
+2026-05-25 23:10:20 - INFO: Transferring agent log file via SCP
+2026-05-25 23:10:21 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_check_command/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_check_command/agent
+2026-05-25 23:10:21 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_check_command/client/boost_app_logs
+2026-05-25 23:10:21 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:10:21 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_check_command/agent/boost_app_logs
+2026-05-25 23:10:21 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:10:22 - INFO: +++++ Setup for test_network_test_utility Starting ++++++
+2026-05-25 23:10:22 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_network_test_utility
+2026-05-25 23:10:22 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_network_test_utility/client
+2026-05-25 23:10:22 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_network_test_utility/agent
+2026-05-25 23:10:33 - INFO: +++++ Test test_network_test_utility Starting ++++++
+2026-05-25 23:10:49 - INFO: +++++ Test test_network_test_utility Done ++++++
+2026-05-25 23:10:56 - INFO: Session list after release: []
+2026-05-25 23:11:06 - INFO: +++++ Teardown for test_network_test_utility Starting ++++++
+2026-05-25 23:11:06 - INFO: Transferring agent log file via SCP
+2026-05-25 23:11:07 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_network_test_utility/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_network_test_utility/agent
+2026-05-25 23:11:07 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_network_test_utility/client/boost_app_logs
+2026-05-25 23:11:08 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:11:08 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_network_test_utility/agent/boost_app_logs
+2026-05-25 23:11:09 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:11:09 - INFO: +++++ Setup for test_stop_agent Starting ++++++
+2026-05-25 23:11:09 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_stop_agent
+2026-05-25 23:11:09 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_stop_agent/client
+2026-05-25 23:11:09 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_stop_agent/agent
+2026-05-25 23:11:09 - INFO: +++++ Test test_stop_agent Starting ++++++
+2026-05-25 23:12:57 - INFO: +++++ Test test_stop_agent Done ++++++
+2026-05-25 23:13:04 - INFO: Session list after release: []
+2026-05-25 23:13:04 - INFO: +++++ Teardown for test_stop_agent Starting ++++++
+2026-05-25 23:13:04 - INFO: Transferring agent log file via SCP
+2026-05-25 23:13:05 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_stop_agent/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_stop_agent/agent
+2026-05-25 23:13:05 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_stop_agent/client/boost_app_logs
+2026-05-25 23:13:06 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:13:06 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_stop_agent/agent/boost_app_logs
+2026-05-25 23:13:06 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:13:07 - INFO: +++++ Setup for test_agent_service_install Starting ++++++
+2026-05-25 23:13:07 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_install
+2026-05-25 23:13:07 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_install/client
+2026-05-25 23:13:07 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_install/agent
+2026-05-25 23:13:07 - INFO: +++++ Test test_agent_service_install Starting ++++++
+2026-05-25 23:13:38 - INFO: +++++ Test test_agent_service_install Done ++++++
+2026-05-25 23:13:38 - INFO: +++++ Teardown for test_agent_service_install Starting ++++++
+2026-05-25 23:13:38 - INFO: Transferring agent log file via SCP
+2026-05-25 23:13:38 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_install/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_install/agent
+2026-05-25 23:13:38 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_install/client/boost_app_logs
+2026-05-25 23:13:39 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:13:39 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_install/agent/boost_app_logs
+2026-05-25 23:13:39 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:13:40 - INFO: +++++ Setup for test_agent_service_uninstall Starting ++++++
+2026-05-25 23:13:40 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_uninstall
+2026-05-25 23:13:40 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_uninstall/client
+2026-05-25 23:13:40 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_uninstall/agent
+2026-05-25 23:13:40 - INFO: +++++ Test test_agent_service_uninstall Starting ++++++
+2026-05-25 23:14:16 - INFO: +++++ Test test_agent_service_uninstall Done ++++++
+2026-05-25 23:14:16 - INFO: +++++ Teardown for test_agent_service_uninstall Starting ++++++
+2026-05-25 23:14:16 - INFO: Transferring agent log file via SCP
+2026-05-25 23:14:17 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_uninstall/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_uninstall/agent
+2026-05-25 23:14:17 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_uninstall/client/boost_app_logs
+2026-05-25 23:14:17 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:14:17 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_uninstall/agent/boost_app_logs
+2026-05-25 23:14:18 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:14:19 - INFO: +++++ Setup for test_agent_service_start Starting ++++++
+2026-05-25 23:14:19 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_start
+2026-05-25 23:14:19 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_start/client
+2026-05-25 23:14:19 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_start/agent
+2026-05-25 23:14:19 - INFO: +++++ Test test_agent_service_start Starting ++++++
+2026-05-25 23:14:54 - INFO: +++++ Test test_agent_service_start Done ++++++
+2026-05-25 23:14:54 - INFO: +++++ Teardown for test_agent_service_start Starting ++++++
+2026-05-25 23:14:54 - INFO: Transferring agent log file via SCP
+2026-05-25 23:14:54 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_start/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_start/agent
+2026-05-25 23:14:54 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_start/client/boost_app_logs
+2026-05-25 23:14:55 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:14:55 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_start/agent/boost_app_logs
+2026-05-25 23:14:56 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:14:56 - INFO: +++++ Setup for test_agent_service_stop Starting ++++++
+2026-05-25 23:14:56 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_stop
+2026-05-25 23:14:56 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_stop/client
+2026-05-25 23:14:56 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_stop/agent
+2026-05-25 23:14:56 - INFO: +++++ Test test_agent_service_stop Starting ++++++
+2026-05-25 23:14:59 - INFO: Using pool: functionality.lin (ID: cef55f5e-f886-4da8-97db-123bc5c1fc17)
+2026-05-25 23:15:05 - INFO: Installing agent service...
+2026-05-25 23:15:14 - INFO: Starting agent service...
+2026-05-25 23:15:23 - INFO: Stopping agent service...
+2026-05-25 23:15:24 - INFO: Stop output: Stopped service
+
+2026-05-25 23:15:31 - INFO: +++++ Test test_agent_service_stop Done ++++++
+2026-05-25 23:15:31 - INFO: +++++ Teardown for test_agent_service_stop Starting ++++++
+2026-05-25 23:15:31 - INFO: Transferring agent log file via SCP
+2026-05-25 23:15:31 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_stop/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_stop/agent
+2026-05-25 23:15:31 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_stop/client/boost_app_logs
+2026-05-25 23:15:32 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:15:32 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_stop/agent/boost_app_logs
+2026-05-25 23:15:33 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:15:33 - INFO: +++++ Setup for test_agent_service_restart Starting ++++++
+2026-05-25 23:15:33 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_restart
+2026-05-25 23:15:33 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_restart/client
+2026-05-25 23:15:33 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_restart/agent
+2026-05-25 23:15:33 - INFO: +++++ Test test_agent_service_restart Starting ++++++
+2026-05-25 23:16:30 - INFO: +++++ Test test_agent_service_restart Done ++++++
+2026-05-25 23:16:30 - INFO: +++++ Teardown for test_agent_service_restart Starting ++++++
+2026-05-25 23:16:30 - INFO: Transferring agent log file via SCP
+2026-05-25 23:16:30 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_restart/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_restart/agent
+2026-05-25 23:16:30 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_restart/client/boost_app_logs
+2026-05-25 23:16:31 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:16:31 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_agent_service_restart/agent/boost_app_logs
+2026-05-25 23:16:32 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:16:33 - INFO: +++++ Setup for test_force_kill_agent Starting ++++++
+2026-05-25 23:16:33 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_force_kill_agent
+2026-05-25 23:16:33 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_force_kill_agent/client
+2026-05-25 23:16:33 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_force_kill_agent/agent
+2026-05-25 23:16:33 - INFO: +++++ Test test_force_kill_agent Starting ++++++
+2026-05-25 23:17:46 - INFO: Session created: {'id': 'bfb37d33-9f33-47f0-88c8-5c738ca51006', 'state': 'active', 'poolId': 'cef55f5e-f886-4da8-97db-123bc5c1fc17', 'userId': '863928b6-546f-4bf3-844f-4a55bd42e212', 'agentId': '7e0b0b11-15d3-44ef-bdfb-14da4434d3b8', 'expiresAt': '2026-05-25T23:18:29.97208Z', 'idleExpiresAt': '2026-05-26T03:17:29.97208Z', 'idleExpiresAfter': 14387726632400, 'queuedAt': '0001-01-01T00:00:00Z', 'assignedAt': '2026-05-25T23:17:29.97208Z', 'closedReason': 'unknown', 'protocol': 'quic', 'requirements': {'version': '', 'poolIds': None, 'protocol': '', 'queuePriority': 0, 'scheduler': '', 'expireAfter': 0, 'gpus': None, 'gpuCount': 0, 'matchLabels': None, 'tolerates': None, 'metrics': {'systemModel': '', 'systemManufacturer': '', 'systemType': '', 'systemRam': 0, 'systemProcessor': '', 'systemStorage': 0, 'os': '', 'osVersion': '', 'gpus': None, 'gpuDriverVersion': '', 'cudaDriverVersion': ''}, 'idleTimeout': 0, 'dryRun': False}, 'gpus': [{'uuid': '8393e7ea-9847-44cd-d45e-d9bf0ff68eb8', 'name': 'Quadro P2000', 'pciBus': '00000000:01:00.0', 'vram': 5368709120, 'totalVram': 5368709120, 'utilizationGpu': 0, 'utilizationVram': 0}], 'latencyMs': 0, 'uploadMbps': 0, 'downloadMbps': 0}
+2026-05-25 23:17:53 - INFO: Session list after release: []
+2026-05-25 23:18:03 - INFO: +++++ Teardown for test_force_kill_agent Starting ++++++
+2026-05-25 23:18:03 - INFO: Transferring agent log file via SCP
+2026-05-25 23:18:04 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_force_kill_agent/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_force_kill_agent/agent
+2026-05-25 23:18:04 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_force_kill_agent/client/boost_app_logs
+2026-05-25 23:18:05 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:18:05 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_force_kill_agent/agent/boost_app_logs
+2026-05-25 23:18:06 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:18:06 - INFO: +++++ Setup for test_boost_run_special_chars Starting ++++++
+2026-05-25 23:18:06 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars
+2026-05-25 23:18:06 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client
+2026-05-25 23:18:06 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent
+2026-05-25 23:18:17 - INFO: +++++ Test test_boost_run_special_chars Starting ++++++
+2026-05-25 23:18:50 - INFO: +++++ Test test_boost_run_special_chars Done ++++++
+2026-05-25 23:18:57 - INFO: Session list after release: []
+2026-05-25 23:19:07 - INFO: +++++ Teardown for test_boost_run_special_chars Starting ++++++
+2026-05-25 23:19:07 - INFO: Transferring agent log file via SCP
+2026-05-25 23:19:08 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent
+2026-05-25 23:19:08 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client/boost_app_logs
+2026-05-25 23:19:09 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:19:09 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent/boost_app_logs
+2026-05-25 23:19:10 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:19:11 - INFO: +++++ Setup for test_boost_run_special_chars Starting ++++++
+2026-05-25 23:19:11 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars
+2026-05-25 23:19:11 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client
+2026-05-25 23:19:11 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent
+2026-05-25 23:19:22 - INFO: +++++ Test test_boost_run_special_chars Starting ++++++
+2026-05-25 23:19:55 - INFO: +++++ Test test_boost_run_special_chars Done ++++++
+2026-05-25 23:20:02 - INFO: Session list after release: []
+2026-05-25 23:20:12 - INFO: +++++ Teardown for test_boost_run_special_chars Starting ++++++
+2026-05-25 23:20:12 - INFO: Transferring agent log file via SCP
+2026-05-25 23:20:13 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent
+2026-05-25 23:20:13 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client/boost_app_logs
+2026-05-25 23:20:14 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:20:14 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent/boost_app_logs
+2026-05-25 23:20:15 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:20:15 - INFO: +++++ Setup for test_boost_run_special_chars Starting ++++++
+2026-05-25 23:20:15 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars
+2026-05-25 23:20:15 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client
+2026-05-25 23:20:15 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent
+2026-05-25 23:20:26 - INFO: +++++ Test test_boost_run_special_chars Starting ++++++
+2026-05-25 23:20:59 - INFO: +++++ Test test_boost_run_special_chars Done ++++++
+2026-05-25 23:21:06 - INFO: Session list after release: []
+2026-05-25 23:21:16 - INFO: +++++ Teardown for test_boost_run_special_chars Starting ++++++
+2026-05-25 23:21:16 - INFO: Transferring agent log file via SCP
+2026-05-25 23:21:17 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent
+2026-05-25 23:21:17 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client/boost_app_logs
+2026-05-25 23:21:18 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:21:18 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent/boost_app_logs
+2026-05-25 23:21:19 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:21:20 - INFO: +++++ Setup for test_boost_run_special_chars Starting ++++++
+2026-05-25 23:21:20 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars
+2026-05-25 23:21:20 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client
+2026-05-25 23:21:20 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent
+2026-05-25 23:21:31 - INFO: +++++ Test test_boost_run_special_chars Starting ++++++
+2026-05-25 23:22:05 - INFO: +++++ Test test_boost_run_special_chars Done ++++++
+2026-05-25 23:22:12 - INFO: Session list after release: []
+2026-05-25 23:22:22 - INFO: +++++ Teardown for test_boost_run_special_chars Starting ++++++
+2026-05-25 23:22:22 - INFO: Transferring agent log file via SCP
+2026-05-25 23:22:23 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent
+2026-05-25 23:22:23 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client/boost_app_logs
+2026-05-25 23:22:24 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:22:24 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent/boost_app_logs
+2026-05-25 23:22:25 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:22:26 - INFO: +++++ Setup for test_boost_run_special_chars Starting ++++++
+2026-05-25 23:22:26 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars
+2026-05-25 23:22:26 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client
+2026-05-25 23:22:26 - INFO: Log directory created at: /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent
+2026-05-25 23:22:37 - INFO: +++++ Test test_boost_run_special_chars Starting ++++++
+2026-05-25 23:23:07 - INFO: +++++ Test test_boost_run_special_chars Done ++++++
+2026-05-25 23:23:15 - INFO: Session list after release: []
+2026-05-25 23:23:25 - INFO: +++++ Teardown for test_boost_run_special_chars Starting ++++++
+2026-05-25 23:23:25 - INFO: Transferring agent log file via SCP
+2026-05-25 23:23:26 - INFO: [boost_service_logs] client_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client, agent_log_dir=/actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent
+2026-05-25 23:23:26 - INFO: [boost_service_logs] Collecting client logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/client/boost_app_logs
+2026-05-25 23:23:26 - INFO: [boost_service_logs] Client collection result: True
+2026-05-25 23:23:26 - INFO: [boost_service_logs] Collecting agent logs to /actions-runner/_work/solution-boost-test-automation/solution-boost-test-automation/logs/cli/test_boost_run_special_chars/agent/boost_app_logs
+2026-05-25 23:23:27 - INFO: [boost_service_logs] Agent collection result: True
+2026-05-25 23:23:28 - INFO: Session clean-up complete on client. Output: HP Z Boost, v33.0.0-4
+
+no session to release
+
+2026-05-25 23:23:28 - INFO: Clean-up: Killing agent
+2026-05-25 23:23:28 - INFO: Clean-up: Agent should not be running now
+2026-05-25 23:23:28 - INFO: Cleanup complete
+2026-05-25 23:23:28 - INFO: ++++++++ Test suite teardown complete+++++++++++++
