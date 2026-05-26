@@ -1,0 +1,123 @@
+2026-05-25 22:50:32 - INFO: COMMAND: /opt/hpboost/boost m2m create -d "" -e 90
+2026-05-25 22:50:32 - COMMAND: </opt/hpboost/boost m2m create -d "" -e 90> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:50:32 - COMMAND: </opt/hpboost/boost m2m create -d "" -e 90> 
+
+2026-05-25 22:50:32 - COMMAND: </opt/hpboost/boost m2m create -d "" -e 90> M2M token created, save this token in a safe place and keep it private
+
+2026-05-25 22:50:32 - COMMAND: </opt/hpboost/boost m2m create -d "" -e 90> 
+
+2026-05-25 22:50:32 - COMMAND: </opt/hpboost/boost m2m create -d "" -e 90> Token: m2m_OomDfeEqGs9FmplqXv7LOUM15g2y08Iu
+
+2026-05-25 22:50:32 - COMMAND: </opt/hpboost/boost m2m create -d "" -e 90> 
+
+2026-05-25 22:50:32 - COMMAND: </opt/hpboost/boost m2m create -d "" -e 90> HP Z Boost, v33.0.0-4
+
+M2M token created, save this token in a safe place and keep it private
+
+Token: m2m_OomDfeEqGs9FmplqXv7LOUM15g2y08Iu
+
+
+2026-05-25 22:50:33 - INFO: COMMAND: /opt/hpboost/boost m2m ls --json
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> 
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> {"id":"1417b8df-1e17-45b4-89c1-53ca37e6a588","token":"m2m_nVW0AKVK...","description":"boost QA","expiresAt":"2026-09-10T00:55:46.63243Z"}
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> {"id":"4c79c471-0035-4935-a7ee-506f71b62be2","token":"m2m_w8hKMRY0...","description":"Boost Automation","expiresAt":"2026-09-01T21:12:38.212841Z"}
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> {"id":"cdc0af4a-64a7-4de4-9dae-2179257b6179","token":"m2m_q5Ehtpad...","description":"Test","expiresAt":"2026-02-15T20:19:14.959778Z"}
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> {"id":"036d97ee-1062-4a64-ad9c-63151030ad4b","token":"m2m_2kCL5JY2...","description":"Token para teste do GPU Orchestration","expiresAt":"2026-03-26T16:59:08.628623Z"}
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> {"id":"7022dc9a-7dbe-4312-8aaf-605b6ec9d77d","token":"m2m_A5IGxgjb...","description":"","expiresAt":"2026-05-13T04:45:12.36953Z"}
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> {"id":"020278f0-be81-4c6f-b2d6-dd0a1804a02e","token":"m2m_b9cd38af...","description":"testest","expiresAt":"2026-04-26T13:44:08.573425Z"}
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> {"id":"cfed0b65-2278-4827-9454-2b7e66455f99","token":"m2m_xrycymVa...","description":"autoui","expiresAt":"2026-05-15T19:01:22.558481Z"}
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> {"id":"e26055fd-66fa-4e0e-9779-39cff3a45918","token":"m2m_gCmZp4eu...","description":"autouiv2","expiresAt":"2026-06-14T19:10:44.08014Z"}
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> {"id":"6bd0d1df-d59d-4432-aecf-419188b90a54","token":"m2m_xmKLOaCr...","description":"filipe","expiresAt":"2027-05-17T17:43:30.023929Z"}
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> {"id":"79f68ec0-385b-409a-8cfe-eaf08a5cf86b","token":"m2m_37lyABEj...","description":"filipe2","expiresAt":"2027-05-17T18:03:44.928401Z"}
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> {"id":"84ec9118-9ad1-47e9-babd-0dc7a744412e","token":"m2m_OomDfeEq...","description":"","expiresAt":"2026-08-23T22:50:29.106969Z"}
+
+2026-05-25 22:50:33 - COMMAND: </opt/hpboost/boost m2m ls --json> HP Z Boost, v33.0.0-4
+
+{"id":"1417b8df-1e17-45b4-89c1-53ca37e6a588","token":"m2m_nVW0AKVK...","description":"boost QA","expiresAt":"2026-09-10T00:55:46.63243Z"}
+{"id":"4c79c471-0035-4935-a7ee-506f71b62be2","token":"m2m_w8hKMRY0...","description":"Boost Automation","expiresAt":"2026-09-01T21:12:38.212841Z"}
+{"id":"cdc0af4a-64a7-4de4-9dae-2179257b6179","token":"m2m_q5Ehtpad...","description":"Test","expiresAt":"2026-02-15T20:19:14.959778Z"}
+{"id":"036d97ee-1062-4a64-ad9c-63151030ad4b","token":"m2m_2kCL5JY2...","description":"Token para teste do GPU Orchestration","expiresAt":"2026-03-26T16:59:08.628623Z"}
+{"id":"7022dc9a-7dbe-4312-8aaf-605b6ec9d77d","token":"m2m_A5IGxgjb...","description":"","expiresAt":"2026-05-13T04:45:12.36953Z"}
+{"id":"020278f0-be81-4c6f-b2d6-dd0a1804a02e","token":"m2m_b9cd38af...","description":"testest","expiresAt":"2026-04-26T13:44:08.573425Z"}
+{"id":"cfed0b65-2278-4827-9454-2b7e66455f99","token":"m2m_xrycymVa...","description":"autoui","expiresAt":"2026-05-15T19:01:22.558481Z"}
+{"id":"e26055fd-66fa-4e0e-9779-39cff3a45918","token":"m2m_gCmZp4eu...","description":"autouiv2","expiresAt":"2026-06-14T19:10:44.08014Z"}
+{"id":"6bd0d1df-d59d-4432-aecf-419188b90a54","token":"m2m_xmKLOaCr...","description":"filipe","expiresAt":"2027-05-17T17:43:30.023929Z"}
+{"id":"79f68ec0-385b-409a-8cfe-eaf08a5cf86b","token":"m2m_37lyABEj...","description":"filipe2","expiresAt":"2027-05-17T18:03:44.928401Z"}
+{"id":"84ec9118-9ad1-47e9-babd-0dc7a744412e","token":"m2m_OomDfeEq...","description":"","expiresAt":"2026-08-23T22:50:29.106969Z"}
+
+2026-05-25 22:50:38 - INFO: COMMAND: /opt/hpboost/boost user info --json
+2026-05-25 22:50:39 - COMMAND: </opt/hpboost/boost user info --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:50:39 - COMMAND: </opt/hpboost/boost user info --json> 
+
+2026-05-25 22:50:39 - COMMAND: </opt/hpboost/boost user info --json> {"id":"863928b6-546f-4bf3-844f-4a55bd42e212","auth0Id":"Users/6fo3jfhbgszc578979k6gimzfh3166f1","name":"Boost User","email":"boost.user@proton.me"}
+
+2026-05-25 22:50:39 - COMMAND: </opt/hpboost/boost user info --json> HP Z Boost, v33.0.0-4
+
+{"id":"863928b6-546f-4bf3-844f-4a55bd42e212","auth0Id":"Users/6fo3jfhbgszc578979k6gimzfh3166f1","name":"Boost User","email":"boost.user@proton.me"}
+
+2026-05-25 22:50:40 - INFO: COMMAND: /opt/hpboost/boost m2m remove 84ec9118-9ad1-47e9-babd-0dc7a744412e
+2026-05-25 22:50:40 - COMMAND: </opt/hpboost/boost m2m remove 84ec9118-9ad1-47e9-babd-0dc7a744412e> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:50:40 - COMMAND: </opt/hpboost/boost m2m remove 84ec9118-9ad1-47e9-babd-0dc7a744412e> 
+
+2026-05-25 22:50:40 - COMMAND: </opt/hpboost/boost m2m remove 84ec9118-9ad1-47e9-babd-0dc7a744412e> M2M token with ID '84ec9118-9ad1-47e9-babd-0dc7a744412e' removed
+
+2026-05-25 22:50:40 - COMMAND: </opt/hpboost/boost m2m remove 84ec9118-9ad1-47e9-babd-0dc7a744412e> HP Z Boost, v33.0.0-4
+
+M2M token with ID '84ec9118-9ad1-47e9-babd-0dc7a744412e' removed
+
+2026-05-25 22:50:42 - ERROR: Exception running command /opt/hpboost/boost login -t m2m_OomDfeEqGs9FmplqXv7LOUM15g2y08Iu controller.boost-dev.hp.com. Error: Exit running command /opt/hpboost/boost login -t m2m_OomDfeEqGs9FmplqXv7LOUM15g2y08Iu controller.boost-dev.hp.com, Exit code: 1. STDERR: Error: failed to login: invalid access token: invalid token
+. STDOUT: HP Z Boost, v33.0.0-4
+
+
+2026-05-25 22:50:42 - INFO: ++++++++ Fixture to login after test starting +++++++++++++
+2026-05-25 22:50:42 - INFO: ++++++++ Doing login +++++++++++++
+2026-05-25 22:50:43 - INFO: COMMAND: /opt/hpboost/boost user info --json
+2026-05-25 22:50:43 - COMMAND: </opt/hpboost/boost user info --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:50:43 - COMMAND: </opt/hpboost/boost user info --json> 
+
+2026-05-25 22:50:43 - COMMAND: </opt/hpboost/boost user info --json - STDERR> Error: error received from server, code 403 message: Forbidden
+
+2026-05-25 22:50:43 - COMMAND: </opt/hpboost/boost user info --json - STDERR> 
+
+2026-05-25 22:50:43 - ERROR: Exception running command /opt/hpboost/boost user info --json. Error: Exit running command /opt/hpboost/boost user info --json, Exit code: 1. STDERR: Error: error received from server, code 403 message: Forbidden
+
+. STDOUT: HP Z Boost, v33.0.0-4
+
+
+2026-05-25 22:50:53 - INFO: COMMAND: /opt/hpboost/boost user info --json
+2026-05-25 22:50:53 - COMMAND: </opt/hpboost/boost user info --json> HP Z Boost, v33.0.0-4
+
+2026-05-25 22:50:53 - COMMAND: </opt/hpboost/boost user info --json> 
+
+2026-05-25 22:50:54 - COMMAND: </opt/hpboost/boost user info --json> {"id":"863928b6-546f-4bf3-844f-4a55bd42e212","auth0Id":"Users/6fo3jfhbgszc578979k6gimzfh3166f1","name":"Boost User","email":"boost.user@proton.me"}
+
+2026-05-25 22:50:54 - COMMAND: </opt/hpboost/boost user info --json> HP Z Boost, v33.0.0-4
+
+{"id":"863928b6-546f-4bf3-844f-4a55bd42e212","auth0Id":"Users/6fo3jfhbgszc578979k6gimzfh3166f1","name":"Boost User","email":"boost.user@proton.me"}
+
+2026-05-25 22:50:54 - INFO: ++++++++ Fixture to login after test done +++++++++++++
+2026-05-25 22:50:54 - INFO: COMMAND: echo $HOME
+2026-05-25 22:50:54 - COMMAND: <echo $HOME> /home/dev
+
+2026-05-25 22:50:54 - INFO: Collecting Boost service logs from 15.8.77.106:/home/dev/.config/HP/Boost/logs/
+2026-05-25 22:50:54 - INFO: No Boost service log files found on remote host.
+2026-05-25 22:50:55 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 22:50:55 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 22:50:55 - INFO: Boost service logs cleaned successfully.
