@@ -1,0 +1,4 @@
+HP Z Boost, v33.0.0-4
+
+2026-05-25T20:15:21.177-0300 agent/run.go:58 E] Get "https://controller.boost-dev.hp.com/v1/auth/config": context canceled
+Error: Get "https://controller.boost-dev.hp.com/v1/auth/config": context canceled
