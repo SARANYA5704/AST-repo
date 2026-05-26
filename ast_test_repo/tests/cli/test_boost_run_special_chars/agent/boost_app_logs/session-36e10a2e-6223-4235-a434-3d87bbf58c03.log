@@ -1,0 +1,3 @@
+2026-05-25T20:20:35.092-0300 service/service.go:236 I] chosen transport: quic for session 36e10a2e-6223-4235-a434-3d87bbf58c03
+2026-05-25T20:20:35.092-0300 transport/rendezvous.go:39 E] [proto=tcp] Failed to read peer address info: unexpected end of JSON input
+2026-05-25T20:20:56.890-0300 service/service.go:89 E] Failed to run session service: session error: task [client] wait for connection close failed: task [client] session 36e10a2e-6223-4235-a434-3d87bbf58c03:quic read from control failed: session error: 3
