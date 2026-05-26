@@ -1,0 +1,155 @@
+2026-05-25T20:11:10.483-0300 task/task.go:120 D] Task Log Rotate starting
+2026-05-25T20:11:14.998-0300 agent/run.go:403 I] Agent 17ae4ee8-f289-4cb3-bf80-788b7e47dea5 starting in pool: functionality.lin
+2026-05-25T20:11:14.998-0300 agent/run.go:403 I] GPUs
+2026-05-25T20:11:14.998-0300 agent/run.go:403 I]   8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 @ 00000000:01:00.0: Quadro P2000 5GiB
+2026-05-25T20:11:14.998-0300 task/task.go:120 D] Task ControllerManager starting
+2026-05-25T20:11:14.998-0300 task/task.go:120 D] Task GpuMetrics starting
+2026-05-25T20:11:14.998-0300 task/task.go:143 D] Task ControllerManager finished
+2026-05-25T20:11:14.998-0300 task/task.go:120 D] Task Gateway starting
+2026-05-25T20:11:14.998-0300 task/task.go:120 D] Task Controller Logs starting
+2026-05-25T20:11:14.998-0300 task/task.go:120 D] Task ControllerManager Websocket starting
+2026-05-25T20:11:15.000-0300 gateway/gateway.go:464 I] Gateway listening on UDP port 7865
+2026-05-25T20:11:15.733-0300 task/task.go:120 D] Task Controller Log Sink Websocket Write starting
+2026-05-25T20:11:15.733-0300 task/task.go:120 D] Task Controller Log Sink Websocket KeepAlive starting
+2026-05-25T20:11:15.733-0300 task/task.go:120 D] Task Controller Log Sink Websocket Read starting
+2026-05-25T20:11:15.750-0300 task/task.go:120 D] Task ControllerManager Websocket Write starting
+2026-05-25T20:11:15.750-0300 task/task.go:120 D] Task ControllerManager Websocket KeepAlive starting
+2026-05-25T20:11:15.750-0300 task/task.go:120 D] Task ControllerManager Websocket Read starting
+2026-05-25T20:11:19.272-0300 task/task.go:70 D] Canceling task manager Agent
+2026-05-25T20:11:19.272-0300 task/task.go:143 D] Task ControllerManager Websocket KeepAlive finished
+2026-05-25T20:11:19.272-0300 app/controller_manager_agent.go:84 I] Performing clean shutdown of the agent
+2026-05-25T20:11:19.272-0300 task/task.go:143 D] Task Controller Log Sink Websocket KeepAlive finished
+2026-05-25T20:11:19.272-0300 task/task.go:143 D] Task Gateway finished
+2026-05-25T20:11:19.272-0300 task/task.go:143 D] Task Controller Log Sink Websocket Read finished
+2026-05-25T20:11:19.272-0300 task/task.go:143 D] Task ControllerManager Websocket Read finished
+2026-05-25T20:11:19.276-0300 task/task.go:143 D] Task GpuMetrics finished
+2026-05-25T20:11:20.272-0300 task/task.go:143 D] Task ControllerManager Websocket Write finished
+2026-05-25T20:11:20.272-0300 task/task.go:143 D] Task Controller Log Sink Websocket Write finished
+2026-05-25T20:11:20.273-0300 task/task.go:143 D] Task ControllerManager Websocket finished
+2026-05-25T20:11:20.273-0300 task/task.go:143 D] Task Controller Logs finished
+2026-05-25T20:11:20.273-0300 task/task.go:70 D] Canceling task manager Logging
+2026-05-25T20:11:20.273-0300 task/task.go:143 D] Task Log Rotate finished
+2026-05-25T20:11:31.173-0300 task/task.go:120 D] Task Log Rotate starting
+2026-05-25T20:11:35.698-0300 agent/run.go:403 I] Agent b4a3a8ae-e69a-4d63-89f0-82b4c103ca8f starting in pool: functionality.lin
+2026-05-25T20:11:35.698-0300 agent/run.go:403 I] GPUs
+2026-05-25T20:11:35.698-0300 agent/run.go:403 I]   8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 @ 00000000:01:00.0: Quadro P2000 5GiB
+2026-05-25T20:11:35.698-0300 task/task.go:120 D] Task Gateway starting
+2026-05-25T20:11:35.699-0300 task/task.go:120 D] Task GpuMetrics starting
+2026-05-25T20:11:35.698-0300 task/task.go:120 D] Task ControllerManager starting
+2026-05-25T20:11:35.699-0300 task/task.go:143 D] Task ControllerManager finished
+2026-05-25T20:11:35.699-0300 task/task.go:120 D] Task Controller Logs starting
+2026-05-25T20:11:35.699-0300 task/task.go:120 D] Task ControllerManager Websocket starting
+2026-05-25T20:11:35.701-0300 gateway/gateway.go:464 I] Gateway listening on UDP port 7865
+2026-05-25T20:11:36.446-0300 task/task.go:120 D] Task Controller Log Sink Websocket Write starting
+2026-05-25T20:11:36.446-0300 task/task.go:120 D] Task Controller Log Sink Websocket Read starting
+2026-05-25T20:11:36.446-0300 task/task.go:120 D] Task Controller Log Sink Websocket KeepAlive starting
+2026-05-25T20:11:36.461-0300 task/task.go:120 D] Task ControllerManager Websocket Write starting
+2026-05-25T20:11:36.461-0300 task/task.go:120 D] Task ControllerManager Websocket KeepAlive starting
+2026-05-25T20:11:36.461-0300 task/task.go:120 D] Task ControllerManager Websocket Read starting
+2026-05-25T20:11:40.046-0300 task/task.go:70 D] Canceling task manager Agent
+2026-05-25T20:11:40.046-0300 task/task.go:143 D] Task ControllerManager Websocket KeepAlive finished
+2026-05-25T20:11:40.046-0300 app/controller_manager_agent.go:84 I] Performing clean shutdown of the agent
+2026-05-25T20:11:40.046-0300 task/task.go:143 D] Task Controller Log Sink Websocket Read finished
+2026-05-25T20:11:40.046-0300 task/task.go:143 D] Task ControllerManager Websocket Read finished
+2026-05-25T20:11:40.046-0300 task/task.go:143 D] Task Gateway finished
+2026-05-25T20:11:40.046-0300 task/task.go:143 D] Task Controller Log Sink Websocket KeepAlive finished
+2026-05-25T20:11:40.049-0300 task/task.go:143 D] Task GpuMetrics finished
+2026-05-25T20:11:41.046-0300 task/task.go:143 D] Task Controller Log Sink Websocket Write finished
+2026-05-25T20:11:41.046-0300 task/task.go:143 D] Task ControllerManager Websocket Write finished
+2026-05-25T20:11:41.046-0300 task/task.go:143 D] Task Controller Logs finished
+2026-05-25T20:11:41.047-0300 task/task.go:143 D] Task ControllerManager Websocket finished
+2026-05-25T20:11:41.047-0300 task/task.go:70 D] Canceling task manager Logging
+2026-05-25T20:11:41.047-0300 task/task.go:143 D] Task Log Rotate finished
+2026-05-25T20:11:51.984-0300 task/task.go:120 D] Task Log Rotate starting
+2026-05-25T20:11:56.505-0300 agent/run.go:403 I] Agent f45a7b23-780f-4381-b8e4-ff80d59d2cb3 starting in pool: functionality.lin
+2026-05-25T20:11:56.505-0300 agent/run.go:403 I] GPUs
+2026-05-25T20:11:56.505-0300 agent/run.go:403 I]   8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 @ 00000000:01:00.0: Quadro P2000 5GiB
+2026-05-25T20:11:56.505-0300 task/task.go:120 D] Task Gateway starting
+2026-05-25T20:11:56.505-0300 task/task.go:120 D] Task ControllerManager starting
+2026-05-25T20:11:56.505-0300 task/task.go:120 D] Task GpuMetrics starting
+2026-05-25T20:11:56.505-0300 task/task.go:120 D] Task ControllerManager Websocket starting
+2026-05-25T20:11:56.505-0300 task/task.go:120 D] Task Controller Logs starting
+2026-05-25T20:11:56.505-0300 task/task.go:143 D] Task ControllerManager finished
+2026-05-25T20:11:56.506-0300 gateway/gateway.go:464 I] Gateway listening on UDP port 7865
+2026-05-25T20:11:57.249-0300 task/task.go:120 D] Task Controller Log Sink Websocket Write starting
+2026-05-25T20:11:57.249-0300 task/task.go:120 D] Task Controller Log Sink Websocket KeepAlive starting
+2026-05-25T20:11:57.249-0300 task/task.go:120 D] Task Controller Log Sink Websocket Read starting
+2026-05-25T20:11:57.260-0300 task/task.go:120 D] Task ControllerManager Websocket Write starting
+2026-05-25T20:11:57.260-0300 task/task.go:120 D] Task ControllerManager Websocket KeepAlive starting
+2026-05-25T20:11:57.260-0300 task/task.go:120 D] Task ControllerManager Websocket Read starting
+2026-05-25T20:12:00.726-0300 task/task.go:70 D] Canceling task manager Agent
+2026-05-25T20:12:00.726-0300 task/task.go:143 D] Task ControllerManager Websocket KeepAlive finished
+2026-05-25T20:12:00.726-0300 app/controller_manager_agent.go:84 I] Performing clean shutdown of the agent
+2026-05-25T20:12:00.726-0300 task/task.go:143 D] Task Controller Log Sink Websocket KeepAlive finished
+2026-05-25T20:12:00.726-0300 task/task.go:143 D] Task ControllerManager Websocket Read finished
+2026-05-25T20:12:00.726-0300 task/task.go:143 D] Task Gateway finished
+2026-05-25T20:12:00.726-0300 task/task.go:143 D] Task Controller Log Sink Websocket Read finished
+2026-05-25T20:12:00.729-0300 task/task.go:143 D] Task GpuMetrics finished
+2026-05-25T20:12:01.727-0300 task/task.go:143 D] Task ControllerManager Websocket Write finished
+2026-05-25T20:12:01.727-0300 task/task.go:143 D] Task Controller Log Sink Websocket Write finished
+2026-05-25T20:12:01.727-0300 task/task.go:143 D] Task ControllerManager Websocket finished
+2026-05-25T20:12:01.727-0300 task/task.go:143 D] Task Controller Logs finished
+2026-05-25T20:12:01.727-0300 task/task.go:70 D] Canceling task manager Logging
+2026-05-25T20:12:01.727-0300 task/task.go:143 D] Task Log Rotate finished
+2026-05-25T20:12:12.886-0300 task/task.go:120 D] Task Log Rotate starting
+2026-05-25T20:12:17.370-0300 agent/run.go:403 I] Agent 8456681c-43bb-4b39-9717-de7aa7fdd530 starting in pool: functionality.lin
+2026-05-25T20:12:17.370-0300 agent/run.go:403 I] GPUs
+2026-05-25T20:12:17.371-0300 agent/run.go:403 I]   8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 @ 00000000:01:00.0: Quadro P2000 5GiB
+2026-05-25T20:12:17.371-0300 task/task.go:120 D] Task ControllerManager starting
+2026-05-25T20:12:17.371-0300 task/task.go:120 D] Task GpuMetrics starting
+2026-05-25T20:12:17.371-0300 task/task.go:143 D] Task ControllerManager finished
+2026-05-25T20:12:17.371-0300 task/task.go:120 D] Task Gateway starting
+2026-05-25T20:12:17.371-0300 task/task.go:120 D] Task Controller Logs starting
+2026-05-25T20:12:17.371-0300 task/task.go:120 D] Task ControllerManager Websocket starting
+2026-05-25T20:12:17.373-0300 gateway/gateway.go:464 I] Gateway listening on UDP port 7865
+2026-05-25T20:12:18.123-0300 task/task.go:120 D] Task Controller Log Sink Websocket Write starting
+2026-05-25T20:12:18.123-0300 task/task.go:120 D] Task Controller Log Sink Websocket Read starting
+2026-05-25T20:12:18.123-0300 task/task.go:120 D] Task Controller Log Sink Websocket KeepAlive starting
+2026-05-25T20:12:18.139-0300 task/task.go:120 D] Task ControllerManager Websocket Write starting
+2026-05-25T20:12:18.140-0300 task/task.go:120 D] Task ControllerManager Websocket Read starting
+2026-05-25T20:12:18.140-0300 task/task.go:120 D] Task ControllerManager Websocket KeepAlive starting
+2026-05-25T20:12:21.898-0300 task/task.go:70 D] Canceling task manager Agent
+2026-05-25T20:12:21.898-0300 task/task.go:143 D] Task ControllerManager Websocket Read finished
+2026-05-25T20:12:21.898-0300 task/task.go:143 D] Task Controller Log Sink Websocket Read finished
+2026-05-25T20:12:21.898-0300 app/controller_manager_agent.go:84 I] Performing clean shutdown of the agent
+2026-05-25T20:12:21.898-0300 task/task.go:143 D] Task ControllerManager Websocket KeepAlive finished
+2026-05-25T20:12:21.898-0300 task/task.go:143 D] Task Gateway finished
+2026-05-25T20:12:21.898-0300 task/task.go:143 D] Task Controller Log Sink Websocket KeepAlive finished
+2026-05-25T20:12:21.903-0300 task/task.go:143 D] Task GpuMetrics finished
+2026-05-25T20:12:22.899-0300 task/task.go:143 D] Task Controller Log Sink Websocket Write finished
+2026-05-25T20:12:22.899-0300 task/task.go:143 D] Task ControllerManager Websocket Write finished
+2026-05-25T20:12:22.899-0300 task/task.go:143 D] Task Controller Logs finished
+2026-05-25T20:12:22.899-0300 task/task.go:143 D] Task ControllerManager Websocket finished
+2026-05-25T20:12:22.899-0300 task/task.go:70 D] Canceling task manager Logging
+2026-05-25T20:12:22.899-0300 task/task.go:143 D] Task Log Rotate finished
+2026-05-25T20:12:33.975-0300 task/task.go:120 D] Task Log Rotate starting
+2026-05-25T20:12:38.595-0300 agent/run.go:403 I] Agent f5b8f347-4c64-4a93-afdd-e5e67866f635 starting in pool: functionality.lin
+2026-05-25T20:12:38.595-0300 agent/run.go:403 I] GPUs
+2026-05-25T20:12:38.595-0300 agent/run.go:403 I]   8393e7ea-9847-44cd-d45e-d9bf0ff68eb8 @ 00000000:01:00.0: Quadro P2000 5GiB
+2026-05-25T20:12:38.595-0300 task/task.go:120 D] Task ControllerManager starting
+2026-05-25T20:12:38.595-0300 task/task.go:120 D] Task GpuMetrics starting
+2026-05-25T20:12:38.596-0300 task/task.go:143 D] Task ControllerManager finished
+2026-05-25T20:12:38.596-0300 task/task.go:120 D] Task ControllerManager Websocket starting
+2026-05-25T20:12:38.596-0300 task/task.go:120 D] Task Controller Logs starting
+2026-05-25T20:12:38.595-0300 task/task.go:120 D] Task Gateway starting
+2026-05-25T20:12:38.597-0300 gateway/gateway.go:464 I] Gateway listening on UDP port 7865
+2026-05-25T20:12:39.332-0300 task/task.go:120 D] Task Controller Log Sink Websocket Write starting
+2026-05-25T20:12:39.332-0300 task/task.go:120 D] Task Controller Log Sink Websocket KeepAlive starting
+2026-05-25T20:12:39.332-0300 task/task.go:120 D] Task Controller Log Sink Websocket Read starting
+2026-05-25T20:12:39.369-0300 task/task.go:120 D] Task ControllerManager Websocket Write starting
+2026-05-25T20:12:39.369-0300 task/task.go:120 D] Task ControllerManager Websocket KeepAlive starting
+2026-05-25T20:12:39.369-0300 task/task.go:120 D] Task ControllerManager Websocket Read starting
+2026-05-25T20:12:42.834-0300 task/task.go:70 D] Canceling task manager Agent
+2026-05-25T20:12:42.834-0300 task/task.go:143 D] Task Gateway finished
+2026-05-25T20:12:42.834-0300 task/task.go:143 D] Task ControllerManager Websocket Read finished
+2026-05-25T20:12:42.834-0300 task/task.go:143 D] Task Controller Log Sink Websocket Read finished
+2026-05-25T20:12:42.834-0300 app/controller_manager_agent.go:84 I] Performing clean shutdown of the agent
+2026-05-25T20:12:42.834-0300 task/task.go:143 D] Task Controller Log Sink Websocket KeepAlive finished
+2026-05-25T20:12:42.834-0300 task/task.go:143 D] Task ControllerManager Websocket KeepAlive finished
+2026-05-25T20:12:42.839-0300 task/task.go:143 D] Task GpuMetrics finished
+2026-05-25T20:12:43.834-0300 task/task.go:143 D] Task Controller Log Sink Websocket Write finished
+2026-05-25T20:12:43.835-0300 task/task.go:143 D] Task Controller Logs finished
+2026-05-25T20:12:43.835-0300 task/task.go:143 D] Task ControllerManager Websocket Write finished
+2026-05-25T20:12:43.835-0300 task/task.go:143 D] Task ControllerManager Websocket finished
+2026-05-25T20:12:43.835-0300 task/task.go:70 D] Canceling task manager Logging
+2026-05-25T20:12:43.835-0300 task/task.go:143 D] Task Log Rotate finished
