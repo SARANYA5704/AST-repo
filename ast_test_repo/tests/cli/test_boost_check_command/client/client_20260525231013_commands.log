@@ -1,0 +1,66 @@
+2026-05-25 23:10:13 - INFO: Validate initial binaries are valid
+2026-05-25 23:10:13 - INFO: COMMAND: /opt/hpboost/boost check
+2026-05-25 23:10:13 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:10:13 - COMMAND: </opt/hpboost/boost check> 
+
+2026-05-25 23:10:14 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+
+2026-05-25 23:10:14 - INFO: COMMAND: /opt/hpboost/boost check
+2026-05-25 23:10:14 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:10:14 - COMMAND: </opt/hpboost/boost check> 
+
+2026-05-25 23:10:15 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+
+2026-05-25 23:10:15 - INFO: Remove renderer_win file to simulate invalid installation
+2026-05-25 23:10:16 - INFO: COMMAND: /opt/hpboost/boost check
+2026-05-25 23:10:16 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:10:16 - COMMAND: </opt/hpboost/boost check> 
+
+2026-05-25 23:10:16 - COMMAND: </opt/hpboost/boost check> The required file 'Renderer_Win' in /opt/hpboost could not be verified: open /opt/hpboost/Renderer_Win: no such file or directory
+
+2026-05-25 23:10:16 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+The required file 'Renderer_Win' in /opt/hpboost could not be verified: open /opt/hpboost/Renderer_Win: no such file or directory
+
+2026-05-25 23:10:16 - WARNING: Installation validation failed: The required file
+2026-05-25 23:10:17 - INFO: COMMAND: /opt/hpboost/boost check
+2026-05-25 23:10:17 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:10:17 - COMMAND: </opt/hpboost/boost check> 
+
+2026-05-25 23:10:17 - COMMAND: </opt/hpboost/boost check> The required file 'Renderer_Win' in /opt/hpboost could not be verified: open /opt/hpboost/Renderer_Win: no such file or directory
+
+2026-05-25 23:10:17 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+The required file 'Renderer_Win' in /opt/hpboost could not be verified: open /opt/hpboost/Renderer_Win: no such file or directory
+
+2026-05-25 23:10:17 - INFO: Restore renderer_win file to validate installation
+2026-05-25 23:10:18 - INFO: COMMAND: /opt/hpboost/boost check
+2026-05-25 23:10:18 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:10:18 - COMMAND: </opt/hpboost/boost check> 
+
+2026-05-25 23:10:19 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+
+2026-05-25 23:10:19 - INFO: COMMAND: /opt/hpboost/boost check
+2026-05-25 23:10:19 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+2026-05-25 23:10:19 - COMMAND: </opt/hpboost/boost check> 
+
+2026-05-25 23:10:20 - COMMAND: </opt/hpboost/boost check> HP Z Boost, v33.0.0-4
+
+
+2026-05-25 23:10:21 - INFO: COMMAND: echo $HOME
+2026-05-25 23:10:21 - COMMAND: <echo $HOME> /home/dev
+
+2026-05-25 23:10:21 - INFO: Collecting Boost service logs from 15.8.77.106:/home/dev/.config/HP/Boost/logs/
+2026-05-25 23:10:21 - INFO: No Boost service log files found on remote host.
+2026-05-25 23:10:21 - INFO: Cleaning Boost service logs on 15.8.77.106 (linux)
+2026-05-25 23:10:22 - INFO: COMMAND: rm -rf ~/.config/HP/Boost/logs/*
+2026-05-25 23:10:22 - INFO: Boost service logs cleaned successfully.
