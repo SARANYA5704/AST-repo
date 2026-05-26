@@ -1,0 +1,33 @@
+2026-05-25T23:22:58.691Z client.cpp:962 4fe3:4fe3 I] Build: 33.0.0-4+2026.05.25-1619Z-9111230f
+2026-05-25T23:22:58.692Z client.cpp:1186 4fe3:4fe3 I] Application Info:
+2026-05-25T23:22:58.692Z client.cpp:1188 4fe3:4fe3 I]   Application Name: VUDA
+2026-05-25T23:22:58.692Z client.cpp:1194 4fe3:4fe3 I]   Engine Name: vuda.hpp
+2026-05-25T23:22:58.692Z client.cpp:1202 4fe3:4fe3 I]   Application Version: 0.0.0
+2026-05-25T23:22:58.692Z client.cpp:1207 4fe3:4fe3 I]   Engine Version: 0.0.1
+2026-05-25T23:22:58.692Z client.cpp:1212 4fe3:4fe3 I]   API Version: 1.3.0
+2026-05-25T23:22:58.692Z client.cpp:2006 4fe3:4fe3 I] ClientImpl::Connect() ConnectionId b56d849e-9796-4372-af79-3f252e1cb8f6
+2026-05-25T23:22:58.693Z juice_curl.cpp:249 4fe3:4fe3 I] CURL using TLS CA bundle at /etc/ssl/certs/ca-certificates.crt
+2026-05-25T23:22:59.793Z QuicSocket.cpp:2060 4fe3:4fe3 I] Received RDVU message: {"connection_id":"b56d849e-9796-4372-af79-3f252e1cb8f6","message":"eyJjbGllbnRfcmVhY2hhYmxlX2lwIjoiIiwiY3VfdGV4b2JqZWN0X2FzeW5jIjowLCJzZXJ2ZXJfYXJjaCI6ImxpbnV4Iiwic2VydmVyX3JlYWNoYWJsZV9pcCI6IjE1LjguNzcuMTA2OjUzMjg5Iiwic3VjY2VzcyI6MSwidGNwX21vZGUiOjB9Cg==","message_type":"RDVU","session":"e314a751-8d00-430b-bd61-ce07b4f28737"}
+2026-05-25T23:22:59.793Z client.cpp:1640 4fe3:4fe3 I] FindPeer returning found 1, client: , server 15.8.77.106:53289, tcpMode: 0
+2026-05-25T23:22:59.793Z client.cpp:1756 4fe3:4fe3 I] ConnectToServerQUIC: 15.8.77.106:53289
+2026-05-25T23:22:59.812Z client.cpp:2153 4fe3:500e I] starting wait on m_keepAliveDisconnectedEvent is 48
+2026-05-25T23:22:59.812Z client.cpp:2272 4fe3:4fe3 I] Using shared memory VRAM accounting with 1 GPUs
+2026-05-25T23:22:59.812Z client.cpp:2302 4fe3:4fe3 I] Using shared memory for cross-process external handle sharing
+2026-05-25T23:22:59.812Z client.cpp:2346 4fe3:4fe3 I] ResolveHandle RPC connected to accounting service (process-global)
+2026-05-25T23:23:00.139Z dllmain.cpp:1510 4fe3:4fe3 I] Initializing cache allocator with 4128768 hashes and a capacity of 16384 MB
+2026-05-25T23:23:01.057Z JudaModuleCache.cpp:138 4fe3:4fe3 I] Opening JUDA database at '/tmp/juice7k4iVk
+2026-05-25T23:23:01.057Z client.cpp:1186 4fe3:4fe3 I] Application Info:
+2026-05-25T23:23:01.057Z client.cpp:1188 4fe3:4fe3 I]   Application Name: VUDA
+2026-05-25T23:23:01.057Z client.cpp:1194 4fe3:4fe3 I]   Engine Name: vuda.hpp
+2026-05-25T23:23:01.057Z client.cpp:1202 4fe3:4fe3 I]   Application Version: 0.0.0
+2026-05-25T23:23:01.057Z client.cpp:1207 4fe3:4fe3 I]   Engine Version: 0.0.1
+2026-05-25T23:23:01.057Z client.cpp:1212 4fe3:4fe3 I]   API Version: 1.3.0
+2026-05-25T23:23:01.058Z client.cpp:2006 4fe3:4fe3 I] ClientImpl::Connect() ConnectionId b56d849e-9796-4372-af79-3f252e1cb8f6
+2026-05-25T23:23:01.058Z client.cpp:2272 4fe3:4fe3 I] Using shared memory VRAM accounting with 1 GPUs
+2026-05-25T23:23:01.058Z client.cpp:2302 4fe3:4fe3 I] Using shared memory for cross-process external handle sharing
+2026-05-25T23:23:02.328Z CudaMemoryManager.cpp:1359 4fe3:4fe3 I] Device Allocations: 10 over 160 MiB [167772660 B]
+2026-05-25T23:23:02.328Z CudaMemoryManager.cpp:1359 4fe3:4fe3 I] Device Frees: 10 over 160 MiB [167772660 B]
+2026-05-25T23:23:02.328Z CudaMemoryManager.cpp:1359 4fe3:4fe3 I] Host Allocations: 0 over 0 B [0 B]
+2026-05-25T23:23:02.329Z CudaMemoryManager.cpp:1359 4fe3:4fe3 I] Host Frees: 0 over 0 B [0 B]
+2026-05-25T23:23:02.329Z CudaMemoryManager.cpp:1359 4fe3:4fe3 I] Managed Allocations: 0 over 0 B [0 B]
+2026-05-25T23:23:02.329Z CudaMemoryManager.cpp:1359 4fe3:4fe3 I] Managed Frees: 0 over 0 B [0 B]
