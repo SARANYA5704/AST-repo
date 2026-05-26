@@ -1,0 +1,5 @@
+2026-05-25T20:25:33.777-0300 MessageTransport.h:45 E] 54fc:552a Main Reading message header failed - Connection reset by peer
+2026-05-25T23:25:33.777Z MessageTransport.h:45 54fc:552a E] Main Reading message header failed - Connection reset by peer
+2026-05-25T20:25:33.804-0300 MessageTransport.h:45 E] 54fc:5533 Main Reading message header failed - Connection reset by peer
+2026-05-25T23:25:33.804Z MessageTransport.h:45 54fc:5533 E] Main Reading message header failed - Connection reset by peer
+2026-05-25T20:25:35.851-0300 task/task.go:135 E] task [agent] session 1b3b88eb-6bf8-404a-bc76-f614acfe7d86 read control failed: Application error 0x0 (remote): client shutdown
