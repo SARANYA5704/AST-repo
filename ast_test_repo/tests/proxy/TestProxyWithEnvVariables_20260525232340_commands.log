@@ -1,0 +1,47 @@
+2026-05-25 23:23:40 - INFO: +++++ Setup for TestProxyWithEnvVariables Starting ++++++
+2026-05-25 23:23:41 - INFO: OS client: linux
+2026-05-25 23:23:41 - INFO: Removing gateway before tests
+2026-05-25 23:23:41 - INFO: COMMAND: sudo ip route del default
+2026-05-25 23:23:41 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:23:42 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
+2026-05-25 23:23:42 - INFO: Retrying to remove gateway in linux
+2026-05-25 23:23:43 - INFO: COMMAND: sudo ip route del default
+2026-05-25 23:23:43 - INFO: Gateway removed
+2026-05-25 23:23:43 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:23:43 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 000
+2026-05-25 23:23:43 - ERROR: Exception running command curl -s -o /dev/null -w "%{http_code}" https://www.google.com. Error: Exit running command curl -s -o /dev/null -w "%{http_code}" https://www.google.com, Exit code: 7. STDERR: . STDOUT: 000
+2026-05-25 23:23:43 - INFO: Network access test to google.com status: 000
+2026-05-25 23:23:44 - INFO: COMMAND: ip route | grep default || echo " "
+2026-05-25 23:23:44 - COMMAND: <ip route | grep default || echo " ">  
+
+2026-05-25 23:23:44 - INFO: Gateway was removed? True
+2026-05-25 23:23:44 - INFO: Setting proxy before tests
+2026-05-25 23:23:50 - INFO: Backup of /etc/environment created
+2026-05-25 23:23:51 - INFO: Proxy settings applied
+2026-05-25 23:23:52 - INFO: COMMAND: echo $HTTP_PROXY
+2026-05-25 23:23:52 - COMMAND: <echo $HTTP_PROXY> http://15.8.77.12:3128
+
+2026-05-25 23:23:52 - INFO: COMMAND: echo $HTTPS_PROXY
+2026-05-25 23:23:52 - COMMAND: <echo $HTTPS_PROXY> http://15.8.77.12:3128
+
+2026-05-25 23:25:48 - INFO: Restoring gateway after tests
+2026-05-25 23:25:49 - INFO: COMMAND: sudo ip route add default via 15.8.77.1
+2026-05-25 23:25:49 - INFO: Gateway restored
+2026-05-25 23:25:50 - INFO: COMMAND: ip route | grep default || echo " "
+2026-05-25 23:25:50 - COMMAND: <ip route | grep default || echo " "> default via 15.8.77.1 dev eno1 
+
+2026-05-25 23:25:50 - COMMAND: <ip route | grep default || echo " "> default via 15.8.77.1 dev eno1 proto dhcp src 15.8.77.106 metric 100 
+
+2026-05-25 23:25:50 - INFO: Gateway was removed? False
+2026-05-25 23:25:50 - INFO: Gateway restored successfully
+2026-05-25 23:25:50 - INFO: Removing proxy after tests
+2026-05-25 23:25:50 - INFO: COMMAND: sudo sed -i '/^HTTP_PROXY=/d' /etc/environment; sudo sed -i '/^HTTPS_PROXY=/d' /etc/environment
+2026-05-25 23:25:50 - INFO: Proxy settings removed
+2026-05-25 23:25:51 - INFO: COMMAND: echo $HTTP_PROXY
+2026-05-25 23:25:51 - COMMAND: <echo $HTTP_PROXY> 
+
+2026-05-25 23:25:51 - INFO: COMMAND: echo $HTTPS_PROXY
+2026-05-25 23:25:51 - COMMAND: <echo $HTTPS_PROXY> 
+
+2026-05-25 23:25:51 - INFO: COMMAND: curl -s -o /dev/null -w "%{http_code}" https://www.google.com
+2026-05-25 23:25:52 - COMMAND: <curl -s -o /dev/null -w "%{http_code}" https://www.google.com> 200
